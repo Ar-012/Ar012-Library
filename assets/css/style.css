@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f1f2f7;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  aside.left-panel {
+    background: #272c33;
+    display: table-cell;
+    height: 100vh;
+    min-height: 100%;
+    width: 200px;
+    vertical-align: top;
+    -webkit-transition:width 0.3s ease;
+    transition: width 0.3s ease; 
+    position: fixed;}
+
+.left-panel img{
+   margin: 20px;
+   max-width: 160px;
+}
+
+.left-panel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200;
+    background-color: #272c33;
+    overflow: auto;
+  }
+
+  .left-panel li a {
+    display: block;
+    color: rgb(226, 226, 226);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .left-panel li a:hover:not(.active) {
+    font-weight: bold;
+    color: white;
+  }
+/* right panel 默认链接的形式 */
+.right-panel{
+  margin-left:200px;  
+  padding:1px 16px;
+}
+
+.right-panel a{
+  text-decoration: none;
+}
+
+.right-panel a {
+  color: #6c757d;
+}
+a:hover:not(.active) {
+  color: black;
+}
+
+/* right panel 链接按钮的形式 */
+  .buttonlink a:link, a:visited {
+    background-color: #ffffff;
+    color: rgb(75, 75, 75);
+
+    width: 180px;
+    display: inline-block;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    padding: 3px 5px;
+  }
+  
+  .buttonlink a:hover {
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+  }
+
+
+
+  /* right panel 并排布局的浮动块，两列并排 */
+
+  .subpage {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+  /* 清除列之后的浮动 */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* 响应式布局 */
+  @media screen and (max-width:600px) {
+    .subpage {
+      width: 100%;
+    }
+  }
+    /* right panel 并排布局的浮动块 */
