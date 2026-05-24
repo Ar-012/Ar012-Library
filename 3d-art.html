@@ -15,7 +15,7 @@
     <!-- 侧边栏导航 -->
     <div class="sidebar">
         <div class="logo-area">
-            <h1><a href="index.html" style="color: inherit; text-decoration: none;"><i class="fas fa-book"></i> AR Library</a></h1>
+            <h1><a href="index.html" class="logo-link"><i class="fas fa-book"></i> AR Library</a></h1>
         </div>
         
         <!-- 第一部分：Art -->
@@ -507,18 +507,35 @@
     
     <script>
         // 设置当前日期
-        document.getElementById('current-date').textContent = new Date().toLocaleDateString('zh-CN', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
+        const currentDate = document.getElementById('current-date');
+        if (currentDate) {
+            currentDate.textContent = new Date().toLocaleDateString('zh-CN', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
         
-        // 检查是否已通过密码验证
+        // 检查是否已通过当天访问验证
         window.addEventListener('DOMContentLoaded', function() {
-            const isAuthenticated = localStorage.getItem('ar_library_authenticated');
-            
-            if (!isAuthenticated || isAuthenticated !== 'true') {
-                // 如果没有通过验证，跳转到密码页
+            const ACCESS_KEY = 'ar_library_authenticated';
+
+            function getTodayKey() {
+                const now = new Date();
+                const year = now.getFullYear();
+                const month = String(now.getMonth() + 1).padStart(2, '0');
+                const day = String(now.getDate()).padStart(2, '0');
+                return year + '-' + month + '-' + day;
+            }
+
+            try {
+                const accessData = JSON.parse(localStorage.getItem(ACCESS_KEY));
+                if (!accessData || accessData.granted !== true || accessData.date !== getTodayKey()) {
+                    localStorage.removeItem(ACCESS_KEY);
+                    window.location.href = 'password.html';
+                }
+            } catch (error) {
+                localStorage.removeItem(ACCESS_KEY);
                 window.location.href = 'password.html';
             }
         });
