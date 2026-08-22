@@ -47,19 +47,21 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* 右侧面板样式 - 改为四列 */
+/* 右侧面板样式 - 自适应瀑布流 */
 .right-panel {
+    --resource-column-count: 4;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 四列布局 */
-    gap: 25px; /* 列间距 */
+    grid-template-columns: repeat(var(--resource-column-count), minmax(0, 1fr));
+    gap: 25px;
+    align-items: start;
     margin-bottom: 40px;
 }
 
-/* 内容区块样式 - 适应四列 */
+/* 内容区块样式 - 自适应列容器 */
 .content-section {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* 卡片间距 */
+    gap: 25px;
 }
 
 .section-card {
@@ -69,7 +71,9 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     border: 1px solid #e9ecef;
     transition: all 0.3s ease;
+    width: 100%;
     break-inside: avoid; /* 防止卡片跨列断裂 */
+    page-break-inside: avoid;
 }
 
 .section-card:hover {
@@ -188,7 +192,7 @@
 /* 响应式设计 */
 @media (max-width: 1200px) {
     .right-panel {
-        grid-template-columns: repeat(3, 1fr); /* 中等屏幕三列 */
+        --resource-column-count: 3; /* 中等屏幕三列 */
     }
     
     .content-header .container {
@@ -198,7 +202,7 @@
 
 @media (max-width: 992px) {
     .right-panel {
-        grid-template-columns: repeat(2, 1fr); /* 小屏幕两列 */
+        --resource-column-count: 2; /* 小屏幕两列 */
     }
     
     .content-header .container {
@@ -208,7 +212,7 @@
 
 @media (max-width: 768px) {
     .right-panel {
-        grid-template-columns: 1fr; /* 移动端单列 */
+        --resource-column-count: 1; /* 移动端单列 */
         gap: 20px;
     }
     
@@ -279,10 +283,8 @@
     }
 }
 
-/* 容器样式更新以适应四列 */
-.container {
-    width: 100%;
-    max-width: 1400px; /* 增加最大宽度 */
-    margin: 0 auto;
-    padding: 0 30px;
+/* 资源页容器加宽以适应多列内容 */
+.content-header .container,
+.main-content > .container {
+    max-width: 1400px;
 }

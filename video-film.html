@@ -4,330 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video & Film | AR Library</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="resource-page.css">
-    <link rel="stylesheet" href="arcos-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/resource-page.css">
+    <link rel="stylesheet" href="css/theme-arc.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
-    <script src="theme-switcher.js" defer></script>
-
+    <link id="favicon" rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+    <script src="js/theme.js" defer></script>
 </head>
-<body>
-    <!-- 侧边栏导航 -->
-    <div class="sidebar">
-        <div class="logo-area">
-            <h1><i class="fas fa-book"></i> AR Library</h1>
-        </div>
-        
-        <!-- 第一部分：Art -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Art</h3>
-            <div class="section-content">
-                <a href="concept-art.html" class="sidebar-link">
-                    <i class="fas fa-paint-brush"></i> Concept Art
-                </a>
-                <a href="3d-art.html" class="sidebar-link">
-                    <i class="fas fa-cube"></i> 3D Art
-                </a>
-                <a href="ai-art.html" class="sidebar-link">
-                    <i class="fas fa-robot"></i> AI
-                </a>
-                <a href="visual-communication.html" class="sidebar-link">
-                    <i class="fas fa-eye"></i> Visual Communication
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第二部分：Game Design -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Game Design</h3>
-            <div class="section-content">
-                <a href="game-design.html" class="sidebar-link">
-                    <i class="fas fa-gamepad"></i> Game Design
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第三部分：Productivity & Work -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Productivity & Work</h3>
-            <div class="section-content">
-                <a href="work-tools-collaboration.html" class="sidebar-link">
-                    <i class="fas fa-tools"></i> Work Tools & Collaboration
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第四部分：Design Reference -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Design Reference</h3>
-            <div class="section-content">
-                <a href="costume-fashion-design.html" class="sidebar-link">
-                    <i class="fas fa-tshirt"></i> Costume & Fashion Design
-                </a>
-                <a href="gun-design-reference.html" class="sidebar-link">
-                    <i class="fas fa-gun"></i> Gun Design Reference
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第五部分：Entertainment & Lifestyle -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Entertainment & Lifestyle</h3>
-            <div class="section-content">
-                <a href="video-film.html" class="sidebar-link active">
-                    <i class="fas fa-film"></i> Video & Film
-                </a>
-                <a href="games.html" class="sidebar-link">
-                    <i class="fas fa-gamepad"></i> Games
-                </a>
-                <a href="history.html" class="sidebar-link">
-                    <i class="fas fa-landmark"></i> History
-                </a>
-                <a href="daily-essentials.html" class="sidebar-link">
-                    <i class="fas fa-home"></i> Daily Essentials
-                </a>
-                <a href="installation-software.html" class="sidebar-link">
-                    <i class="fas fa-download"></i> Installation Software
-                </a>
-            </div>
-        </div>
-        
-        <div class="sidebar-footer">
-            <p class="update-info">
-                <i class="fas fa-code"></i> 个人使用
-            </p>
-            <p class="copyright">© AR Library</p>
-        </div>
-    </div>
+<body data-auth="protected" data-page="video-film">
+    <div id="sidebar"></div>
 
-    <!-- 主要内容区域 -->
     <main class="main-content">
         <div class="content-header">
             <div class="container">
-                <h1 class="page-title">Video & Film</h1>
-                <p class="page-subtitle">影视资源与生活工具</p>
-                <div class="breadcrumb">
+                <h1 class="page-title" id="page-title">Video & Film</h1>
+                <p class="page-subtitle" id="page-subtitle">影视资源与生活工具</p>
+                <div class="breadcrumb" id="breadcrumb">
                     <a href="index.html">首页</a> / <span>Video & Film</span>
                 </div>
             </div>
         </div>
-        
+
         <div class="container">
-            <!-- 右侧内容面板 - 四列布局 -->
-            <div class="right-panel">
-                <!-- 第一列：影视在线与下载 -->
-                <div class="content-section">
-                    <!-- 影视在线 -->
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-video"></i> 影视在线</h2>
-                        <div class="link-group">
-                            <a href="https://www.55boy.wiki/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/555DY.ico" alt="555电影">
-                                <div class="resource-content">
-                                    <div class="resource-title">555电影</div>
-                                    <div class="resource-description">在线影视观看网站</div>
-                                </div>
-                            </a>
-                            <a href="https://rebozj.pro/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-fire"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">热播之家</div>
-                                    <div class="resource-description">热门影视剧在线观看</div>
-                                </div>
-                            </a>
-                            <a href="https://www.ncat22.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-cat"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">网飞猫</div>
-                                    <div class="resource-description">影视资源在线观看</div>
-                                </div>
-                            </a>
-                            <a href="https://dl.ncat22.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-backup"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">网飞猫备用</div>
-                                    <div class="resource-description">网飞猫备用链接</div>
-                                </div>
-                            </a>
-                            <a href="https://www.4kvm.tv/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-hd"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">4K影视</div>
-                                    <div class="resource-description">4K高清影视资源</div>
-                                </div>
-                            </a>
-                            <a href="https://libvio.art/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/libvio.png" alt="LIBVIO">
-                                <div class="resource-content">
-                                    <div class="resource-title">LIBVIO</div>
-                                    <div class="resource-description">影视资源在线观看</div>
-                                </div>
-                            </a>
-                            <a href="https://www.hdmoli.com/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/hdmoli.ico" alt="HDmoli">
-                                <div class="resource-content">
-                                    <div class="resource-title">HDmoli</div>
-                                    <div class="resource-description">高清魔力影视</div>
-                                </div>
-                            </a>
-                            <a href="https://ddys.pro/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/ddys.png" alt="低端影视">
-                                <div class="resource-content">
-                                    <div class="resource-title">低端影视</div>
-                                    <div class="resource-description">简洁的影视观看网站</div>
-                                </div>
-                            </a>
-                            <a href="https://findno.tv/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-eye-slash"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">NOVIP</div>
-                                    <div class="resource-description">无需VIP的影视观看</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <!-- 第二列：影视下载与阅读 -->
-                <div class="content-section">
-                    
-                    <!-- 聚合搜索 -->
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-search"></i> 聚合搜索</h2>
-                        <div class="link-group">
-                            <a href="https://xn--p3tv7h.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-search"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">许搜</div>
-                                    <div class="resource-description">影视资源聚合搜索</div>
-                                </div>
-                            </a>
-                            <a href="https://ymck.pro/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-cat"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">影猫的仓库</div>
-                                    <div class="resource-description">影视资源仓库搜索</div>
-                                </div>
-                            </a>
-                            <a href="https://cddys.vip/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-egg"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">臭蛋蛋影视</div>
-                                    <div class="resource-description">影视资源搜索网站</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- 影视下载 -->
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-download"></i> 影视下载</h2>
-                        <div class="link-group">
-                            <a href="https://www.4k1080.com/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/4k1080.ico" alt="蓝光电影网">
-                                <div class="resource-content">
-                                    <div class="resource-title">蓝光电影网</div>
-                                    <div class="resource-description">4K/1080P蓝光电影下载</div>
-                                </div>
-                            </a>
-                            <a href="https://www.yinfans.me/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/yinfans.ico" alt="音范丝">
-                                <div class="resource-content">
-                                    <div class="resource-title">音范丝</div>
-                                    <div class="resource-description">高清影视资源下载</div>
-                                </div>
-                            </a>
-                            <a href="http://www.languangdy.com/" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/languangdy.ico" alt="中国蓝光网">
-                                <div class="resource-content">
-                                    <div class="resource-title">中国蓝光网</div>
-                                    <div class="resource-description">蓝光影视资源下载</div>
-                                </div>
-                            </a>
-                            <a href="https://www.imdb.com/?ref_=nv_home" target="_blank" rel="noopener" class="resource-link">
-                                <img class="icon" src="icons/imdb.ico" alt="IMDB">
-                                <div class="resource-content">
-                                    <div class="resource-title">IMDB 电影社区</div>
-                                    <div class="resource-description">国际电影数据库和社区</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <!-- 第三列：AI工具与网络资源 -->
-                <div class="content-section">
-                   
-                    
-                </div>
-                
-                <!-- 第四列：工具与生活 -->
-                <div class="content-section">
-                    
-                    
-                    
-                    
-                </div>
-            </div>
+            <div class="right-panel" id="resource-root"></div>
         </div>
-        
-        <!-- 页脚 -->
+
         <footer class="simple-footer">
             <div class="container">
-                <p>AR 影视与生活资源库 | Video & Film</p>
+                <p id="page-footer">AR 影视与生活资源库 | Video & Film</p>
             </div>
         </footer>
     </main>
-    
-    <script>
-        // 设置当前日期
-        const currentDate = document.getElementById('current-date');
-        if (currentDate) {
-            currentDate.textContent = new Date().toLocaleDateString('zh-CN', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
-        }
-        
-        // 检查是否已通过当天访问验证
-        window.addEventListener('DOMContentLoaded', function() {
-            const ACCESS_KEY = 'ar_library_authenticated';
 
-            function getTodayKey() {
-                const now = new Date();
-                const year = now.getFullYear();
-                const month = String(now.getMonth() + 1).padStart(2, '0');
-                const day = String(now.getDate()).padStart(2, '0');
-                return year + '-' + month + '-' + day;
-            }
-
-            try {
-                const accessData = JSON.parse(localStorage.getItem(ACCESS_KEY));
-                if (!accessData || accessData.granted !== true || accessData.date !== getTodayKey()) {
-                    localStorage.removeItem(ACCESS_KEY);
-                    window.location.href = 'password.html';
-                }
-            } catch (error) {
-                localStorage.removeItem(ACCESS_KEY);
-                window.location.href = 'password.html';
-            }
-        });
-    </script>
+    <script src="data/navigation.js"></script>
+    <script src="data/pages.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="data/resources/video-film.js"></script>
+    <script src="js/render-resources.js"></script>
 </body>
 </html>

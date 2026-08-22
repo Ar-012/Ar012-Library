@@ -180,61 +180,6 @@ body::before {
     padding: 18px 24px;
 }
 
-.skin-panel {
-    margin-bottom: 18px;
-}
-
-.skin-title {
-    color: var(--arc-muted);
-    font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 1.6px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.skin-options {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
-}
-
-.skin-button {
-    width: 100%;
-    aspect-ratio: 1;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 14px;
-    background: var(--skin-swatch);
-    cursor: pointer;
-    position: relative;
-    transition: 0.2s ease;
-}
-
-.skin-button::after {
-    content: "";
-    position: absolute;
-    inset: 9px;
-    border-radius: 50%;
-    background: #ffffff;
-    opacity: 0;
-    transform: scale(0.55);
-    transition: 0.2s ease;
-}
-
-.skin-button:hover {
-    transform: translateY(-2px);
-    border-color: var(--arc-accent-hover);
-}
-
-.skin-button.active {
-    border-color: var(--arc-gold);
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.06), 0 0 22px var(--arc-glow);
-}
-
-.skin-button.active::after {
-    opacity: 0.9;
-    transform: scale(1);
-}
 
 .copyright,
 .simple-footer p {
@@ -247,7 +192,8 @@ body::before {
     padding: 20px 20px 0;
 }
 
-.container {
+.content-header .container,
+.main-content > .container {
     max-width: 1440px;
 }
 

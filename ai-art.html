@@ -4,384 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI | AR Library</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="resource-page.css">
-    <link rel="stylesheet" href="arcos-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/resource-page.css">
+    <link rel="stylesheet" href="css/theme-arc.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
-    <script src="theme-switcher.js" defer></script>
-
+    <link id="favicon" rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <script src="js/theme.js" defer></script>
 </head>
-<body>
-    <!-- 侧边栏导航 -->
-    <div class="sidebar">
-        <div class="logo-area">
-            <h1><a href="index.html" class="logo-link"><i class="fas fa-book"></i> AR Library</a></h1>
-        </div>
-        
-        <!-- 第一部分：Art -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Art</h3>
-            <div class="section-content">
-                <a href="concept-art.html" class="sidebar-link">
-                    <i class="fas fa-paint-brush"></i> Concept Art
-                </a>
-                <a href="3d-art.html" class="sidebar-link">
-                    <i class="fas fa-cube"></i> 3D Art
-                </a>
-                <a href="ai-art.html" class="sidebar-link active">
-                    <i class="fas fa-robot"></i> AI
-                </a>
-                <a href="visual-communication.html" class="sidebar-link">
-                    <i class="fas fa-eye"></i> Visual Communication
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第二部分：Game Design -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Game Design</h3>
-            <div class="section-content">
-                <a href="game-design.html" class="sidebar-link">
-                    <i class="fas fa-gamepad"></i> Game Design
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第三部分：Productivity & Work -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Productivity & Work</h3>
-            <div class="section-content">
-                <a href="work-tools-collaboration.html" class="sidebar-link">
-                    <i class="fas fa-tools"></i> Work Tools & Collaboration
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第四部分：Design Reference -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Design Reference</h3>
-            <div class="section-content">
-                <a href="costume-fashion-design.html" class="sidebar-link">
-                    <i class="fas fa-tshirt"></i> Costume & Fashion Design
-                </a>
-                <a href="gun-design-reference.html" class="sidebar-link">
-                    <i class="fas fa-gun"></i> Gun Design Reference
-                </a>
-            </div>
-        </div>
-        
-        <!-- 分隔线 -->
-        <div class="section-divider"></div>
-        
-        <!-- 第五部分：Entertainment & Lifestyle -->
-        <div class="sidebar-section">
-            <h3 class="section-header muted">Entertainment & Lifestyle</h3>
-            <div class="section-content">
-                <a href="video-film.html" class="sidebar-link">
-                    <i class="fas fa-film"></i> Video & Film
-                </a>
-                <a href="games.html" class="sidebar-link">
-                    <i class="fas fa-gamepad"></i> Games
-                </a>
-                <a href="history.html" class="sidebar-link">
-                    <i class="fas fa-landmark"></i> History
-                </a>
-                <a href="daily-essentials.html" class="sidebar-link">
-                    <i class="fas fa-home"></i> Daily Essentials
-                </a>
-                <a href="installation-software.html" class="sidebar-link">
-                    <i class="fas fa-download"></i> Installation Software
-                </a>
-            </div>
-        </div>
-        
-        <div class="sidebar-footer">
-            <p class="update-info">
-                <i class="fas fa-code"></i> 个人使用
-            </p>
-            <p class="copyright">© AR Library</p>
-        </div>
-    </div>
+<body data-auth="protected" data-page="ai-art">
+    <div id="sidebar"></div>
 
-    <!-- 主要内容区域 -->
     <main class="main-content">
         <div class="content-header">
             <div class="container">
-                <h1 class="page-title">AI</h1>
-                <p class="page-subtitle">AI工具与生成艺术资源</p>
-                <div class="breadcrumb">
+                <h1 class="page-title" id="page-title">AI</h1>
+                <p class="page-subtitle" id="page-subtitle">AI工具与生成艺术资源</p>
+                <div class="breadcrumb" id="breadcrumb">
                     <a href="index.html">首页</a> / <span>AI</span>
                 </div>
             </div>
         </div>
-        
+
         <div class="container">
-            <!-- 右侧内容面板 -->
-            <div class="right-panel">
-                <!-- AI美术 -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-palette"></i> AI美术</h2>
-                        <div class="link-group">
-
-                            <a href="https://app.tapnow.ai/#/home" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">TapNow</div>
-                                    <div class="resource-description">nano banana pro等</div>
-                                </div>
-                            </a>
-                            <a href="https://www.lovart.ai/zh/home" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Lovart</div>
-                                    <div class="resource-description">nano banana pro等</div>
-                                </div>
-                            </a>
-                            <a href="https://www.midjourney.com/editor/new" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Midjourney页面端</div>
-                                    <div class="resource-description">可扩图等，需要账号，不是很好用了现在</div>
-                                </div>
-                            </a>
-                            <a href="https://www.doubao.com/chat/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">豆包</div>
-                                    <div class="resource-description">字节跳动的AI对话助手</div>
-                                </div>
-                            </a>
-                            <a href="https://jimeng.jianying.com/ai-tool/home" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">即梦</div>
-                                    <div class="resource-description"> </div>
-                                </div>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- AI导航网站 -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-compass"></i> AI导航网站</h2>
-                        <div class="link-group">
-                            <a href="https://www.toolify.ai/zh/?ref=qinggongju.com" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-tools"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Toolfy.ai</div>
-                                    <div class="resource-description">AI工具导航网站，汇总各类AI工具</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- AI对话 -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-comments"></i> AI对话</h2>
-                        <div class="link-group">
-                            <a href="https://chat.deepseek.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-brain"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Deepseek</div>
-                                    <div class="resource-description">国产AI对话模型，免费使用</div>
-                                </div>
-                            </a>
-                            <a href="https://chatgpt.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fab fa-openai"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Chat GPT</div>
-                                    <div class="resource-description">OpenAI的AI对话模型</div>
-                                </div>
-                            </a>
-                            <a href="https://gemini.google.com/app" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fab fa-google"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Google Gemini</div>
-                                    <div class="resource-description">Google的AI对话模型</div>
-                                </div>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- AI音乐 -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-music"></i> AI音乐</h2>
-                        <div class="link-group">
-                            <a href="https://suno.com/create" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-headphones"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">suno（v3）</div>
-                                    <div class="resource-description">AI音乐生成工具，可以根据文本生成音乐</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- AI视频 -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-video"></i> AI视频</h2>
-                        <div class="link-subtitle">text to video文生视频、image to video图生视频</div>
-                        <div class="link-group">
-                            <a href="https://app.runwayml.com/login" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-film"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Runway Gen3</div>
-                                    <div class="resource-description">AI视频生成工具，支持文本和图片生成视频</div>
-                                </div>
-                            </a>
- 
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- AI 3D -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-comments"></i> AI 3D</h2>
-                        <div class="link-group">
-                            <a href="https://3d.hunyuan.tencent.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-brain"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Deepseek</div>
-                                    <div class="resource-description">腾讯混元3D</div>
-                                </div>
-                            </a>
-                            <a href="https://www.tripo3d.ai/zh" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Tripo 3D</div>
-                                    <div class="resource-description">字节跳动的AI对话助手</div>
-                                </div>
-                            </a>
-                            <a href="https://trellis3d.net/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-comment"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Trellis 3D</div>
-                                    <div class="resource-description"> </div>
-                                </div>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- 其他 -->
-                <div class="content-section">
-                    <div class="section-card">
-                        <h2 class="section-title"><i class="fas fa-palette"></i> AI美术</h2>
-                        <div class="link-group">
-                            <a href="https://midlibrary.io/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-book"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">midlibrary</div>
-                                    <div class="resource-description">midjourney风格提示词参考，有详细的图片，非常好</div>
-                                </div>
-                            </a>
-                            <a href="https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fab fa-github"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">midjourney关键词大全</div>
-                                    <div class="resource-description">GitHub网页，包含大量风格和关键词参考</div>
-                                </div>
-                            </a>
-                            <a href="https://prompthero.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-search"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">Prompt Hero</div>
-                                    <div class="resource-description">提示词检索网站，图片库，包含ChatGPT、MJ、SD等，可检索某prompt下的ai图</div>
-                                </div>
-                            </a>
-                            <a href="https://www.midjourney.com/showcase" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-images"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">midjourney 官方画廊</div>
-                                    <div class="resource-description">Midjourney官方展示的优秀作品集合</div>
-                                </div>
-                            </a>
-                            <a href="https://civitai.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-download"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">civitai</div>
-                                    <div class="resource-description">最常用的Stable Diffusion AI模型下载平台</div>
-                                </div>
-                            </a>
-                            <a href="https://cgmi.com/" target="_blank" rel="noopener" class="resource-link">
-                                <i class="fas fa-users"></i>
-                                <div class="resource-content">
-                                    <div class="resource-title">cg迷</div>
-                                    <div class="resource-description">国内教程社区，Stable Diffusion学习、下载资源</div>
-                                </div>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="right-panel" id="resource-root"></div>
         </div>
-        
-        <!-- 页脚 -->
+
         <footer class="simple-footer">
             <div class="container">
-                <p>AR 概念设计资源库 | AI</p>
+                <p id="page-footer">AR 概念设计资源库 | AI</p>
             </div>
         </footer>
     </main>
-    
-    <script>
-        // 设置当前日期
-        const currentDate = document.getElementById('current-date');
-        if (currentDate) {
-            currentDate.textContent = new Date().toLocaleDateString('zh-CN', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
-        }
-        
-        // 检查是否已通过当天访问验证
-        window.addEventListener('DOMContentLoaded', function() {
-            const ACCESS_KEY = 'ar_library_authenticated';
 
-            function getTodayKey() {
-                const now = new Date();
-                const year = now.getFullYear();
-                const month = String(now.getMonth() + 1).padStart(2, '0');
-                const day = String(now.getDate()).padStart(2, '0');
-                return year + '-' + month + '-' + day;
-            }
-
-            try {
-                const accessData = JSON.parse(localStorage.getItem(ACCESS_KEY));
-                if (!accessData || accessData.granted !== true || accessData.date !== getTodayKey()) {
-                    localStorage.removeItem(ACCESS_KEY);
-                    window.location.href = 'password.html';
-                }
-            } catch (error) {
-                localStorage.removeItem(ACCESS_KEY);
-                window.location.href = 'password.html';
-            }
-        });
-    </script>
+    <script src="data/navigation.js"></script>
+    <script src="data/pages.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="data/resources/ai-art.js"></script>
+    <script src="js/render-resources.js"></script>
 </body>
 </html>
