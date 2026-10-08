@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "个人软件配置记录",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "resourceId",
+    "kind"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resourceId": {
+      "type": "string",
+      "description": "引用 AR_CATALOG 中真实软件或插件实体的 id"
+    },
+    "kind": {
+      "enum": [
+        "settings",
+        "shortcuts",
+        "workspace",
+        "install-list",
+        "restore"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "softwareVersion": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "settings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "value"
+        ],
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {},
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "shortcuts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "action",
+          "keys"
+        ],
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "keys": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "workspace": {
+      "type": "string"
+    },
+    "installResourceIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "restoreSteps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "path"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string",
+            "description": "仓库中真实文件的相对路径"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

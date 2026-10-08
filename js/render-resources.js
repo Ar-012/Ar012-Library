@@ -1,8 +1,7 @@
 (function () {
     let activeRoot = null;
     let activeSections = [];
-    let activeColumnCount = 0;
-    let resizeTimer = null;
+    let disclosureId = 0;
 
     function makeIcon(resource) {
         if (resource.iconImage) {
@@ -21,6 +20,7 @@
     function createResource(resource) {
         const element = document.createElement(resource.url ? "a" : "div");
         element.className = "resource-link";
+        element.dataset.resourceId = resource.id;
 
         if (resource.url) {
             element.href = resource.url;
@@ -38,22 +38,99 @@
         const title = document.createElement("div");
         title.className = "resource-title";
         title.textContent = resource.name;
+        if (resource.name.length > 16) title.title = resource.name;
         content.appendChild(title);
 
         const description = document.createElement("div");
         description.className = "resource-description";
         description.textContent = resource.description || "";
+        if (description.textContent.length > 24) description.title = description.textContent;
         content.appendChild(description);
 
         element.appendChild(content);
-        return element;
+        if (!resource.url) {
+            const missing = document.createElement("span");
+            missing.className = "resource-description";
+            missing.textContent = "（暂未记录链接）";
+            content.appendChild(missing);
+        }
+        const extraLinks = (resource.links || []).filter(link => link.url !== resource.url);
+        const catalog = new Map((window.AR_CATALOG || []).map(item => [item.id, item]));
+        const related = (resource.relatedResources || []).map(id => catalog.get(id)).filter(Boolean);
+        if (!extraLinks.length && !(resource.reviewNotes || []).length && !related.length) return element;
+        const wrapper = document.createElement("div");
+        wrapper.className = "resource-entry";
+        wrapper.appendChild(element);
+        if (related.length) {
+            wrapper.classList.add("resource-with-related");
+            const row = document.createElement("div");
+            row.className = "resource-main-row";
+            row.appendChild(element);
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "resource-disclosure";
+            button.textContent = "⌄";
+            button.setAttribute("aria-expanded", "false");
+            button.setAttribute("aria-label", `展开 ${resource.name} 的相关资源`);
+            const panel = document.createElement("div");
+            panel.id = `related-resources-${++disclosureId}`;
+            panel.className = "related-resources";
+            panel.hidden = true;
+            button.setAttribute("aria-controls", panel.id);
+            const heading = document.createElement("p");
+            heading.className = "related-resources-title";
+            heading.textContent = "相关资源";
+            panel.appendChild(heading);
+            const list = document.createElement("ul");
+            related.forEach(item => {
+                const li = document.createElement("li");
+                const entry = document.createElement(item.url ? "a" : "span");
+                entry.textContent = item.name;
+                entry.dataset.relatedResourceId = item.id;
+                if (item.url) {
+                    entry.href = item.url;
+                    entry.target = "_blank";
+                    entry.rel = "noopener noreferrer";
+                }
+                li.appendChild(entry);
+                list.appendChild(li);
+            });
+            panel.appendChild(list);
+            button.addEventListener("click", event => {
+                event.preventDefault();
+                event.stopPropagation();
+                const expanded = button.getAttribute("aria-expanded") !== "true";
+                button.setAttribute("aria-expanded", String(expanded));
+                button.setAttribute("aria-label", `${expanded ? "收起" : "展开"} ${resource.name} 的相关资源`);
+                panel.hidden = !expanded;
+            });
+            row.appendChild(button);
+            wrapper.append(row, panel);
+        }
+        extraLinks.forEach(item => {
+            const link = document.createElement("a");
+            link.className = "resource-alternate";
+            link.href = item.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = `${item.label} · 其他原始入口`;
+            wrapper.appendChild(link);
+        });
+        (resource.reviewNotes || []).forEach(note => {
+            const text = document.createElement("p");
+            text.className = "resource-review";
+            text.textContent = note;
+            wrapper.appendChild(text);
+        });
+        return wrapper;
     }
 
     function createSection(section) {
-        const card = document.createElement("div");
+        const card = document.createElement("section");
         card.className = "section-card";
+        if (section.id) card.id = section.id;
 
-        const title = document.createElement("h2");
+        const title = document.createElement(section.headingTag || "h2");
         title.className = "section-title";
         if (section.icon) {
             const icon = document.createElement("i");
@@ -61,7 +138,18 @@
             title.appendChild(icon);
             title.appendChild(document.createTextNode(" "));
         }
-        title.appendChild(document.createTextNode(section.title));
+        if (section.href) {
+            const link = document.createElement("a");
+            link.href = section.href;
+            link.textContent = section.title;
+            title.appendChild(link);
+        } else {
+            title.appendChild(document.createTextNode(section.title));
+        }
+        const count = document.createElement("span");
+        count.className = "section-count";
+        count.textContent = ` · ${(section.resources || []).length}`;
+        title.appendChild(count);
         card.appendChild(title);
 
         const group = document.createElement("div");
@@ -71,32 +159,63 @@
         return card;
     }
 
-    function getColumnCount(root) {
-        const count = Number.parseInt(getComputedStyle(root).getPropertyValue("--resource-column-count"), 10);
-        return Number.isFinite(count) && count > 0 ? count : 1;
-    }
-
-    function getShortestColumn(columns) {
-        return columns.reduce((shortest, column) => (column.scrollHeight < shortest.scrollHeight ? column : shortest));
-    }
-
     function renderSectionColumns(root, sections) {
-        const columnCount = Math.min(getColumnCount(root), Math.max(sections.length, 1));
-        activeColumnCount = columnCount;
-        root.innerHTML = "";
+        // Sections keep their source order; CSS grids only the resources inside each section.
+        root.replaceChildren(...sections.map(createSection));
+    }
 
-        const columns = Array.from({ length: columnCount }, () => {
-            const column = document.createElement("div");
-            column.className = "content-section";
-            root.appendChild(column);
-            return column;
+    // Only views with explicit domains use this presentation; other views retain their layout.
+    function renderDomain(scrollToHash = false) {
+        const domains = window.AR_RESOURCE_DOMAINS;
+        const hash = window.location.hash.slice(1);
+        const targetId = (window.AR_SECTION_ALIASES || {})[hash] || hash;
+        const domain = domains.find(item => item.id === targetId || item.groups.some(group =>
+            group.id === targetId || group.sectionIds.includes(targetId))) || domains[0];
+        activeRoot.classList.add("domain-content");
+        activeRoot.replaceChildren();
+        activeRoot.style.gridTemplateColumns = "none";
+        const heading = document.createElement("h2");
+        heading.id = domain.id;
+        heading.className = "domain-heading";
+        heading.textContent = domain.title;
+        const domainIds = new Set(domain.groups.flatMap(group => group.sectionIds));
+        const count = activeSections.filter(section => domainIds.has(section.id))
+            .reduce((total, section) => total + section.resources.length, 0);
+        const notice = document.getElementById("catalog-notice");
+        if (notice) notice.textContent = `共 ${activeSections.reduce((total, section) => total + section.resources.length, 0)} 项资源 · ${domain.title} ${count} 项`;
+        activeRoot.appendChild(heading);
+        domain.groups.forEach(group => {
+            const panel = document.createElement("section");
+            panel.id = group.id;
+            panel.className = "domain-group";
+            if (group.title) {
+                const title = document.createElement("h3");
+                title.className = "domain-heading";
+                title.textContent = group.title;
+                panel.appendChild(title);
+            }
+            const sections = group.sectionIds.map(id => activeSections.find(section => section.id === id));
+            const grid = document.createElement("div");
+            grid.className = "right-panel";
+            panel.appendChild(grid);
+            activeRoot.appendChild(panel);
+            renderSectionColumns(grid, sections.map(section => ({
+                ...section, headingTag: group.title ? "h4" : "h3"
+            })));
         });
-
-        sections.forEach((section, index) => {
-            const card = createSection(section);
-            const column = index < columnCount ? columns[index] : getShortestColumn(columns);
-            column.appendChild(card);
-        });
+        // Normalize old section bookmarks to a surviving section without adding a history entry.
+        if (targetId !== hash) history.replaceState(null, "", `#${targetId}`);
+        const targetGroup = domain.groups.find(group => group.id === targetId || group.sectionIds.includes(targetId));
+        document.dispatchEvent(new CustomEvent("ar:domain-rendered", { detail: {
+            domainId: domain.id,
+            groupId: targetGroup ? targetGroup.id : null,
+            sectionId: targetGroup && targetGroup.sectionIds.includes(targetId) ? targetId : null,
+            targetId
+        } }));
+        if (scrollToHash && targetId && !domains.some(item => item.id === targetId)) {
+            const target = document.getElementById(targetId);
+            if (target) target.scrollIntoView();
+        }
     }
 
     function renderPageMeta(pageKey) {
@@ -132,21 +251,41 @@
             }
             activeRoot = root;
             activeSections = window.AR_RESOURCE_SECTIONS;
+            if (window.AR_RESOURCE_DOMAINS) {
+                document.getElementById("section-index")?.remove();
+                renderDomain(true);
+                return;
+            }
             renderSectionColumns(root, activeSections);
+            if (window.location.hash) {
+                const target = document.getElementById(window.location.hash.slice(1));
+                if (target) target.scrollIntoView();
+            }
         } catch (error) {
             console.error("Resource render failed:", error);
             root.innerHTML = '<div class="section-card"><h2 class="section-title"><i class="fas fa-exclamation-circle"></i> 资源加载失败</h2><div class="link-group"><div class="link-subtitle">请检查当前页面的数据文件。</div></div></div>';
         }
     }
 
+    // Art navigation reuses the renderer's hash/alias resolution, without native anchor scrolling.
+    document.addEventListener("click", event => {
+        if (!activeRoot || !window.AR_RESOURCE_DOMAINS || event.defaultPrevented ||
+            event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        const link = event.target.closest("#library-sidebar .navigation-art-target, #section-index a");
+        if (!link) return;
+        const targetId = link.hash.slice(1);
+        if (!window.AR_RESOURCE_DOMAINS.some(domain => domain.id === targetId ||
+            domain.groups.some(group => group.id === targetId || group.sectionIds.includes(targetId)))) return;
+        event.preventDefault();
+        if (window.location.hash !== link.hash) history.pushState(null, "", link.hash);
+        renderDomain(true);
+    });
+    window.addEventListener("popstate", () => {
+        if (activeRoot && window.AR_RESOURCE_DOMAINS) renderDomain(true);
+    });
+
     document.addEventListener("DOMContentLoaded", renderResources);
-    window.addEventListener("resize", () => {
-        if (!activeRoot || !activeSections.length) return;
-        window.clearTimeout(resizeTimer);
-        resizeTimer = window.setTimeout(() => {
-            if (getColumnCount(activeRoot) !== activeColumnCount) {
-                renderSectionColumns(activeRoot, activeSections);
-            }
-        }, 120);
+    window.addEventListener("hashchange", () => {
+        if (activeRoot && window.AR_RESOURCE_DOMAINS) renderDomain(true);
     });
 })();

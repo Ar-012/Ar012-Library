@@ -1,0 +1,14 @@
+{
+  "ar-art-notes": {
+    "fileCount": 194,
+    "changedFiles": [],
+    "statusBefore": "",
+    "statusAfter": ""
+  },
+  "ar-music-library": {
+    "fileCount": 11,
+    "changedFiles": [],
+    "statusBefore": " M about.html\n M index.html\n M listening-notes.html\n M playlists.html\n M resources.html\n M tutorials.html\n",
+    "statusAfter": " M about.html\n M index.html\n M listening-notes.html\n M playlists.html\n M resources.html\n M tutorials.html\n"
+  }
+}

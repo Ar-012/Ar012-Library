@@ -1,0 +1,4385 @@
+{
+  "checkedAt": "2026-09-26T16:58:49.256277+00:00",
+  "method": "HEAD; 404/405/410 retried with GET range; follow redirects; 12s timeout; HTTP status does not verify page content",
+  "summary": {
+    "responded": 305,
+    "not-found": 5,
+    "unconfirmed": 176
+  },
+  "results": [
+    {
+      "url": "http://120.25.237.190/hanfu/index.html",
+      "status": 200,
+      "effectiveURL": "http://120.25.237.190/hanfu/index.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://588ku.com/",
+      "status": 200,
+      "effectiveURL": "https://588ku.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://chaonengsou.com/",
+      "status": 0,
+      "effectiveURL": "http://chaonengsou.com/",
+      "curlExit": 56,
+      "error": "curl: (56) Recv failure: Connection reset by peer",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "http://font.chinaz.com/zhongwenziti.html",
+      "status": 200,
+      "effectiveURL": "https://font.chinaz.com/zhongwenziti.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://home.olemiss.edu/~gg/hstrymap/lishidit.htm",
+      "status": 200,
+      "effectiveURL": "http://home.olemiss.edu/~gg/hstrymap/lishidit.htm",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://moritz-jendrl.de/",
+      "status": 0,
+      "effectiveURL": "http://moritz-jendrl.de/",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: moritz-jendrl.de",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "http://pewpewpew.work/index.htm",
+      "status": 200,
+      "effectiveURL": "http://pewpewpew.work/index.htm",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://pixelmap.amcharts.com/#",
+      "status": 0,
+      "effectiveURL": "http://pixelmap.amcharts.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "http://referenceangle.com/",
+      "status": 0,
+      "effectiveURL": "http://referenceangle.com/",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: referenceangle.com",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "http://sg-fashion-snap.com/archives/category/men",
+      "status": 200,
+      "effectiveURL": "http://sg-fashion-snap.com/archives/category/men",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://shuxiangjia.cn/",
+      "status": 403,
+      "effectiveURL": "http://shuxiangjia.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "http://weavesilk.com/",
+      "status": 200,
+      "effectiveURL": "http://weavesilk.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.91jiafang.com/",
+      "status": 200,
+      "effectiveURL": "https://www.91jiafang.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.airpano.com/",
+      "status": 200,
+      "effectiveURL": "https://www.airpano.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.benmo.biz/",
+      "status": 307,
+      "effectiveURL": "http://www.benmo.biz/",
+      "curlExit": 47,
+      "error": "curl: (47) Maximum (5) redirects followed",
+      "result": "responded",
+      "headStatus": 307
+    },
+    {
+      "url": "http://www.costumersguide.com/",
+      "status": 200,
+      "effectiveURL": "http://www.costumersguide.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.costumersguide.com/about.shtml",
+      "status": 200,
+      "effectiveURL": "http://www.costumersguide.com/about.shtml",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.elizabethancostume.net/",
+      "status": 200,
+      "effectiveURL": "http://www.elizabethancostume.net/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.foundertype.com/",
+      "status": 200,
+      "effectiveURL": "https://www.foundertype.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.gfxcamp.com/",
+      "status": 200,
+      "effectiveURL": "https://www.gfxcamp.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.google.cn/maps/@40.0026477,116.3455469,15.85z/",
+      "status": 200,
+      "effectiveURL": "http://www.google.cn/maps/@40.0026477,116.3455469,15.85z/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.guoxue123.com/other/map/zgmap/",
+      "status": 200,
+      "effectiveURL": "http://www.guoxue123.com/other/map/zgmap/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.hanyi.com.cn/productList.php",
+      "status": 200,
+      "effectiveURL": "http://www.hanyi.com.cn/productList.php",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.hdrlabs.com/sibl/archive.html",
+      "status": 404,
+      "effectiveURL": "https://hdrlabs.com/sibl/archive.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "not-found",
+      "headStatus": 404
+    },
+    {
+      "url": "http://www.hellofont.cn/",
+      "status": 200,
+      "effectiveURL": "https://www.hellofont.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.kostym.cz/Anglicky/obsah.htm",
+      "status": 200,
+      "effectiveURL": "https://www.kostym.cz/Anglicky/obsah.htm",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.languangdy.com/",
+      "status": 200,
+      "effectiveURL": "https://www.languangdy.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.larsdatter.com/18c/index.html",
+      "status": 200,
+      "effectiveURL": "http://www.larsdatter.com/18c/index.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.loveblushbridal.com/",
+      "status": 200,
+      "effectiveURL": "http://www.loveblushbridal.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.modown.cn/",
+      "status": 200,
+      "effectiveURL": "http://www.modown.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.movieminer.top/#",
+      "status": 403,
+      "effectiveURL": "http://www.movieminer.top/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "http://www.neilblevins.com/",
+      "status": 403,
+      "effectiveURL": "https://artofsoulburn.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "http://www.onegreen.net/maps/List/List_787.html",
+      "status": 200,
+      "effectiveURL": "http://www.onegreen.net/maps/List/List_787.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.photodetective.co.uk/Index.html",
+      "status": 200,
+      "effectiveURL": "http://www.photodetective.co.uk/Index.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.pop-fashion.com/patterns/graphics/?pid=000535",
+      "status": 200,
+      "effectiveURL": "https://www.pop-fashion.com/pow_check.html?pow_data=34cf20e4-bb1c-438f-ac53-bfc0aa921853&backUrl=http%3A%2F%2Fwww.pop-fashion.com%2Fpatterns%2Fgraphics%2F%3Fpid%3D000535",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.shejipi.com/",
+      "status": 200,
+      "effectiveURL": "https://www.shejipi.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.tensentype.com/",
+      "status": 200,
+      "effectiveURL": "http://www.tensentype.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.tuyiyi.com/t-7913-1.html",
+      "status": 200,
+      "effectiveURL": "https://www.tuyiyi.com/t-7913-1.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.ziticq.com/",
+      "status": 200,
+      "effectiveURL": "https://www.ziticq.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://www.zoudupai.com/",
+      "status": 200,
+      "effectiveURL": "http://www.zoudupai.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://x768.com/w/twha.zh-hans/",
+      "status": 404,
+      "effectiveURL": "http://x768.com/w/twha.zh-hans/",
+      "curlExit": 0,
+      "error": "",
+      "result": "not-found",
+      "headStatus": 404
+    },
+    {
+      "url": "http://zhongguose.com/#danshuhong",
+      "status": 200,
+      "effectiveURL": "https://zhongguose.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "http://zpzdesign.artp.cc/works",
+      "status": 200,
+      "effectiveURL": "http://zpzdesign.artp.cc/works",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://3d.hunyuan.tencent.com/",
+      "status": 200,
+      "effectiveURL": "https://3d.hunyuan.tencent.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://3dcoat.com/dokuwiki/doku.php",
+      "status": 200,
+      "effectiveURL": "https://3dcoat.com/documentation/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://aaai.org/papers/ws04-04-001-mda-a-formal-approach-to-game-design-and-game-research/",
+      "status": 200,
+      "effectiveURL": "https://aaai.org/papers/ws04-04-001-mda-a-formal-approach-to-game-design-and-game-research/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://ambientcg.com/",
+      "status": 200,
+      "effectiveURL": "https://ambientcg.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://app.gumroad.com/library",
+      "status": 0,
+      "effectiveURL": "https://app.gumroad.com/library",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://app.runwayml.com/login",
+      "status": 200,
+      "effectiveURL": "https://app.runwayml.com/login",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://app.tapnow.ai/#/home",
+      "status": 0,
+      "effectiveURL": "https://app.tapnow.ai/#/home",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://armstreet.com/",
+      "status": 200,
+      "effectiveURL": "https://armstreet.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://artchips.art/",
+      "status": 0,
+      "effectiveURL": "https://artchips.art/",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: artchips.art",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://artgrid.io/",
+      "status": 403,
+      "effectiveURL": "https://artgrid.io/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://artlist.io/",
+      "status": 0,
+      "effectiveURL": "https://artlist.io/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12004 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://asana.com/",
+      "status": 200,
+      "effectiveURL": "https://asana.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://atomicjaneclothing.com/collections/steampunk",
+      "status": 404,
+      "effectiveURL": "https://atomicjaneclothing.com/collections/steampunk",
+      "curlExit": 0,
+      "error": "",
+      "result": "not-found",
+      "headStatus": 404
+    },
+    {
+      "url": "https://axutongxue.com/",
+      "status": 200,
+      "effectiveURL": "https://axutongxue.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://baike.baidu.com/",
+      "status": 200,
+      "effectiveURL": "https://baike.baidu.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://balsamiq.com/",
+      "status": 200,
+      "effectiveURL": "https://balsamiq.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://basecamp.com/",
+      "status": 200,
+      "effectiveURL": "https://basecamp.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://beta.flim.ai/",
+      "status": 200,
+      "effectiveURL": "https://app.flim.ai/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://bitbucket.org/",
+      "status": 200,
+      "effectiveURL": "https://bitbucket.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://blender.kim/",
+      "status": 200,
+      "effectiveURL": "https://blender.kim/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://blendermarket.com/",
+      "status": 200,
+      "effectiveURL": "https://superhivemarket.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://blendjetts.website/",
+      "status": 200,
+      "effectiveURL": "https://blendjetts.website/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://boxcutter-manual.readthedocs.io/en/latest/",
+      "status": 200,
+      "effectiveURL": "https://boxcutter-manual.readthedocs.io/en/latest/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://c4dsky.com/",
+      "status": 0,
+      "effectiveURL": "https://c4dsky.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12006 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://calibre-ebook.com/",
+      "status": 200,
+      "effectiveURL": "https://calibre-ebook.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://candrsenal.com/primer-gallery/",
+      "status": 200,
+      "effectiveURL": "https://candrsenal.com/primer-gallery/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://caniuse.com/",
+      "status": 200,
+      "effectiveURL": "https://caniuse.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://cddys.vip/",
+      "status": 200,
+      "effectiveURL": "https://cddys.vip/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://cgmi.com/",
+      "status": 200,
+      "effectiveURL": "https://cgmi.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://chat.deepseek.com/",
+      "status": 429,
+      "effectiveURL": "https://chat.deepseek.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 429
+    },
+    {
+      "url": "https://chatdoc.com/chatdoc/#/upload",
+      "status": 0,
+      "effectiveURL": "https://chatdoc.com/chatdoc/#/upload",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "status": 0,
+      "effectiveURL": "https://chatgpt.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://civitai.com/",
+      "status": 0,
+      "effectiveURL": "https://civitai.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://clickup.com/",
+      "status": 200,
+      "effectiveURL": "https://clickup.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://cloud.tencent.com/",
+      "status": 200,
+      "effectiveURL": "https://cloud.tencent.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://cloudconvert.com/",
+      "status": 0,
+      "effectiveURL": "https://cloudconvert.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Resolving timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://code.visualstudio.com/docs",
+      "status": 200,
+      "effectiveURL": "https://code.visualstudio.com/docs",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://codesandbox.io/",
+      "status": 200,
+      "effectiveURL": "https://codesandbox.io/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://color.adobe.com/zh/create/color-wheel",
+      "status": 200,
+      "effectiveURL": "https://color.adobe.com/cn/create/color-wheel",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://colorhunt.co/",
+      "status": 200,
+      "effectiveURL": "https://colorhunt.co/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://colorleap.app/home",
+      "status": 200,
+      "effectiveURL": "https://colorleap.app/home",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://colorsupplyyy.com/app",
+      "status": 200,
+      "effectiveURL": "https://colorsupplyyy.com/app",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://conceptartworld.com/",
+      "status": 200,
+      "effectiveURL": "https://conceptartworld.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://convertio.co/",
+      "status": 200,
+      "effectiveURL": "https://convertio.co/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://coolors.co/palettes/trending",
+      "status": 403,
+      "effectiveURL": "https://coolors.co/palettes/trending",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://ddys.pro/",
+      "status": 0,
+      "effectiveURL": "https://ddys.pro/",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: ddys.pro",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine",
+      "status": 200,
+      "effectiveURL": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-8-documentation",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://developer.mozilla.org/zh-CN/",
+      "status": 200,
+      "effectiveURL": "https://developer.mozilla.org/zh-CN/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://dict.youdao.com/",
+      "status": 200,
+      "effectiveURL": "https://dict.youdao.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://discord.com/",
+      "status": 0,
+      "effectiveURL": "https://discord.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://dl.ncat22.com/",
+      "status": 200,
+      "effectiveURL": "https://dl.ncat22.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.blender.org/manual/zh-hans/3.1/",
+      "status": 200,
+      "effectiveURL": "https://docs.blender.org/manual/zh-hans/3.1/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.github.com/pages",
+      "status": 200,
+      "effectiveURL": "https://docs.github.com/en/pages",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.godotengine.org/zh-cn/4.x/",
+      "status": 200,
+      "effectiveURL": "https://docs.godotengine.org/zh-cn/4.x/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.google.com/",
+      "status": 0,
+      "effectiveURL": "https://docs.google.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://docs.google.com/document/d/1rUzomyTi7ec2sFqeCgyVYgkbdnmVanlDCWYcvAzxOXE/edit",
+      "status": 0,
+      "effectiveURL": "https://docs.google.com/document/d/1rUzomyTi7ec2sFqeCgyVYgkbdnmVanlDCWYcvAzxOXE/edit",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://docs.live2d.com/zh-CHS/cubism-editor-manual/top/",
+      "status": 200,
+      "effectiveURL": "https://docs.live2d.com/zh-CHS/cubism-editor-manual/top/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.live2d.com/zh-CHS/cubism-editor-tutorials/top/",
+      "status": 200,
+      "effectiveURL": "https://docs.live2d.com/zh-CHS/cubism-editor-tutorials/top/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.qq.com/desktop",
+      "status": 200,
+      "effectiveURL": "https://docs.qq.com/desktop",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.quadspinner.com/Guide/",
+      "status": 200,
+      "effectiveURL": "https://docs.quadspinner.com/Guide/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.unity3d.com/Manual/index.html",
+      "status": 200,
+      "effectiveURL": "https://docs.unity3d.com/Manual/index.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://docs.unrealengine.com/5.1/en-US/",
+      "status": 403,
+      "effectiveURL": "https://docs.unrealengine.com/5.1/en-US/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://drive.google.com/drive",
+      "status": 0,
+      "effectiveURL": "https://drive.google.com/drive",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://duotone.shapefactory.co/?f=3f7b8d&t=23183e&q=_",
+      "status": 200,
+      "effectiveURL": "https://duotone.shapefactory.co/?f=3f7b8d&t=23183e&q=_",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://dylancolestudio.com/",
+      "status": 200,
+      "effectiveURL": "https://dylancolestudio.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://earth.google.com/",
+      "status": 0,
+      "effectiveURL": "https://earth.google.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12012 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://emuseum.history.org/",
+      "status": 403,
+      "effectiveURL": "https://emuseum.history.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12003 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ancient_Greece",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Ancient_Greece",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ancient_Rome",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Ancient_Rome",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12002 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Firearm_actions",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Category:Firearm_actions",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Firearm_components",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Category:Firearm_components",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:History",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Category:History",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:History_by_ethnic_group",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Category:History_by_ethnic_group",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12001 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:History_by_location",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Category:History_by_location",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Regions",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Category:Regions",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crusades",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Crusades",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Glossary_of_firearms_terms",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Glossary_of_firearms_terms",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gun",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Gun",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_China",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_China",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_England",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_England",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_France",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_France",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_Germany",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_Germany",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12006 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_Italy",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_Italy",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_Japan",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_Japan",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_Western_fashion",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_Western_fashion",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12005 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Middle_East",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_the_Middle_East",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_the_United_States",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/History_of_the_United_States",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Human_history",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Human_history",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12005 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_assault_rifles",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/List_of_assault_rifles",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_battle_rifles",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/List_of_battle_rifles",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12006 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_handgun_cartridges",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/List_of_handgun_cartridges",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_pistols",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/List_of_pistols",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_sniper_rifles",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/List_of_sniper_rifles",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_telescope_parts_and_construction",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/List_of_telescope_parts_and_construction",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Main_Page",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Main_Page",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rail_Integration_System",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Rail_Integration_System",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12012 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Table_of_handgun_and_rifle_cartridges",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Table_of_handgun_and_rifle_cartridges",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vikings",
+      "status": 0,
+      "effectiveURL": "https://en.wikipedia.org/wiki/Vikings",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://excalidraw.com/",
+      "status": 200,
+      "effectiveURL": "https://excalidraw.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://extensions.blender.org/",
+      "status": 200,
+      "effectiveURL": "https://extensions.blender.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://fantasmagoria.shop/",
+      "status": 403,
+      "effectiveURL": "https://fantasmagoria.shop/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://fashion-era.com/",
+      "status": 200,
+      "effectiveURL": "https://fashion-era.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://film-grab.com/",
+      "status": 0,
+      "effectiveURL": "https://film-grab.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://findno.tv/",
+      "status": 200,
+      "effectiveURL": "https://findno.tv/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://fnamerica.com/",
+      "status": 200,
+      "effectiveURL": "https://fnamerica.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://free3d.com/",
+      "status": 0,
+      "effectiveURL": "https://free3d.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://freesound.org/",
+      "status": 200,
+      "effectiveURL": "https://freesound.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://gameuidatabase.com/index.php",
+      "status": 403,
+      "effectiveURL": "https://gameuidatabase.com/index.php",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://gdcvault.com/free/all",
+      "status": 200,
+      "effectiveURL": "https://gdcvault.com/free/all",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://gdkeys.com/",
+      "status": 200,
+      "effectiveURL": "https://gdkeys.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://gemini.google.com/app",
+      "status": 0,
+      "effectiveURL": "https://gemini.google.com/app",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12001 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://git-scm.com/doc",
+      "status": 200,
+      "effectiveURL": "https://git-scm.com/doc",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://github.com/",
+      "status": 200,
+      "effectiveURL": "https://github.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases",
+      "status": 404,
+      "effectiveURL": "https://github.com/Fndroid/clash_for_windows_pkg/releases",
+      "curlExit": 0,
+      "error": "",
+      "result": "not-found",
+      "headStatus": 404
+    },
+    {
+      "url": "https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference",
+      "status": 200,
+      "effectiveURL": "https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://gitlab.com/",
+      "status": 301,
+      "effectiveURL": "https://about.gitlab.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 11082 milliseconds",
+      "result": "responded",
+      "headStatus": 301
+    },
+    {
+      "url": "https://gl.ali213.net/",
+      "status": 200,
+      "effectiveURL": "https://gl.ali213.net/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://guns.fandom.com/wiki/Main_Page",
+      "status": 0,
+      "effectiveURL": "https://guns.fandom.com/wiki/Main_Page",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://hdri-skies.com/",
+      "status": 200,
+      "effectiveURL": "https://hdri-skies.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://hoffgun.com/",
+      "status": 200,
+      "effectiveURL": "https://hoffgun.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://houseofguns.pl/en/",
+      "status": 200,
+      "effectiveURL": "https://houseofguns.pl/en/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://howlongtobeat.com/",
+      "status": 403,
+      "effectiveURL": "https://howlongtobeat.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://huaban.com/home/",
+      "status": 405,
+      "effectiveURL": "https://huaban.com/home/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 405
+    },
+    {
+      "url": "https://huoqibaike.club/wiki/%E9%A6%96%E9%A1%B5",
+      "status": 200,
+      "effectiveURL": "https://huoqibaike.club/wiki/%E9%A6%96%E9%A1%B5",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://ibaotu.com/",
+      "status": 502,
+      "effectiveURL": "https://ibaotu.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 502
+    },
+    {
+      "url": "https://icolorpalette.com/",
+      "status": 403,
+      "effectiveURL": "https://icolorpalette.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://igda.org/resources-archive/the-door-problem-2014/",
+      "status": 200,
+      "effectiveURL": "https://igda.org/resources-archive/the-door-problem-2014/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://im.qq.com/pcqq",
+      "status": 200,
+      "effectiveURL": "https://im.qq.com/pcqq/index.shtml",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://imslp.org/",
+      "status": 200,
+      "effectiveURL": "https://cn.imslp.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://iphone.reeoo.com/",
+      "status": 200,
+      "effectiveURL": "https://reeoo.com/app/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://issc.at/",
+      "status": 200,
+      "effectiveURL": "https://www.issc.at/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://isthereanydeal.com/",
+      "status": 200,
+      "effectiveURL": "https://isthereanydeal.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://it-cxy.top/",
+      "status": 200,
+      "effectiveURL": "https://202608.urldance.com/8d/?it-cxy.top#others",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://itch.io/game-assets",
+      "status": 0,
+      "effectiveURL": "https://itch.io/game-assets",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12002 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://javascript.info/",
+      "status": 200,
+      "effectiveURL": "https://javascript.info/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://jianwai.youdao.com/",
+      "status": 200,
+      "effectiveURL": "https://jianwai.youdao.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://jimeng.jianying.com/ai-tool/home",
+      "status": 200,
+      "effectiveURL": "https://jimeng.jianying.com/ai-tool/home",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://js.design/workspace",
+      "status": 200,
+      "effectiveURL": "https://js.design/workspace",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://kenney.nl/assets",
+      "status": 200,
+      "effectiveURL": "https://kenney.nl/assets",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://keylol.com/",
+      "status": 200,
+      "effectiveURL": "https://keylol.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://kimi.moonshot.cn/?ref=qinggongju.com",
+      "status": 200,
+      "effectiveURL": "https://www.kimi.com/?ref=qinggongju.com",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://kitbash3d.com/collections",
+      "status": 200,
+      "effectiveURL": "https://kitbash3d.com/collections",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://kkok.cc/",
+      "status": 200,
+      "effectiveURL": "https://kkok.cc/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://labs.spitfireaudio.com/",
+      "status": 200,
+      "effectiveURL": "https://splice.com:443/instrument/labs-instrument",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://lanrenao.com/",
+      "status": 200,
+      "effectiveURL": "https://lanrenao.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://learn.microsoft.com/en-gb/gaming/accessibility/guidelines",
+      "status": 200,
+      "effectiveURL": "https://learn.microsoft.com/en-gb/gaming/accessibility/guidelines",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://libvio.art/",
+      "status": 200,
+      "effectiveURL": "https://libvio.art/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://line-of-action.com/",
+      "status": 200,
+      "effectiveURL": "https://line-of-action.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://long-coat.uenoya.jp/",
+      "status": 200,
+      "effectiveURL": "https://long-coat.uenoya.jp/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://lospec.com/",
+      "status": 200,
+      "effectiveURL": "https://lospec.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://lospec.com/palettes/",
+      "status": 200,
+      "effectiveURL": "https://lospec.com/palette-list",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://louxthevintageguru.tumblr.com/tagged/loux",
+      "status": 0,
+      "effectiveURL": "https://louxthevintageguru.tumblr.com/tagged/loux",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://lucidchart.com/",
+      "status": 200,
+      "effectiveURL": "https://lucid.co/lucidchart",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://m.hanfuhui.com/",
+      "status": 500,
+      "effectiveURL": "https://www.hanfuhui.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 500
+    },
+    {
+      "url": "https://machin3.io/MESHmachine/docs/",
+      "status": 200,
+      "effectiveURL": "https://machin3.io/MESHmachine/docs/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://machinations.io/",
+      "status": 200,
+      "effectiveURL": "https://machinations.io/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://macpedia.xyz/",
+      "status": 403,
+      "effectiveURL": "https://macpedia.xyz/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://mail.163.com/",
+      "status": 200,
+      "effectiveURL": "https://mail.163.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://markcordory.com/salvaged-ware-costumes",
+      "status": 200,
+      "effectiveURL": "https://markcordory.com/salvaged-ware-costumes",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://mega.nz/",
+      "status": 0,
+      "effectiveURL": "https://mega.nz/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://mfchange.cn/index.html",
+      "status": 200,
+      "effectiveURL": "https://mfchange.cn/index.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://midlibrary.io/",
+      "status": 200,
+      "effectiveURL": "https://midlibrary.io/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://miro.com/",
+      "status": 200,
+      "effectiveURL": "https://miro.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://mod.3dmgame.com/",
+      "status": 200,
+      "effectiveURL": "https://mod.3dmgame.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://modernfirearms.net/en/",
+      "status": 200,
+      "effectiveURL": "https://modernfirearms.net/en/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://monday.com/",
+      "status": 200,
+      "effectiveURL": "https://monday.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://mumu.163.com/",
+      "status": 200,
+      "effectiveURL": "https://mumu.163.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://musescore.com/sheetmusic",
+      "status": 403,
+      "effectiveURL": "https://musescore.com/sheetmusic",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://musescore.org/zh-hant",
+      "status": 200,
+      "effectiveURL": "https://musescore.org/zh-hant",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://music.163.com/#/download",
+      "status": 200,
+      "effectiveURL": "https://music.163.com/#/download",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://ncase.me/door/",
+      "status": 200,
+      "effectiveURL": "https://ncase.me/door/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://ngabbs.com/",
+      "status": 403,
+      "effectiveURL": "https://ngabbs.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://note.youdao.com/",
+      "status": 200,
+      "effectiveURL": "https://note.youdao.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://nowfashion.com/",
+      "status": 200,
+      "effectiveURL": "https://nowfashion.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://obsproject.com/",
+      "status": 200,
+      "effectiveURL": "https://obsproject.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://open.spotify.com/",
+      "status": 0,
+      "effectiveURL": "https://open.spotify.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://opencritic.com/",
+      "status": 0,
+      "effectiveURL": "https://opencritic.com/",
+      "curlExit": 92,
+      "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://opengameart.org/",
+      "status": 200,
+      "effectiveURL": "https://opengameart.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://outlook.live.com/",
+      "status": 417,
+      "effectiveURL": "https://outlook.live.com/mail/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 417
+    },
+    {
+      "url": "https://pan.baidu.com/",
+      "status": 200,
+      "effectiveURL": "https://pan.baidu.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all",
+      "status": 200,
+      "effectiveURL": "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://patch.ali213.net/",
+      "status": 200,
+      "effectiveURL": "https://patch.ali213.net/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://pc.weixin.qq.com/",
+      "status": 200,
+      "effectiveURL": "https://pc.weixin.qq.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://physicallybased.info/",
+      "status": 0,
+      "effectiveURL": "https://physicallybased.info/",
+      "curlExit": 35,
+      "error": "curl: (35) Recv failure: Connection reset by peer",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://pixabay.com/",
+      "status": 403,
+      "effectiveURL": "https://pixabay.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://polyhaven.com/",
+      "status": 200,
+      "effectiveURL": "https://polyhaven.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://ponte-ryuurui.smugmug.com/",
+      "status": 200,
+      "effectiveURL": "https://ponte-ryuurui.smugmug.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://prompthero.com/",
+      "status": 0,
+      "effectiveURL": "https://prompthero.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://qinggongju.com/",
+      "status": 200,
+      "effectiveURL": "https://qinggongju.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://qkpanso.com/",
+      "status": 200,
+      "effectiveURL": "https://qkpanso.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://quadspinner.com/",
+      "status": 200,
+      "effectiveURL": "https://quadspinner.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://quixel.com/",
+      "status": 200,
+      "effectiveURL": "https://quixel.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://quqi.com/",
+      "status": 0,
+      "effectiveURL": "https://quqi.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://rateyourmusic.com/",
+      "status": 403,
+      "effectiveURL": "https://rateyourmusic.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://rct66.tumblr.com/",
+      "status": 0,
+      "effectiveURL": "https://rct66.tumblr.com/",
+      "curlExit": 7,
+      "error": "curl: (7) Failed to connect to rct66.tumblr.com port 443 after 47 ms: Couldn't connect to server",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://react.dev/",
+      "status": 200,
+      "effectiveURL": "https://react.dev/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://rebozj.pro/",
+      "status": 200,
+      "effectiveURL": "https://www.rebozj.cc/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://recycledmoviecostumes.tumblr.com/",
+      "status": 0,
+      "effectiveURL": "https://recycledmoviecostumes.tumblr.com/",
+      "curlExit": 7,
+      "error": "curl: (7) Failed to connect to recycledmoviecostumes.tumblr.com port 443 after 23 ms: Couldn't connect to server",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://replit.com/",
+      "status": 200,
+      "effectiveURL": "https://replit.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://roadmap.sh/",
+      "status": 200,
+      "effectiveURL": "https://roadmap.sh/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://screenmusings.org/",
+      "status": 200,
+      "effectiveURL": "https://screenmusings.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://sfxr.me/",
+      "status": 200,
+      "effectiveURL": "https://sfxr.me/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://shimo.im/",
+      "status": 200,
+      "effectiveURL": "https://shimo.im/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://sketchfab.com/",
+      "status": 200,
+      "effectiveURL": "https://sketchfab.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://slack.com/",
+      "status": 200,
+      "effectiveURL": "https://slack.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://smallpdf.com/",
+      "status": 200,
+      "effectiveURL": "https://smallpdf.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://sobooks.cc/",
+      "status": 200,
+      "effectiveURL": "https://sobooks.cc/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://sonniss.com/gameaudiogdc/",
+      "status": 403,
+      "effectiveURL": "https://sonniss.com/gameaudiogdc/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://stackblitz.com/",
+      "status": 200,
+      "effectiveURL": "https://stackblitz.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://stackoverflow.com/",
+      "status": 403,
+      "effectiveURL": "https://stackoverflow.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://steamcommunity.com/workshop/",
+      "status": 0,
+      "effectiveURL": "https://steamcommunity.com/workshop/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://steamdb.info/",
+      "status": 403,
+      "effectiveURL": "https://steamdb.info/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://steampy.com/home",
+      "status": 200,
+      "effectiveURL": "https://steampy.com/home",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://stock.dfic.cn/?source=extbaidudkey7&utm_source=extbaidudkey7",
+      "status": 200,
+      "effectiveURL": "https://stock.tuchong.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://store.epicgames.com/zh-Hant/",
+      "status": 403,
+      "effectiveURL": "https://store.epicgames.com/zh-Hant/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://store.steampowered.com/",
+      "status": 0,
+      "effectiveURL": "https://store.steampowered.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Operation timed out after 12010 milliseconds with 0 bytes received",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://store.steampowered.com/about/",
+      "status": 0,
+      "effectiveURL": "https://store.steampowered.com/about/",
+      "curlExit": 28,
+      "error": "curl: (28) Operation timed out after 12001 milliseconds with 0 bytes received",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://stylekorea.tumblr.com/",
+      "status": 0,
+      "effectiveURL": "https://stylekorea.tumblr.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://suno.com/create",
+      "status": 0,
+      "effectiveURL": "https://suno.com/create",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12011 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://supabase.com/",
+      "status": 200,
+      "effectiveURL": "https://supabase.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://support.marvelousdesigner.com/hc/zh-cn/categories/360002390871",
+      "status": 403,
+      "effectiveURL": "https://support.marvelousdesigner.com/hc/zh-cn/categories/360002390871",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://tarantacticalinnovations.com/",
+      "status": 200,
+      "effectiveURL": "https://tarantacticalinnovations.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://texture.ninja/",
+      "status": 200,
+      "effectiveURL": "https://texture.ninja/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://theblenderbros.gumroad.com/",
+      "status": 0,
+      "effectiveURL": "https://theblenderbros.gumroad.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://threedscans.com/",
+      "status": 200,
+      "effectiveURL": "https://threedscans.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://tonedear.com/",
+      "status": 200,
+      "effectiveURL": "https://tonedear.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://trellis3d.net/",
+      "status": 200,
+      "effectiveURL": "https://trellis3d.net/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://trello.com/",
+      "status": 200,
+      "effectiveURL": "https://trello.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://tuostudy.upnb.top/favorites/list/",
+      "status": 200,
+      "effectiveURL": "https://tuostudy.upnb.top/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://twinery.org/",
+      "status": 200,
+      "effectiveURL": "https://twinery.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://uigradients.com/#Pizelex",
+      "status": 200,
+      "effectiveURL": "https://uigradients.com/#Pizelex",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://unsplash.com/",
+      "status": 401,
+      "effectiveURL": "https://unsplash.com/.within.website?redir=%2F",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 401
+    },
+    {
+      "url": "https://vanschneider.com/colors",
+      "status": 403,
+      "effectiveURL": "https://access.mymind.com/colors",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://vercel.com/docs",
+      "status": 200,
+      "effectiveURL": "https://vercel.com/docs",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://vi-control.net/community/",
+      "status": 403,
+      "effectiveURL": "https://vi-control.net/community/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://vitejs.dev/",
+      "status": 200,
+      "effectiveURL": "https://vite.dev/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://vortexoptics.com/",
+      "status": 200,
+      "effectiveURL": "https://vortexoptics.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://web.500px.com/",
+      "status": 0,
+      "effectiveURL": "https://web.500px.com/",
+      "curlExit": 35,
+      "error": "curl: (35) Recv failure: Connection reset by peer",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://webgradients.com/",
+      "status": 200,
+      "effectiveURL": "https://webgradients.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://weibo.com/u/1112829033",
+      "status": 200,
+      "effectiveURL": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Fu%2F1112829033&domain=weibo.com&ua=curl%2F8.7.1&_rand=1790441799216&sudaref=",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://weibo.com/u/5129313642",
+      "status": 200,
+      "effectiveURL": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Fu%2F5129313642&domain=weibo.com&ua=curl%2F8.7.1&_rand=1790441799218&sudaref=",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://whimsical.com/",
+      "status": 200,
+      "effectiveURL": "https://whimsical.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://work.weixin.qq.com/",
+      "status": 200,
+      "effectiveURL": "https://work.weixin.qq.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.126.com/",
+      "status": 200,
+      "effectiveURL": "https://www.126.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.1lou.icu/forum-9.htm",
+      "status": 0,
+      "effectiveURL": "https://www.1lou.icu/forum-9.htm",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: www.1lou.icu",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.3dart.it/en/",
+      "status": 200,
+      "effectiveURL": "https://www.3dart.it/en/3d-art-community-the-hub-for-3d-artists-vfx-and-cgi-creators/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.3dmgame.com/",
+      "status": 200,
+      "effectiveURL": "https://www.3dmgame.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.4k1080.com/",
+      "status": 0,
+      "effectiveURL": "https://www.4k1080.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12006 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.4kvm.tv/",
+      "status": 200,
+      "effectiveURL": "https://www.4kvm.tv/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.55boy.wiki/",
+      "status": 200,
+      "effectiveURL": "https://202608.urldance.com/6d/?55boy.wiki#others",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.58pic.com/",
+      "status": 200,
+      "effectiveURL": "https://www.58pic.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.88tph.com/",
+      "status": 200,
+      "effectiveURL": "https://www.88tph.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.8notes.com/",
+      "status": 200,
+      "effectiveURL": "https://www.8notes.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.91sotu.com/",
+      "status": 200,
+      "effectiveURL": "https://www.91sotu.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ableton.com/",
+      "status": 200,
+      "effectiveURL": "https://www.ableton.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.aboutcg.com/",
+      "status": 200,
+      "effectiveURL": "https://www.aboutcg.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.academy.com/c/outdoors/shooting/firearms",
+      "status": 403,
+      "effectiveURL": "https://www.academy.com/c/outdoors/shooting/firearms",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.adobe.com/products/xd.html",
+      "status": 200,
+      "effectiveURL": "https://helpx.adobe.com/xd/desktop.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ageeye.cn/",
+      "status": 200,
+      "effectiveURL": "https://www.ageeye.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.aigei.com/?msclkid=957ac64ddf3a18901fedaea0088c1876",
+      "status": 403,
+      "effectiveURL": "https://www.aigei.com/?msclkid=957ac64ddf3a18901fedaea0088c1876",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.aliyun.com/",
+      "status": 403,
+      "effectiveURL": "https://www.aliyun.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.allhistory.com/",
+      "status": 200,
+      "effectiveURL": "https://www.allhistory.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.allhistory.com/map",
+      "status": 200,
+      "effectiveURL": "https://www.allhistory.com/map",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ar15.com/",
+      "status": 403,
+      "effectiveURL": "https://www.ar15.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.artstation.com",
+      "status": 0,
+      "effectiveURL": "https://www.artstation.com/",
+      "curlExit": 7,
+      "error": "curl: (7) Failed to connect to www.artstation.com port 443 after 21 ms: Couldn't connect to server",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.atlassian.com/software/jira",
+      "status": 200,
+      "effectiveURL": "https://www.atlassian.com/software/jira",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.audacityteam.org/",
+      "status": 200,
+      "effectiveURL": "https://www.audacityteam.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.bandisoft.com/bandizip/",
+      "status": 200,
+      "effectiveURL": "https://www.bandisoft.com/bandizip/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.bilibili.com/read/cv14535456",
+      "status": 200,
+      "effectiveURL": "https://www.bilibili.com/opus/607266353703516349",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.bilibili.com/read/cv8121944/",
+      "status": 200,
+      "effectiveURL": "https://www.bilibili.com/opus/451055103193933114",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.bilibili.com/read/cv9899778",
+      "status": 200,
+      "effectiveURL": "https://www.bilibili.com/opus/493391837081694596",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.blenderbros.com/",
+      "status": 200,
+      "effectiveURL": "https://www.blenderbros.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.blendercn.org/tag/%E6%96%91%E6%96%93%E4%B8%AD%E5%9B%BD",
+      "status": 200,
+      "effectiveURL": "https://www.blendercn.org/tag/%E6%96%91%E6%96%93%E4%B8%AD%E5%9B%BD",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.bodiesinmotion.photo/",
+      "status": 403,
+      "effectiveURL": "https://www.bodiesinmotion.photo/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.britannica.com/",
+      "status": 403,
+      "effectiveURL": "https://www.britannica.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.britannica.com/topic/list-of-weapons-2058724",
+      "status": 403,
+      "effectiveURL": "https://www.britannica.com/topic/list-of-weapons-2058724",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.canva.com/",
+      "status": 403,
+      "effectiveURL": "https://www.canva.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.cbaigui.com/",
+      "status": 200,
+      "effectiveURL": "https://www.cbaigui.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.cctalk.com/download",
+      "status": 200,
+      "effectiveURL": "https://www.cctalk.com/download",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.cdkeynogap.com/",
+      "status": 200,
+      "effectiveURL": "https://www.cdkeynogap.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.cg3da.com/",
+      "status": 403,
+      "effectiveURL": "https://www.cg3da.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.cgmodel.com/",
+      "status": 200,
+      "effectiveURL": "https://www.cgmodel.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.cgpepper.com/",
+      "status": 0,
+      "effectiveURL": "https://www.cgpepper.com/",
+      "curlExit": 60,
+      "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.cgtrader.com/",
+      "status": 200,
+      "effectiveURL": "https://www.cgtrader.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.characterdesigns.com/",
+      "status": 200,
+      "effectiveURL": "https://www.characterdesigns.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.cloudflare.com/",
+      "status": 200,
+      "effectiveURL": "https://www.cloudflare.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.colt.com/",
+      "status": 200,
+      "effectiveURL": "https://www.colt.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.dalipan.com/",
+      "status": 403,
+      "effectiveURL": "https://www.dalipan.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.deviantart.com/",
+      "status": 0,
+      "effectiveURL": "https://www.deviantart.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.dingtalk.com/",
+      "status": 200,
+      "effectiveURL": "https://www.dingtalk.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.doubao.com/chat/",
+      "status": 200,
+      "effectiveURL": "https://www.doubao.com/chat/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.draw.io/",
+      "status": 200,
+      "effectiveURL": "https://app.diagrams.net/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.earmaster.com/",
+      "status": 200,
+      "effectiveURL": "https://www.earmaster.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ethnologue.com/",
+      "status": 403,
+      "effectiveURL": "https://www.ethnologue.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.everynoise.com/",
+      "status": 200,
+      "effectiveURL": "https://www.everynoise.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.fanatical.com/",
+      "status": 200,
+      "effectiveURL": "https://www.fanatical.com/en/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.fandom.com/",
+      "status": 0,
+      "effectiveURL": "https://www.fandom.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.figma.com/",
+      "status": 200,
+      "effectiveURL": "https://www.figma.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.flickr.com/",
+      "status": 0,
+      "effectiveURL": "https://www.flickr.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.fmod.com/",
+      "status": 200,
+      "effectiveURL": "https://www.fmod.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.freecodecamp.org/learn/",
+      "status": 200,
+      "effectiveURL": "https://www.freecodecamp.org/learn",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.freeconvert.com/",
+      "status": 200,
+      "effectiveURL": "https://www.freeconvert.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.gamedeveloper.com/design",
+      "status": 0,
+      "effectiveURL": "https://www.gamedeveloper.com/design",
+      "curlExit": 28,
+      "error": "curl: (28) Resolving timed out after 12002 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.gamer520.com/pcplay",
+      "status": 200,
+      "effectiveURL": "https://www.gamer520.com/pcplay",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.gamersky.com/",
+      "status": 200,
+      "effectiveURL": "https://www.gamersky.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.gaoxiaoac.com/",
+      "status": 0,
+      "effectiveURL": "https://www.gaoxiaoac.com/",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: www.gaoxiaoac.com",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.gearslutz.com/board/",
+      "status": 403,
+      "effectiveURL": "https://gearspace.com/board/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.ggac.com/v2/home",
+      "status": 200,
+      "effectiveURL": "https://www.ggac.com/v2/home",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.gog.com/",
+      "status": 200,
+      "effectiveURL": "https://www.gog.com/zh/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.google.cn/intl/zh-CN/chrome/",
+      "status": 200,
+      "effectiveURL": "https://www.google.cn/intl/zh-CN/chrome/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.google.com/imghp?tbm=isch&ved=2ahUKEwiqtbHji8P3AhUcGTQIHTgRC-IQ2-cCegQIABAA",
+      "status": 0,
+      "effectiveURL": "https://www.google.com/imghp?tbm=isch&ved=2ahUKEwiqtbHji8P3AhUcGTQIHTgRC-IQ2-cCegQIABAA",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12003 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.google.com/maps/",
+      "status": 0,
+      "effectiveURL": "https://www.google.com/maps/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.gunbroker.com/",
+      "status": 403,
+      "effectiveURL": "https://www.gunbroker.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.gunworld.com.au/",
+      "status": 200,
+      "effectiveURL": "https://gunworld.com.au/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.hdmoli.com/",
+      "status": 200,
+      "effectiveURL": "https://www.hdmoli.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.hellofont.cn/download",
+      "status": 200,
+      "effectiveURL": "https://www.hellofont.cn/download",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.history.com/",
+      "status": 200,
+      "effectiveURL": "https://www.history.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.huaweicloud.com/",
+      "status": 567,
+      "effectiveURL": "https://www.huaweicloud.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 567
+    },
+    {
+      "url": "https://www.humblebundle.com/",
+      "status": 200,
+      "effectiveURL": "https://www.humblebundle.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.huorong.cn/",
+      "status": 200,
+      "effectiveURL": "https://www.huorong.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2",
+      "status": 200,
+      "effectiveURL": "https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ign.com.cn/",
+      "status": 200,
+      "effectiveURL": "https://www.ign.com.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.iiice.cn/#/",
+      "status": 200,
+      "effectiveURL": "https://www.iiice.cn/#/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.iiicg.com/",
+      "status": 403,
+      "effectiveURL": "https://www.iiicg.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.imdb.com/?ref_=nv_home",
+      "status": 403,
+      "effectiveURL": "https://www.imdb.com/?ref_=nv_home",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.jiumodiary.com/",
+      "status": 200,
+      "effectiveURL": "https://www.jiumodiary.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.junpin360.com/",
+      "status": 200,
+      "effectiveURL": "https://www.junpin360.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.kci.or.jp/en/archives/digital_archives/",
+      "status": 200,
+      "effectiveURL": "https://www.kci.or.jp/en/archives/digital_archives/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.kdocs.cn/welcome",
+      "status": 200,
+      "effectiveURL": "https://www.kdocs.cn/welcome",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.kgbook.com/",
+      "status": 200,
+      "effectiveURL": "https://www.kgbook.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.khanacademy.org/humanities/world-history",
+      "status": 200,
+      "effectiveURL": "https://www.khanacademy.org/humanities/world-history",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.kimonomachi.co.jp/",
+      "status": 200,
+      "effectiveURL": "https://www.kimonomachi.co.jp/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.koodoreader.com/zh",
+      "status": 200,
+      "effectiveURL": "https://www.koodoreader.com/zh",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.kvraudio.com/forum/",
+      "status": 403,
+      "effectiveURL": "https://www.kvraudio.com/forum/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.laozicloud.com/",
+      "status": 200,
+      "effectiveURL": "https://www.laozicloud.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.leigod.com/intl/",
+      "status": 404,
+      "effectiveURL": "https://www.leigod.com/intl/",
+      "curlExit": 0,
+      "error": "",
+      "result": "not-found",
+      "headStatus": 404
+    },
+    {
+      "url": "https://www.likejay.cn/",
+      "status": 200,
+      "effectiveURL": "https://202608.urldance.com/7d/?likejay.cn#others",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.loc.gov/",
+      "status": 403,
+      "effectiveURL": "https://www.loc.gov/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.lolitawardrobe.com/",
+      "status": 200,
+      "effectiveURL": "https://www.lolitawardrobe.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.lovart.ai/zh/home",
+      "status": 0,
+      "effectiveURL": "https://www.lovart.ai/zh/home",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.lughertexture.com/",
+      "status": 403,
+      "effectiveURL": "https://elchiraemprende.pe/papercraft-del-chira-uniendo-el-arte-y-dedicacion-en-figuras-3d/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.lzpanx.com/",
+      "status": 200,
+      "effectiveURL": "https://www.lzpanx.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.mapandlens.com/",
+      "status": 200,
+      "effectiveURL": "https://www.mapandlens.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.marvelousdesigner.com/",
+      "status": 200,
+      "effectiveURL": "https://www.marvelousdesigner.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.media.io/zh/",
+      "status": 0,
+      "effectiveURL": "https://www.media.io/zh/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.meet99.com/map/",
+      "status": 200,
+      "effectiveURL": "https://www.meet99.com/map",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.meiye.art/canvas/1/402",
+      "status": 200,
+      "effectiveURL": "https://meiye.art/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.metacritic.com/",
+      "status": 200,
+      "effectiveURL": "https://www.metacritic.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.metmuseum.org/zh",
+      "status": 429,
+      "effectiveURL": "https://www.metmuseum.org/zh",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 429
+    },
+    {
+      "url": "https://www.mfchange.cn/index.html",
+      "status": 200,
+      "effectiveURL": "https://www.mfchange.cn/index.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.microsoft.com/microsoft-teams/",
+      "status": 302,
+      "effectiveURL": "https://www.microsoft.com/zh-cn/microsoft-teams/",
+      "curlExit": 92,
+      "error": "curl: (92) HTTP/2 stream 3 was not closed cleanly: INTERNAL_ERROR (err 2)",
+      "result": "responded",
+      "headStatus": 302
+    },
+    {
+      "url": "https://www.microsoft365.com/",
+      "status": 200,
+      "effectiveURL": "https://m365.cloud.microsoft/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 405
+    },
+    {
+      "url": "https://www.midjourney.com/editor/new",
+      "status": 403,
+      "effectiveURL": "https://www.midjourney.com/editor/new",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.midjourney.com/showcase",
+      "status": 403,
+      "effectiveURL": "https://www.midjourney.com/showcase",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.mindmeister.com/",
+      "status": 403,
+      "effectiveURL": "https://www.mindmeister.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.mixamo.com/",
+      "status": 200,
+      "effectiveURL": "https://www.mixamo.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.moddb.com/",
+      "status": 403,
+      "effectiveURL": "https://www.moddb.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.musictheory.net/",
+      "status": 200,
+      "effectiveURL": "https://www.musictheory.net/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.mutopiaproject.org/",
+      "status": 200,
+      "effectiveURL": "https://www.mutopiaproject.org/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.myminifactory.com/",
+      "status": 403,
+      "effectiveURL": "https://www.myminifactory.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.myoppa.fr/",
+      "status": 200,
+      "effectiveURL": "https://www.myoppa.fr/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.nationalgeographic.com/",
+      "status": 200,
+      "effectiveURL": "https://www.nationalgeographic.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.nationalgeographic.com/history/",
+      "status": 200,
+      "effectiveURL": "https://www.nationalgeographic.com/history/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.native-instruments.com/",
+      "status": 200,
+      "effectiveURL": "https://www.native-instruments.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ncat22.com/",
+      "status": 850,
+      "effectiveURL": "https://www.ncat22.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 850
+    },
+    {
+      "url": "https://www.nexusmods.com/",
+      "status": 403,
+      "effectiveURL": "https://www.nexusmods.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.notion.com/",
+      "status": 200,
+      "effectiveURL": "https://www.notion.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.oldmapsonline.org/",
+      "status": 0,
+      "effectiveURL": "https://www.oldmapsonline.org/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.online-convert.com/",
+      "status": 403,
+      "effectiveURL": "https://www.online-convert.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.onlyairsoft.com/",
+      "status": 200,
+      "effectiveURL": "https://onlyairsoft.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ooopic.com/",
+      "status": 200,
+      "effectiveURL": "https://www.ooopic.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.openstreetmap.org/#map=7/40.053/118.169/",
+      "status": 0,
+      "effectiveURL": "https://www.openstreetmap.org/#map=7/40.053/118.169/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.origin.com/",
+      "status": 200,
+      "effectiveURL": "https://www.ea.com/games/library/pc-download",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.pcgamingwiki.com/wiki/Home",
+      "status": 403,
+      "effectiveURL": "https://www.pcgamingwiki.com/wiki/Home",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.pdfdrive.com/",
+      "status": 200,
+      "effectiveURL": "https://www.pdfdrive.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.pexels.com/zh-tw/",
+      "status": 403,
+      "effectiveURL": "https://www.pexels.com/zh-tw/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.pinterest.com/",
+      "status": 0,
+      "effectiveURL": "https://www.pinterest.com/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12002 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.pinterest.com/WEuropeCostumes/",
+      "status": 0,
+      "effectiveURL": "https://www.pinterest.com/WEuropeCostumes/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12005 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.pinterest.com/stonefinder/",
+      "status": 0,
+      "effectiveURL": "https://www.pinterest.com/stonefinder/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.pinterest.com/thedreamstress/",
+      "status": 0,
+      "effectiveURL": "https://www.pinterest.com/thedreamstress/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12002 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.pixelsquid.com/",
+      "status": 200,
+      "effectiveURL": "https://www.pixelsquid.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.pixiv.net/",
+      "status": 0,
+      "effectiveURL": "https://www.pixiv.net/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12010 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.poliigon.com/",
+      "status": 403,
+      "effectiveURL": "https://www.poliigon.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.popularmechanics.com/",
+      "status": 200,
+      "effectiveURL": "https://www.popularmechanics.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.proko.com/course-lesson/anatomy-terms/notes",
+      "status": 200,
+      "effectiveURL": "https://www.proko.com/course-lesson/anatomy-terms",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.protopie.io/",
+      "status": 200,
+      "effectiveURL": "https://www.protopie.io/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.pureref.com/",
+      "status": 200,
+      "effectiveURL": "https://www.pureref.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.reaper.fm/",
+      "status": 200,
+      "effectiveURL": "https://www.reaper.fm/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.reddit.com/r/composer/",
+      "status": 0,
+      "effectiveURL": "https://www.reddit.com/r/composer/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12009 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.reddit.com/r/musictheory/",
+      "status": 0,
+      "effectiveURL": "https://www.reddit.com/r/musictheory/",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12008 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.rockislandauction.com/",
+      "status": 403,
+      "effectiveURL": "https://www.rockislandauction.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.ruanjia.com/",
+      "status": 200,
+      "effectiveURL": "https://www.ruanjia.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.sigsauer.com/",
+      "status": 403,
+      "effectiveURL": "https://www.sigsauer.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.sketch.com/",
+      "status": 200,
+      "effectiveURL": "https://www.sketch.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.skypixel.com/",
+      "status": 200,
+      "effectiveURL": "https://www.skypixel.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.sohu.com/a/251016495_743882",
+      "status": 403,
+      "effectiveURL": "https://www.sohu.com/a/251016495_743882",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.sohu.com/a/301082591_612229",
+      "status": 403,
+      "effectiveURL": "https://www.sohu.com/a/301082591_612229",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.sohu.com/a/546200817_121119316",
+      "status": 403,
+      "effectiveURL": "https://www.sohu.com/a/546200817_121119316",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.soundsnap.com/",
+      "status": 200,
+      "effectiveURL": "https://www.soundsnap.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.surefire.com/",
+      "status": 200,
+      "effectiveURL": "https://www.surefire.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.teoria.com/",
+      "status": 200,
+      "effectiveURL": "https://www.teoria.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.textures.com/browse/ornate/10229",
+      "status": 200,
+      "effectiveURL": "https://www.textures.com/browse/ornate/10229",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.thegnomonworkshop.com/",
+      "status": 200,
+      "effectiveURL": "https://www.thegnomonworkshop.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.thispersondoesnotexist.com/",
+      "status": 200,
+      "effectiveURL": "https://www.thispersondoesnotexist.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.toolify.ai/zh/?ref=qinggongju.com",
+      "status": 403,
+      "effectiveURL": "https://www.toolify.ai/zh/?ref=qinggongju.com",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.toptal.com/designers/colourcode",
+      "status": 403,
+      "effectiveURL": "https://www.toptal.com/designers/colourcode",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.trijicon.com/",
+      "status": 200,
+      "effectiveURL": "https://www.trijicon.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.tripo3d.ai/zh",
+      "status": 0,
+      "effectiveURL": "https://www.tripo3d.ai/zh",
+      "curlExit": 28,
+      "error": "curl: (28) Connection timed out after 12007 milliseconds",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.uberti-usa.com/",
+      "status": 403,
+      "effectiveURL": "https://www.uberti-usa.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.ubisoft.com/en-us/",
+      "status": 200,
+      "effectiveURL": "https://www.ubisoft.com/en-us",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.udongman.cn/order/software/center",
+      "status": 200,
+      "effectiveURL": "https://www.udongman.cn/login",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.ui.cn/",
+      "status": 0,
+      "effectiveURL": "https://www.ui.cn/",
+      "curlExit": 92,
+      "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.unodc.org/e4j/en/firearms/module-2/key-issues/firearms-parts-and-components.html",
+      "status": 200,
+      "effectiveURL": "https://www.unodc.org/e4j/en/firearms/module-2/key-issues/firearms-parts-and-components.html",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.usmilitariaforum.com/forums/index.php",
+      "status": 403,
+      "effectiveURL": "https://www.usmilitariaforum.com/forums/index.php",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.vertugadins.com/location/",
+      "status": 0,
+      "effectiveURL": "https://www.vertugadins.com/location/",
+      "curlExit": 6,
+      "error": "curl: (6) Could not resolve host: www.vertugadins.com",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://www.vogue.com.cn/",
+      "status": 200,
+      "effectiveURL": "https://www.vogue.com.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.volcengine.com/",
+      "status": 200,
+      "effectiveURL": "https://www.volcengine.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.w3schools.com/",
+      "status": 403,
+      "effectiveURL": "https://www.w3schools.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.weili.tv/",
+      "status": 200,
+      "effectiveURL": "https://www.weili.tv/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.withawish.jp/tuxedo/index.cgi#search_box",
+      "status": 200,
+      "effectiveURL": "https://www.withawish.jp/tuxedo/index.cgi#search_box",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.wolframalpha.com/",
+      "status": 200,
+      "effectiveURL": "https://www.wolframalpha.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 404
+    },
+    {
+      "url": "https://www.xbox.com/zh-CN",
+      "status": 200,
+      "effectiveURL": "https://www.xbox.com/zh-CN",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.xiusheji.com/",
+      "status": 200,
+      "effectiveURL": "https://www.xiusheji.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.yinfans.me/",
+      "status": 200,
+      "effectiveURL": "https://www.yinfans.me/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.yumeyakata.com/",
+      "status": 200,
+      "effectiveURL": "https://www.yumeyakata.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.yuque.com/ue4y5t",
+      "status": 200,
+      "effectiveURL": "https://www.yuque.com/jx",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.zbrushcentral.com/",
+      "status": 200,
+      "effectiveURL": "https://www.zbrushcentral.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.zcool.com.cn/u/16548136",
+      "status": 200,
+      "effectiveURL": "https://www.zcool.com.cn/u/16548136",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://www.zhihu.com/question/47581644/answer/1790717469",
+      "status": 403,
+      "effectiveURL": "https://www.zhihu.com/question/47581644/answer/1790717469",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://www.zuh8.com/",
+      "status": 0,
+      "effectiveURL": "https://www.zuh8.com/",
+      "curlExit": 92,
+      "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)",
+      "result": "unconfirmed",
+      "headStatus": 0
+    },
+    {
+      "url": "https://wytype.com/",
+      "status": 200,
+      "effectiveURL": "https://wenyue.cn/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://x6ud.github.io/pose-search/#/",
+      "status": 200,
+      "effectiveURL": "https://x6ud.github.io/pose-search/#/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://xn--p3tv7h.com/",
+      "status": 200,
+      "effectiveURL": "https://xn--p3tv7h.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://yiso.fun/",
+      "status": 403,
+      "effectiveURL": "https://yiso.fun/",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://ymck.pro/",
+      "status": 200,
+      "effectiveURL": "https://www.ymck.pro/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/25658582",
+      "status": 403,
+      "effectiveURL": "https://zhuanlan.zhihu.com/p/25658582",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/426806809",
+      "status": 403,
+      "effectiveURL": "https://zhuanlan.zhihu.com/p/426806809",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/440541640",
+      "status": 403,
+      "effectiveURL": "https://zhuanlan.zhihu.com/p/440541640",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/64626495",
+      "status": 403,
+      "effectiveURL": "https://zhuanlan.zhihu.com/p/64626495",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/71813034",
+      "status": 403,
+      "effectiveURL": "https://zhuanlan.zhihu.com/p/71813034",
+      "curlExit": 0,
+      "error": "",
+      "result": "unconfirmed",
+      "headStatus": 403
+    },
+    {
+      "url": "https://zoom.us/",
+      "status": 200,
+      "effectiveURL": "https://www.zoom.com/",
+      "curlExit": 0,
+      "error": "",
+      "result": "responded",
+      "headStatus": 200
+    }
+  ]
+}

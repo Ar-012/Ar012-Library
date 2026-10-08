@@ -47,93 +47,21 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* 右侧面板样式 - 自适应瀑布流 */
-.right-panel {
-    --resource-column-count: 4;
-    display: grid;
-    grid-template-columns: repeat(var(--resource-column-count), minmax(0, 1fr));
-    gap: 25px;
-    align-items: start;
-    margin-bottom: 40px;
-}
-
-/* 内容区块样式 - 自适应列容器 */
-.content-section {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.section-card {
-    background-color: white;
-    border-radius: 12px;
-    padding: 20px; /* 稍微减小内边距 */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    border: 1px solid #e9ecef;
-    transition: all 0.3s ease;
-    width: 100%;
-    break-inside: avoid; /* 防止卡片跨列断裂 */
-    page-break-inside: avoid;
-}
-
-.section-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-}
-
-.section-card .section-title {
-    font-size: 1.3rem; /* 稍微减小标题大小 */
-    font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #f1f3f5;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.section-card .section-title i {
-    color: #1abc9c;
-    font-size: 1.1rem;
-}
-
-/* 链接组样式 */
+/* Sections form a vertical document flow; resources own the grid. */
+.right-panel { display: block; margin-bottom: 40px; }
+.section-card { width: 100%; min-width: 0; margin-bottom: 36px; padding: 0; }
+.section-card:last-child { margin-bottom: 0; }
+.section-card .section-title { font-size: 22px; font-weight: 600; line-height: 1.4; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 1px solid; }
+.section-count { font-size: 13px; font-weight: 400; white-space: nowrap; }
+.section-title i { font-size: 16px; margin-right: 6px; }
 .link-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; /* 稍微减小间距 */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    gap: 14px;
+    align-items: start;
 }
-
-/* 资源链接样式 */
-.resource-link {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px; /* 稍微减小图标和内容的间距 */
-    padding: 10px 12px; /* 稍微减小内边距 */
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #495057;
-    font-size: 0.9rem; /* 稍微减小字体 */
-    transition: all 0.2s ease;
-    border-left: 3px solid transparent;
-}
-
-.resource-link:hover {
-    background-color: #e9ecef;
-    color: #2c3e50;
-    border-left-color: #1abc9c;
-    transform: translateX(3px);
-}
-
-.resource-link i {
-    color: #6c757d;
-    font-size: 0.85rem;
-    min-width: 16px;
-    margin-top: 1px;
-    flex-shrink: 0;
-}
+.resource-link { display: flex; align-items: flex-start; gap: 10px; padding: 14px; text-decoration: none; transition: background-color .15s ease, border-color .15s ease; }
+.resource-link i { min-width: 16px; font-size: 14px; margin-top: 3px; flex-shrink: 0; }
 
 /* 资源链接内容区域 */
 .resource-content {
@@ -148,8 +76,8 @@
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 3px;
-    font-size: 0.95rem; /* 稍微减小字体 */
-    line-height: 1.3;
+    font-size: 16px;
+    line-height: 1.45;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -159,10 +87,10 @@
 
 /* 资源描述样式 - 不显眼 */
 .resource-description {
-    font-size: 0.8rem; /* 稍微减小字体 */
+    font-size: 14px;
     color: #6c757d;
-    line-height: 1.3;
-    font-weight: 300;
+    line-height: 1.45;
+    font-weight: 400;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -189,98 +117,20 @@
     padding-left: 26px; /* 与资源链接对齐 */
 }
 
-/* 响应式设计 */
+/* Existing Header responsive rules remain unchanged. */
 @media (max-width: 1200px) {
-    .right-panel {
-        --resource-column-count: 3; /* 中等屏幕三列 */
-    }
-    
-    .content-header .container {
-        max-width: 1200px;
-    }
+    .content-header .container { max-width: 1200px; }
 }
-
 @media (max-width: 992px) {
-    .right-panel {
-        --resource-column-count: 2; /* 小屏幕两列 */
-    }
-    
-    .content-header .container {
-        max-width: 960px;
-    }
+    .content-header .container { max-width: 960px; }
 }
-
 @media (max-width: 768px) {
-    .right-panel {
-        --resource-column-count: 1; /* 移动端单列 */
-        gap: 20px;
-    }
-    
-    .content-header {
-        padding: 20px 0;
-    }
-    
-    .page-title {
-        font-size: 1.8rem;
-    }
-    
-    .page-subtitle {
-        font-size: 1rem;
-    }
-    
-    .section-card {
-        padding: 18px;
-    }
-    
-    .section-card .section-title {
-        font-size: 1.2rem;
-    }
-    
-    .resource-link {
-        padding: 9px 10px;
-        font-size: 0.88rem;
-    }
-    
-    .resource-title {
-        font-size: 0.92rem;
-    }
-    
-    .resource-description {
-        font-size: 0.78rem;
-    }
+    .content-header { padding: 20px 0; }
+    .page-title { font-size: 1.8rem; }
+    .page-subtitle { font-size: 1rem; }
 }
-
 @media (max-width: 480px) {
-    .page-title {
-        font-size: 1.5rem;
-    }
-    
-    .section-card {
-        padding: 15px;
-    }
-    
-    .resource-link {
-        padding: 8px 10px;
-        font-size: 0.85rem;
-    }
-    
-    .resource-title {
-        font-size: 0.9rem;
-    }
-    
-    .resource-description {
-        font-size: 0.75rem;
-    }
-    
-    .icon {
-        width: 14px;
-        height: 14px;
-    }
-    
-    .link-subtitle {
-        font-size: 0.85rem;
-        padding-left: 24px;
-    }
+    .page-title { font-size: 1.5rem; }
 }
 
 /* 资源页容器加宽以适应多列内容 */
@@ -288,3 +138,40 @@
 .main-content > .container {
     max-width: 1400px;
 }
+
+/* V1 catalog navigation: reuse the existing theme and responsive card layout. */
+.section-index { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 24px; }
+.section-index a, .section-title a, .resource-alternate { color: var(--primary-color); }
+.section-index a { font-size: .85rem; }
+.section-card { scroll-margin-top: 20px; }
+.resource-entry { min-width: 0; }
+.resource-alternate { display: block; margin: 0 14px 12px; font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.resource-review { margin: 0 14px 14px; color: var(--gray-color); font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.resource-content { min-width: 0; overflow-wrap: anywhere; }
+.resource-link:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 2px; }
+.resource-link:focus-visible .resource-title,
+.resource-link:focus-visible .resource-description { -webkit-line-clamp: unset; }
+
+/* Art's internal domains: scoped styling, no changes to the shared theme. */
+.domain-index a { padding: 9px 14px; border: 1px solid var(--light-gray); border-radius: 6px; text-decoration: none; font-size: 1rem; }
+.domain-index a[aria-current="true"] { background: var(--arc-panel-strong); border-color: var(--primary-color); }
+.domain-index a:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 3px; }
+.right-panel.domain-content { display: block; }
+.domain-heading { font-size: 30px; font-weight: 600; margin: 24px 0 16px; scroll-margin-top: 20px; }
+.domain-group > .domain-heading { font-size: 26px; margin-top: 32px; }
+.domain-group { margin-bottom: 36px; scroll-margin-top: 20px; }
+.domain-content .section-index { margin-top: 12px; }
+
+/* Optional related-resource disclosure; ordinary cards retain their markup. */
+.resource-main-row { display: flex; align-items: stretch; min-width: 0; }
+.resource-main-row > .resource-link { flex: 1; min-width: 0; background: transparent; border-color: transparent; }
+.resource-main-row > .resource-link:hover { transform: none; }
+.resource-disclosure { flex: 0 0 44px; align-self: center; min-height: 44px; padding: 0; border: 0; border-radius: 6px; background: transparent; color: var(--arc-muted); font-size: 1.2rem; cursor: pointer; }
+.resource-disclosure:hover { color: var(--arc-text); background: rgba(255, 255, 255, .075); }
+.resource-disclosure:focus-visible { outline: 2px solid var(--primary-color); outline-offset: -3px; }
+.resource-disclosure[aria-expanded="true"] { transform: rotate(180deg); }
+.related-resources { margin: 0 12px 12px; padding: 12px; border-top: 1px solid var(--light-gray); font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.related-resources-title { margin: 0 0 6px; color: var(--arc-muted); }
+.related-resources ul { margin: 0; padding-left: 18px; }
+.related-resources li { padding: 4px 0; }
+.related-resources a { color: var(--primary-color); }

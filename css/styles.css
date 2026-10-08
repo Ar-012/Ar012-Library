@@ -470,3 +470,48 @@ body {
     transform: scale(1.1);
     background: linear-gradient(135deg, #3498db, #1abc9c);
 }
+
+/* Shared navigation shell. Resource layout remains in resource-page.css. */
+.library-shell .area-rail {
+    position: fixed; inset: 0 auto 0 0; width: 68px; z-index: 120;
+    display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 16px 0;
+}
+.library-shell .rail-link { position: relative; display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; flex-shrink: 0; }
+.library-shell .rail-home { margin-bottom: 16px; }
+.library-shell .rail-link .navigation-label { display: none; position: absolute; left: 52px; white-space: nowrap; padding: 8px 12px; border-radius: 8px; }
+.library-shell .rail-link:hover .navigation-label,
+.library-shell .rail-link:focus-visible .navigation-label { display: block; }
+.library-shell .sidebar { position: fixed; inset: 0 auto 0 68px; width: 220px; height: 100vh; height: 100dvh; padding: 16px 0 0; display: flex; flex-direction: column; overflow: visible; z-index: 100; }
+.navigation-body { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 4px 14px 24px; }
+.navigation-heading { font-size: .8rem; font-weight: 600; margin: 12px 8px; }
+.navigation-page { border-top: 1px solid; margin-top: 20px; padding-top: 8px; }
+.navigation-section { display: flex; justify-content: space-between; gap: 10px; padding: 9px 8px; text-decoration: none; font-size: .85rem; }
+.navigation-section span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.navigation-count { flex-shrink: 0; }
+.navigation-domain-status { margin: 8px; font-size: .85rem; }
+.library-shell .sidebar-link, .directory-area-link, .area-link { display: flex; align-items: center; gap: 10px; padding: 10px 8px; margin: 0 0 4px; text-decoration: none; font-size: .9rem; }
+.library-shell .sidebar-link i, .directory-area-link i, .area-link i { width: 18px; flex-shrink: 0; text-align: center; }
+.mobile-area-list, .navigation-toolbar { display: none; }
+.library-shell .main-content { margin-left: 288px; min-width: 0; width: calc(100% - 288px); }
+.library-shell.navigation-has-sections #section-index { display: none; }
+@media (min-width: 769px) and (max-width: 1199px) {
+    .library-shell .main-content { margin-left: 68px; width: calc(100% - 68px); }
+    .library-shell .sidebar { display: none; top: 56px; width: 232px; height: calc(100vh - 56px); height: calc(100dvh - 56px); }
+}
+@media (max-width: 1199px) {
+    .library-shell { padding-top: 56px; }
+    .library-shell .navigation-toolbar { display: flex; align-items: center; justify-content: space-between; position: fixed; top: 0; left: 68px; right: 0; height: 56px; z-index: 110; padding: 0 12px; gap: 12px; }
+    .mobile-navigation-toggle { display: block; min-width: 0; flex: 1; height: 44px; padding: 0 8px; text-align: left; font: inherit; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; }
+    #toolbar-search-slot { flex-shrink: 0; }
+    .library-shell .sidebar.is-open { display: flex; }
+    .library-shell .section-card, .library-shell .domain-heading, .library-shell .domain-group { scroll-margin-top: 72px; }
+}
+@media (max-width: 768px) {
+    .library-shell .area-rail { display: none; }
+    .library-shell .navigation-toolbar { left: 0; }
+    .library-shell .sidebar { display: none; inset: 56px 0 auto; width: 100%; padding-top: 0; height: auto; max-height: calc(100vh - 56px); max-height: calc(100dvh - 56px); }
+    .navigation-body { flex: 1 1 auto; }
+    .mobile-area-list { display: block; border-bottom: 1px solid; margin-bottom: 12px; padding-bottom: 12px; }
+    .library-shell .main-content { margin-left: 0; width: 100%; }
+    .library-shell .sidebar:has(.directory-area-link) .mobile-area-entries { display: none; }
+}

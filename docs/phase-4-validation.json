@@ -1,0 +1,561 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "width": 1440,
+      "path": "library.html?view=art",
+      "cards": 35,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=3d",
+      "cards": 48,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=game-production",
+      "cards": 23,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=ai",
+      "cards": 23,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=development",
+      "cards": 21,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=av",
+      "cards": 18,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=work",
+      "cards": 31,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=art-study",
+      "cards": 5,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=game-study",
+      "cards": 6,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=history",
+      "cards": 32,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=music-study",
+      "cards": 12,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=code-study",
+      "cards": 4,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=research",
+      "cards": 6,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=games",
+      "cards": 30,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=film",
+      "cards": 17,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=music",
+      "cards": 2,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=daily",
+      "cards": 30,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=software",
+      "cards": 38,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=extensions",
+      "cards": 7,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=system",
+      "cards": 6,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "3d-art.html",
+      "cards": 46,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "ai-art.html",
+      "cards": 20,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "concept-art.html",
+      "cards": 47,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "costume-fashion-design.html",
+      "cards": 45,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "daily-essentials.html",
+      "cards": 38,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "development.html",
+      "cards": 19,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "game-design.html",
+      "cards": 23,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "games.html",
+      "cards": 29,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "gun-design-reference.html",
+      "cards": 40,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "history.html",
+      "cards": 35,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "installation-software.html",
+      "cards": 35,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "video-film.html",
+      "cards": 16,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "visual-communication.html",
+      "cards": 39,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "work-tools-collaboration.html",
+      "cards": 42,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=art#art-visual",
+      "cards": 47,
+      "issues": []
+    },
+    {
+      "width": 1440,
+      "path": "library.html?view=art#art-reference",
+      "cards": 86,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=art",
+      "cards": 35,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=3d",
+      "cards": 48,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=game-production",
+      "cards": 23,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=ai",
+      "cards": 23,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=development",
+      "cards": 21,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=av",
+      "cards": 18,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=work",
+      "cards": 31,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=art-study",
+      "cards": 5,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=game-study",
+      "cards": 6,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=history",
+      "cards": 32,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=music-study",
+      "cards": 12,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=code-study",
+      "cards": 4,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=research",
+      "cards": 6,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=games",
+      "cards": 30,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=film",
+      "cards": 17,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=music",
+      "cards": 2,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=daily",
+      "cards": 30,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=software",
+      "cards": 38,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=extensions",
+      "cards": 7,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=system",
+      "cards": 6,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "3d-art.html",
+      "cards": 46,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "ai-art.html",
+      "cards": 20,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "concept-art.html",
+      "cards": 47,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "costume-fashion-design.html",
+      "cards": 45,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "daily-essentials.html",
+      "cards": 38,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "development.html",
+      "cards": 19,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "game-design.html",
+      "cards": 23,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "games.html",
+      "cards": 29,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "gun-design-reference.html",
+      "cards": 40,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "history.html",
+      "cards": 35,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "installation-software.html",
+      "cards": 35,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "video-film.html",
+      "cards": 16,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "visual-communication.html",
+      "cards": 39,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "work-tools-collaboration.html",
+      "cards": 42,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=art#art-visual",
+      "cards": 47,
+      "issues": []
+    },
+    {
+      "width": 390,
+      "path": "library.html?view=art#art-reference",
+      "cards": 86,
+      "issues": []
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1440,
+      "toggle": true,
+      "keyboard": true,
+      "noArrowPopup": true,
+      "refreshCollapsed": true,
+      "canonicalRelations": true,
+      "nullRelated": true,
+      "destinations": [
+        "https://www.blender.org/",
+        "https://docs.blender.org/manual/zh-hans/3.1/",
+        "https://extensions.blender.org/",
+        "https://blendermarket.com/",
+        "https://boxcutter-manual.readthedocs.io/en/latest/",
+        "https://theblenderbros.gumroad.com/",
+        "https://www.blenderbros.com/",
+        "https://blender.kim/"
+      ]
+    },
+    {
+      "width": 390,
+      "toggle": true,
+      "keyboard": true,
+      "noArrowPopup": true,
+      "refreshCollapsed": true,
+      "canonicalRelations": true,
+      "nullRelated": true,
+      "destinations": [
+        "https://www.blender.org/",
+        "https://docs.blender.org/manual/zh-hans/3.1/",
+        "https://extensions.blender.org/",
+        "https://blendermarket.com/",
+        "https://boxcutter-manual.readthedocs.io/en/latest/",
+        "https://theblenderbros.gumroad.com/",
+        "https://www.blenderbros.com/",
+        "https://blender.kim/"
+      ]
+    }
+  ],
+  "pageerrors": [],
+  "scope": {
+    "Ar012-Library": {
+      "changed": [
+        "css/resource-page.css",
+        "js/render-resources.js",
+        "docs/architecture.md",
+        "scripts/validate.mjs",
+        "data/catalog.js"
+      ],
+      "added": [
+        "output/playwright/phase-4-1440.png",
+        "output/playwright/phase-4-390.png",
+        "docs/phase-4-validation.json",
+        "docs/phase-4-report.md"
+      ],
+      "deleted": [],
+      "headUnchanged": true,
+      "configUnchanged": true,
+      "status": " M 3d-art.html\n M ai-art.html\n M concept-art.html\n M costume-fashion-design.html\n M css/resource-page.css\n M daily-essentials.html\n M data/navigation.js\n M data/pages.js\n M development.html\n M game-design.html\n M games.html\n M gun-design-reference.html\n M history.html\n M index.html\n M installation-software.html\n M js/navigation.js\n M js/render-resources.js\n M video-film.html\n M visual-communication.html\n M work-tools-collaboration.html\n?? data/catalog.js\n?? data/configuration.schema.json\n?? data/legacy.js\n?? data/resources/README.md\n?? docs/\n?? js/catalog-view.js\n?? library.html\n?? output/\n?? scripts/\n"
+    },
+    "ar-art-notes": {
+      "changed": [],
+      "added": [],
+      "deleted": [],
+      "headUnchanged": true,
+      "configUnchanged": true,
+      "status": ""
+    },
+    "ar-music-library": {
+      "changed": [],
+      "added": [],
+      "deleted": [],
+      "headUnchanged": true,
+      "configUnchanged": true,
+      "status": " M about.html\n M index.html\n M listening-notes.html\n M playlists.html\n M resources.html\n M tutorials.html\n"
+    }
+  },
+  "externalClickMethod": "Browser popup destination verified with intercepted responses; external availability not audited.",
+  "userConfirmedSupplement": {
+    "date": "2026-10-02",
+    "basis": "用户人工确认三个现有资源与 Blender 直接相关",
+    "resourceId": "res-b60e9fdc1539",
+    "addedIds": [
+      "res-782ef7ee4731",
+      "res-76887030b7a3",
+      "res-a05767c5d3d9"
+    ],
+    "relatedCountBefore": 7,
+    "relatedCountAfter": 10,
+    "entitiesBefore": 489,
+    "entitiesAfter": 489,
+    "originalSevenUnchanged": true,
+    "other488EntitiesUnchanged": true,
+    "existingFieldsUnchanged": true,
+    "classificationUnchanged": true,
+    "validate": "PASS",
+    "gitDiffCheck": "PASS",
+    "browser": {
+      "result": "PASS",
+      "results": [
+        {
+          "width": 1440,
+          "count": 10,
+          "issues": [],
+          "expandCollapse": true
+        },
+        {
+          "width": 390,
+          "count": 10,
+          "issues": [],
+          "expandCollapse": true
+        }
+      ],
+      "pageerrors": []
+    },
+    "changedFiles": [
+      "data/catalog.js",
+      "docs/phase-4-report.md",
+      "docs/phase-4-validation.json"
+    ],
+    "newFiles": [],
+    "deletedFiles": []
+  }
+}

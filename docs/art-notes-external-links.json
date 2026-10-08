@@ -1,0 +1,86 @@
+[
+  {
+    "file": "artist-A.html",
+    "url": "https://www.artstation.com/jpark",
+    "label": "ArtStation主页",
+    "decision": "画师外部主页候选，仅识别，不迁移"
+  },
+  {
+    "file": "artist-A.html",
+    "url": "https://twitter.com/jpark",
+    "label": "Twitter",
+    "decision": "画师外部主页候选，仅识别，不迁移"
+  },
+  {
+    "file": "artists/concept/john-park.html",
+    "url": "https://www.artstation.com/jpark",
+    "label": "ArtStation主页",
+    "decision": "画师外部主页候选，仅识别，不迁移"
+  },
+  {
+    "file": "artists/concept/john-park.html",
+    "url": "https://twitter.com/jpark",
+    "label": "Twitter",
+    "decision": "画师外部主页候选，仅识别，不迁移"
+  },
+  {
+    "file": "translations/blevins/thumbnails_and_sketches.html",
+    "url": "http://www.neilblevins.com/art_lessons/thumbnails_and_sketches/thumbnails_and_sketches.htm",
+    "label": "前往原文",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/art_process_overview_2025.html",
+    "url": "http://www.neilblevins.com/art_lessons/art_process_overview_2025/art_process_overview_2025.htm",
+    "label": "前往原文",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/_note-template.html",
+    "url": "http://www.neilblevins.com/art_lessons/art_lessons.htm",
+    "label": "前往原文",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/art_bible.html",
+    "url": "http://www.neilblevins.com/art_lessons/art_bible/art_bible.htm",
+    "label": "前往原文",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/pillars.html",
+    "url": "http://www.neilblevins.com/art_lessons/art_bible/art_bible.htm",
+    "label": "艺术圣经",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/pillars.html",
+    "url": "http://www.neilblevins.com/art_lessons/fighting_mech_analysis/fighting_mech_analysis.htm",
+    "label": "视觉钩子",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/pillars.html",
+    "url": "http://www.neilblevins.com/projects/inc/inc.htm",
+    "label": "\"The Story Of Inc\"书籍项目",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/pillars.html",
+    "url": "http://www.neilblevins.com/art_lessons/pillars/pillars.htm",
+    "label": "前往原文",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/pillars.html",
+    "url": "http://www.neilblevins.com/art_lessons/art_lessons.htm",
+    "label": "访问主页",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  },
+  {
+    "file": "translations/blevins/digital_collage.html",
+    "url": "http://www.neilblevins.com/art_lessons/digital_collage/digital_collage.htm",
+    "label": "前往原文",
+    "decision": "仅识别，不迁移；文章引用保留于原文"
+  }
+]

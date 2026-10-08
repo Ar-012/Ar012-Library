@@ -1,0 +1,512 @@
+{
+  "checks": 72,
+  "results": [
+    {
+      "target": "library.html?view=3d",
+      "width": 1440,
+      "count": 48,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "library.html?view=game-production",
+      "width": 1440,
+      "count": 23,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "library.html?view=ai",
+      "width": 1440,
+      "count": 23,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "library.html?view=development",
+      "width": 1440,
+      "count": 21,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=av",
+      "width": 1440,
+      "count": 18,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=work",
+      "width": 1440,
+      "count": 31,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=art-study",
+      "width": 1440,
+      "count": 5,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=game-study",
+      "width": 1440,
+      "count": 6,
+      "overflow": 0,
+      "topLinks": 2
+    },
+    {
+      "target": "library.html?view=history",
+      "width": 1440,
+      "count": 32,
+      "overflow": 0,
+      "topLinks": 5
+    },
+    {
+      "target": "library.html?view=music-study",
+      "width": 1440,
+      "count": 12,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "library.html?view=code-study",
+      "width": 1440,
+      "count": 4,
+      "overflow": 0,
+      "topLinks": 1
+    },
+    {
+      "target": "library.html?view=research",
+      "width": 1440,
+      "count": 6,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=games",
+      "width": 1440,
+      "count": 30,
+      "overflow": 0,
+      "topLinks": 7
+    },
+    {
+      "target": "library.html?view=film",
+      "width": 1440,
+      "count": 17,
+      "overflow": 0,
+      "topLinks": 5
+    },
+    {
+      "target": "library.html?view=music",
+      "width": 1440,
+      "count": 2,
+      "overflow": 0,
+      "topLinks": 1
+    },
+    {
+      "target": "library.html?view=daily",
+      "width": 1440,
+      "count": 30,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "library.html?view=software",
+      "width": 1440,
+      "count": 38,
+      "overflow": 0,
+      "topLinks": 11
+    },
+    {
+      "target": "library.html?view=extensions",
+      "width": 1440,
+      "count": 7,
+      "overflow": 0,
+      "topLinks": 2
+    },
+    {
+      "target": "library.html?view=system",
+      "width": 1440,
+      "count": 6,
+      "overflow": 0,
+      "topLinks": 2
+    },
+    {
+      "target": "3d-art.html",
+      "width": 1440,
+      "count": 46,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "ai-art.html",
+      "width": 1440,
+      "count": 20,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "concept-art.html",
+      "width": 1440,
+      "count": 47,
+      "overflow": 0,
+      "topLinks": 14
+    },
+    {
+      "target": "costume-fashion-design.html",
+      "width": 1440,
+      "count": 45,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "daily-essentials.html",
+      "width": 1440,
+      "count": 38,
+      "overflow": 0,
+      "topLinks": 12
+    },
+    {
+      "target": "development.html",
+      "width": 1440,
+      "count": 19,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "game-design.html",
+      "width": 1440,
+      "count": 23,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "games.html",
+      "width": 1440,
+      "count": 29,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "gun-design-reference.html",
+      "width": 1440,
+      "count": 40,
+      "overflow": 0,
+      "topLinks": 5
+    },
+    {
+      "target": "history.html",
+      "width": 1440,
+      "count": 35,
+      "overflow": 0,
+      "topLinks": 7
+    },
+    {
+      "target": "installation-software.html",
+      "width": 1440,
+      "count": 35,
+      "overflow": 0,
+      "topLinks": 19
+    },
+    {
+      "target": "video-film.html",
+      "width": 1440,
+      "count": 16,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "visual-communication.html",
+      "width": 1440,
+      "count": 39,
+      "overflow": 0,
+      "topLinks": 8
+    },
+    {
+      "target": "work-tools-collaboration.html",
+      "width": 1440,
+      "count": 42,
+      "overflow": 0,
+      "topLinks": 7
+    },
+    {
+      "target": "library.html?view=art#art-concept",
+      "width": 1440,
+      "count": 35,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=art#art-visual",
+      "width": 1440,
+      "count": 47,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=art#art-reference",
+      "width": 1440,
+      "count": 86,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=3d",
+      "width": 390,
+      "count": 48,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "library.html?view=game-production",
+      "width": 390,
+      "count": 23,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "library.html?view=ai",
+      "width": 390,
+      "count": 23,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "library.html?view=development",
+      "width": 390,
+      "count": 21,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=av",
+      "width": 390,
+      "count": 18,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=work",
+      "width": 390,
+      "count": 31,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=art-study",
+      "width": 390,
+      "count": 5,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=game-study",
+      "width": 390,
+      "count": 6,
+      "overflow": 0,
+      "topLinks": 2
+    },
+    {
+      "target": "library.html?view=history",
+      "width": 390,
+      "count": 32,
+      "overflow": 0,
+      "topLinks": 5
+    },
+    {
+      "target": "library.html?view=music-study",
+      "width": 390,
+      "count": 12,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "library.html?view=code-study",
+      "width": 390,
+      "count": 4,
+      "overflow": 0,
+      "topLinks": 1
+    },
+    {
+      "target": "library.html?view=research",
+      "width": 390,
+      "count": 6,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=games",
+      "width": 390,
+      "count": 30,
+      "overflow": 0,
+      "topLinks": 7
+    },
+    {
+      "target": "library.html?view=film",
+      "width": 390,
+      "count": 17,
+      "overflow": 0,
+      "topLinks": 5
+    },
+    {
+      "target": "library.html?view=music",
+      "width": 390,
+      "count": 2,
+      "overflow": 0,
+      "topLinks": 1
+    },
+    {
+      "target": "library.html?view=daily",
+      "width": 390,
+      "count": 30,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "library.html?view=software",
+      "width": 390,
+      "count": 38,
+      "overflow": 0,
+      "topLinks": 11
+    },
+    {
+      "target": "library.html?view=extensions",
+      "width": 390,
+      "count": 7,
+      "overflow": 0,
+      "topLinks": 2
+    },
+    {
+      "target": "library.html?view=system",
+      "width": 390,
+      "count": 6,
+      "overflow": 0,
+      "topLinks": 2
+    },
+    {
+      "target": "3d-art.html",
+      "width": 390,
+      "count": 46,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "ai-art.html",
+      "width": 390,
+      "count": 20,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "concept-art.html",
+      "width": 390,
+      "count": 47,
+      "overflow": 0,
+      "topLinks": 14
+    },
+    {
+      "target": "costume-fashion-design.html",
+      "width": 390,
+      "count": 45,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "daily-essentials.html",
+      "width": 390,
+      "count": 38,
+      "overflow": 0,
+      "topLinks": 12
+    },
+    {
+      "target": "development.html",
+      "width": 390,
+      "count": 19,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "game-design.html",
+      "width": 390,
+      "count": 23,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "games.html",
+      "width": 390,
+      "count": 29,
+      "overflow": 0,
+      "topLinks": 6
+    },
+    {
+      "target": "gun-design-reference.html",
+      "width": 390,
+      "count": 40,
+      "overflow": 0,
+      "topLinks": 5
+    },
+    {
+      "target": "history.html",
+      "width": 390,
+      "count": 35,
+      "overflow": 0,
+      "topLinks": 7
+    },
+    {
+      "target": "installation-software.html",
+      "width": 390,
+      "count": 35,
+      "overflow": 0,
+      "topLinks": 19
+    },
+    {
+      "target": "video-film.html",
+      "width": 390,
+      "count": 16,
+      "overflow": 0,
+      "topLinks": 4
+    },
+    {
+      "target": "visual-communication.html",
+      "width": 390,
+      "count": 39,
+      "overflow": 0,
+      "topLinks": 8
+    },
+    {
+      "target": "work-tools-collaboration.html",
+      "width": 390,
+      "count": 42,
+      "overflow": 0,
+      "topLinks": 7
+    },
+    {
+      "target": "library.html?view=art#art-concept",
+      "width": 390,
+      "count": 35,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=art#art-visual",
+      "width": 390,
+      "count": 47,
+      "overflow": 0,
+      "topLinks": 3
+    },
+    {
+      "target": "library.html?view=art#art-reference",
+      "width": 390,
+      "count": 86,
+      "overflow": 0,
+      "topLinks": 3
+    }
+  ],
+  "aliasChecks": 38,
+  "interaction": "PASS: domain clicks, section click, reload, back navigation",
+  "errors": []
+}

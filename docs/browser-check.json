@@ -1,0 +1,701 @@
+{
+  "checks": 68,
+  "errors": [],
+  "results": [
+    {
+      "target": "library.html?view=art",
+      "width": 1440,
+      "expected": 168,
+      "actual": 168,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=3d",
+      "width": 1440,
+      "expected": 48,
+      "actual": 48,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=game-production",
+      "width": 1440,
+      "expected": 23,
+      "actual": 23,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=ai",
+      "width": 1440,
+      "expected": 23,
+      "actual": 23,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=development",
+      "width": 1440,
+      "expected": 21,
+      "actual": 21,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 3
+    },
+    {
+      "target": "library.html?view=av",
+      "width": 1440,
+      "expected": 18,
+      "actual": 18,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 3
+    },
+    {
+      "target": "library.html?view=work",
+      "width": 1440,
+      "expected": 31,
+      "actual": 31,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 3
+    },
+    {
+      "target": "library.html?view=art-study",
+      "width": 1440,
+      "expected": 5,
+      "actual": 5,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 3
+    },
+    {
+      "target": "library.html?view=game-study",
+      "width": 1440,
+      "expected": 6,
+      "actual": 6,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 2
+    },
+    {
+      "target": "library.html?view=history",
+      "width": 1440,
+      "expected": 32,
+      "actual": 32,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=music-study",
+      "width": 1440,
+      "expected": 12,
+      "actual": 12,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=code-study",
+      "width": 1440,
+      "expected": 4,
+      "actual": 4,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=research",
+      "width": 1440,
+      "expected": 6,
+      "actual": 6,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 3
+    },
+    {
+      "target": "library.html?view=games",
+      "width": 1440,
+      "expected": 30,
+      "actual": 30,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=film",
+      "width": 1440,
+      "expected": 17,
+      "actual": 17,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=music",
+      "width": 1440,
+      "expected": 2,
+      "actual": 2,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=daily",
+      "width": 1440,
+      "expected": 30,
+      "actual": 30,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=software",
+      "width": 1440,
+      "expected": 38,
+      "actual": 38,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=extensions",
+      "width": 1440,
+      "expected": 7,
+      "actual": 7,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 2
+    },
+    {
+      "target": "library.html?view=system",
+      "width": 1440,
+      "expected": 6,
+      "actual": 6,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 2
+    },
+    {
+      "target": "3d-art.html",
+      "width": 1440,
+      "expected": 46,
+      "actual": 46,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "ai-art.html",
+      "width": 1440,
+      "expected": 20,
+      "actual": 20,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "concept-art.html",
+      "width": 1440,
+      "expected": 47,
+      "actual": 47,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "costume-fashion-design.html",
+      "width": 1440,
+      "expected": 45,
+      "actual": 45,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "daily-essentials.html",
+      "width": 1440,
+      "expected": 38,
+      "actual": 38,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "development.html",
+      "width": 1440,
+      "expected": 19,
+      "actual": 19,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "game-design.html",
+      "width": 1440,
+      "expected": 23,
+      "actual": 23,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "games.html",
+      "width": 1440,
+      "expected": 29,
+      "actual": 29,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "gun-design-reference.html",
+      "width": 1440,
+      "expected": 40,
+      "actual": 40,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "history.html",
+      "width": 1440,
+      "expected": 35,
+      "actual": 35,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "installation-software.html",
+      "width": 1440,
+      "expected": 35,
+      "actual": 35,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "video-film.html",
+      "width": 1440,
+      "expected": 16,
+      "actual": 16,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "visual-communication.html",
+      "width": 1440,
+      "expected": 39,
+      "actual": 39,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "work-tools-collaboration.html",
+      "width": 1440,
+      "expected": 42,
+      "actual": 42,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 4
+    },
+    {
+      "target": "library.html?view=art",
+      "width": 390,
+      "expected": 168,
+      "actual": 168,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=3d",
+      "width": 390,
+      "expected": 48,
+      "actual": 48,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=game-production",
+      "width": 390,
+      "expected": 23,
+      "actual": 23,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=ai",
+      "width": 390,
+      "expected": 23,
+      "actual": 23,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=development",
+      "width": 390,
+      "expected": 21,
+      "actual": 21,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=av",
+      "width": 390,
+      "expected": 18,
+      "actual": 18,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=work",
+      "width": 390,
+      "expected": 31,
+      "actual": 31,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=art-study",
+      "width": 390,
+      "expected": 5,
+      "actual": 5,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=game-study",
+      "width": 390,
+      "expected": 6,
+      "actual": 6,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=history",
+      "width": 390,
+      "expected": 32,
+      "actual": 32,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=music-study",
+      "width": 390,
+      "expected": 12,
+      "actual": 12,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=code-study",
+      "width": 390,
+      "expected": 4,
+      "actual": 4,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=research",
+      "width": 390,
+      "expected": 6,
+      "actual": 6,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=games",
+      "width": 390,
+      "expected": 30,
+      "actual": 30,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=film",
+      "width": 390,
+      "expected": 17,
+      "actual": 17,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=music",
+      "width": 390,
+      "expected": 2,
+      "actual": 2,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=daily",
+      "width": 390,
+      "expected": 30,
+      "actual": 30,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=software",
+      "width": 390,
+      "expected": 38,
+      "actual": 38,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=extensions",
+      "width": 390,
+      "expected": 7,
+      "actual": 7,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "library.html?view=system",
+      "width": 390,
+      "expected": 6,
+      "actual": 6,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 1,
+      "columns": 1
+    },
+    {
+      "target": "3d-art.html",
+      "width": 390,
+      "expected": 46,
+      "actual": 46,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "ai-art.html",
+      "width": 390,
+      "expected": 20,
+      "actual": 20,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "concept-art.html",
+      "width": 390,
+      "expected": 47,
+      "actual": 47,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "costume-fashion-design.html",
+      "width": 390,
+      "expected": 45,
+      "actual": 45,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "daily-essentials.html",
+      "width": 390,
+      "expected": 38,
+      "actual": 38,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "development.html",
+      "width": 390,
+      "expected": 19,
+      "actual": 19,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "game-design.html",
+      "width": 390,
+      "expected": 23,
+      "actual": 23,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "games.html",
+      "width": 390,
+      "expected": 29,
+      "actual": 29,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "gun-design-reference.html",
+      "width": 390,
+      "expected": 40,
+      "actual": 40,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "history.html",
+      "width": 390,
+      "expected": 35,
+      "actual": 35,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "installation-software.html",
+      "width": 390,
+      "expected": 35,
+      "actual": 35,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "video-film.html",
+      "width": 390,
+      "expected": 16,
+      "actual": 16,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "visual-communication.html",
+      "width": 390,
+      "expected": 39,
+      "actual": 39,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    },
+    {
+      "target": "work-tools-collaboration.html",
+      "width": 390,
+      "expected": 42,
+      "actual": 42,
+      "overflow": 0,
+      "brokenAnchors": 0,
+      "active": 0,
+      "columns": 1
+    }
+  ],
+  "interactionChecks": [
+    {
+      "home": "AR Library | 个人资源与配置库"
+    },
+    {
+      "clickedView": "音乐",
+      "active": 1
+    },
+    {
+      "hash": "#section-fe06f6fbba"
+    },
+    {
+      "legacyDestination": "http://127.0.0.1:8765/library.html?view=game-production#section-a0c24de405"
+    }
+  ]
+}

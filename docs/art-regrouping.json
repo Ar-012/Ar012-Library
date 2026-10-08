@@ -1,0 +1,1656 @@
+{
+  "phase": 2,
+  "resourceCount": 165,
+  "rows": [
+    {
+      "resourceId": "res-cd850a13d51b",
+      "name": "Unsplash",
+      "previousSectionId": "section-0cbda6d3e3",
+      "previousTitle": "概念设计 · 可商用图片",
+      "sectionId": "art-concept-images",
+      "sectionTitle": "图片与素材",
+      "path": "concept//images",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ae709e35efc3",
+      "name": "Pexels",
+      "previousSectionId": "section-0cbda6d3e3",
+      "previousTitle": "概念设计 · 可商用图片",
+      "sectionId": "art-concept-images",
+      "sectionTitle": "图片与素材",
+      "path": "concept//images",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-8b3350fc81fd",
+      "name": "Pixabay",
+      "previousSectionId": "section-0cbda6d3e3",
+      "previousTitle": "概念设计 · 可商用图片",
+      "sectionId": "art-concept-images",
+      "sectionTitle": "图片与素材",
+      "path": "concept//images",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f09c21614e7f",
+      "name": "Pinterest",
+      "previousSectionId": "section-e70ae4e8f6",
+      "previousTitle": "概念设计 · 主要参考",
+      "sectionId": "art-concept-general",
+      "sectionTitle": "综合参考",
+      "path": "concept//general",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ce617efd8c66",
+      "name": "Google images",
+      "previousSectionId": "section-e70ae4e8f6",
+      "previousTitle": "概念设计 · 主要参考",
+      "sectionId": "art-concept-general",
+      "sectionTitle": "综合参考",
+      "path": "concept//general",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-8edd6193981e",
+      "name": "flickr",
+      "previousSectionId": "section-e70ae4e8f6",
+      "previousTitle": "概念设计 · 主要参考",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "摄影作品参考，归入影视与摄影"
+    },
+    {
+      "resourceId": "res-d132a3ea8572",
+      "name": "花瓣",
+      "previousSectionId": "section-e70ae4e8f6",
+      "previousTitle": "概念设计 · 主要参考",
+      "sectionId": "art-concept-general",
+      "sectionTitle": "综合参考",
+      "path": "concept//general",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-bcfdaf9dbd16",
+      "name": "谷歌地球",
+      "previousSectionId": "section-e70ae4e8f6",
+      "previousTitle": "概念设计 · 主要参考",
+      "sectionId": "art-concept-general",
+      "sectionTitle": "综合参考",
+      "path": "concept//general",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0b7a7096a961",
+      "name": "Flim",
+      "previousSectionId": "section-c64e2c8341",
+      "previousTitle": "概念设计 · 电影剧照参考",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-fb263d5b862b",
+      "name": "film-grab",
+      "previousSectionId": "section-c64e2c8341",
+      "previousTitle": "概念设计 · 电影剧照参考",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-fde13a4c0113",
+      "name": "costumers guide",
+      "previousSectionId": "section-f59e3bf6ba",
+      "previousTitle": "设计参考 · 服装与时尚",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "电影服装参考，没有历史年代限定"
+    },
+    {
+      "resourceId": "res-6813649c205c",
+      "name": "纪妖",
+      "previousSectionId": "section-9de2d96983",
+      "previousTitle": "概念设计 · 特殊参考",
+      "sectionId": "art-concept-general",
+      "sectionTitle": "综合参考",
+      "path": "concept//general",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-a774b5935e45",
+      "name": "this person does not exist",
+      "previousSectionId": "section-9de2d96983",
+      "previousTitle": "概念设计 · 特殊参考",
+      "sectionId": "art-concept-anatomy",
+      "sectionTitle": "人体参考",
+      "path": "concept//anatomy",
+      "reason": "人脸参考，按对象归入人体参考"
+    },
+    {
+      "resourceId": "res-61dc9b2d49ae",
+      "name": "国家地理",
+      "previousSectionId": "section-9de2d96983",
+      "previousTitle": "概念设计 · 特殊参考",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "自然人文摄影参考"
+    },
+    {
+      "resourceId": "res-4b4e85f45762",
+      "name": "line-of-action",
+      "previousSectionId": "section-6cf5bbefe4",
+      "previousTitle": "概念设计 · 人体参考",
+      "sectionId": "art-concept-anatomy",
+      "sectionTitle": "人体参考",
+      "path": "concept//anatomy",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0db5970773e1",
+      "name": "bodies in motion",
+      "previousSectionId": "section-6cf5bbefe4",
+      "previousTitle": "概念设计 · 人体参考",
+      "sectionId": "art-concept-anatomy",
+      "sectionTitle": "人体参考",
+      "path": "concept//anatomy",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-32a9fd9b07e0",
+      "name": "reference angle",
+      "previousSectionId": "section-6cf5bbefe4",
+      "previousTitle": "概念设计 · 人体参考",
+      "sectionId": "art-concept-anatomy",
+      "sectionTitle": "人体参考",
+      "path": "concept//anatomy",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-86babe512d3e",
+      "name": "pose-search",
+      "previousSectionId": "section-6cf5bbefe4",
+      "previousTitle": "概念设计 · 人体参考",
+      "sectionId": "art-concept-anatomy",
+      "sectionTitle": "人体参考",
+      "path": "concept//anatomy",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-aa2b4b5f0559",
+      "name": "character designs",
+      "previousSectionId": "section-6cf5bbefe4",
+      "previousTitle": "概念设计 · 人体参考",
+      "sectionId": "art-concept-anatomy",
+      "sectionTitle": "人体参考",
+      "path": "concept//anatomy",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-39079fe88973",
+      "name": "skypixel",
+      "previousSectionId": "section-fe71a555b7",
+      "previousTitle": "概念设计 · 航拍与摄影",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-7578e2aad579",
+      "name": "art grid",
+      "previousSectionId": "section-fe71a555b7",
+      "previousTitle": "概念设计 · 航拍与摄影",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-7d13d28fa9cf",
+      "name": "A map and A lens",
+      "previousSectionId": "section-fe71a555b7",
+      "previousTitle": "概念设计 · 航拍与摄影",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-52344ad21034",
+      "name": "Dylan cole",
+      "previousSectionId": "section-e7ab0bcba9",
+      "previousTitle": "概念设计 · CG艺术家",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0dfbc334bf39",
+      "name": "盘古的声音_站酷主页",
+      "previousSectionId": "section-e7ab0bcba9",
+      "previousTitle": "概念设计 · CG艺术家",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-7527bb42a283",
+      "name": "zpz 学员作品主页",
+      "previousSectionId": "section-e7ab0bcba9",
+      "previousTitle": "概念设计 · CG艺术家",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-25c223ccb970",
+      "name": "阮佳个人信息网站",
+      "previousSectionId": "section-e7ab0bcba9",
+      "previousTitle": "概念设计 · CG艺术家",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-41947f4aba53",
+      "name": "ArtStation",
+      "previousSectionId": "section-06d330801e",
+      "previousTitle": "概念设计 · 设计社区",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-090b4ba32518",
+      "name": "DeviantArt",
+      "previousSectionId": "section-06d330801e",
+      "previousTitle": "概念设计 · 设计社区",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f0ab0082d108",
+      "name": "Pixiv",
+      "previousSectionId": "section-06d330801e",
+      "previousTitle": "概念设计 · 设计社区",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-033f6c8c428e",
+      "name": "concept art world",
+      "previousSectionId": "section-06d330801e",
+      "previousTitle": "概念设计 · 设计社区",
+      "sectionId": "art-concept-artists",
+      "sectionTitle": "艺术家与社区",
+      "path": "concept//artists",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-27a435bd6587",
+      "name": "MFD设计师导航",
+      "previousSectionId": "section-2c0593f1e6",
+      "previousTitle": "概念设计 · 其他工具",
+      "sectionId": "art-concept-tools",
+      "sectionTitle": "工具",
+      "path": "concept//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-58ed25568c4c",
+      "name": "airpano",
+      "previousSectionId": "section-2c0593f1e6",
+      "previousTitle": "概念设计 · 其他工具",
+      "sectionId": "art-concept-photo",
+      "sectionTitle": "影视与摄影参考",
+      "path": "concept//photo",
+      "reason": "全景图参考，不是制作工具"
+    },
+    {
+      "resourceId": "res-e437ff3fc9fd",
+      "name": "silk",
+      "previousSectionId": "section-2c0593f1e6",
+      "previousTitle": "概念设计 · 其他工具",
+      "sectionId": "art-concept-tools",
+      "sectionTitle": "工具",
+      "path": "concept//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-44109899b435",
+      "name": "大都会博物馆",
+      "previousSectionId": "section-2c0593f1e6",
+      "previousTitle": "概念设计 · 其他工具",
+      "sectionId": "art-concept-general",
+      "sectionTitle": "综合参考",
+      "path": "concept//general",
+      "reason": "馆藏雕塑、建筑与绘画综合参考"
+    },
+    {
+      "resourceId": "res-3a34fe23f765",
+      "name": "Now Fashion",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-cf907b73cd01",
+      "name": "Vogue",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-08dc7ba6b85c",
+      "name": "POP趋势服装",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-9c6cf3eb527f",
+      "name": "With A Wish",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-76a0ce3629cf",
+      "name": "Long Coat",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-c9bf378b40f8",
+      "name": "Loux The Vintage Guru",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-2eb2d7addd5a",
+      "name": "Style Korea",
+      "previousSectionId": "section-acd44fec3f",
+      "previousTitle": "设计参考 · 服装与时尚 · 现代时装",
+      "sectionId": "art-reference-fashion-modern",
+      "sectionTitle": "现代时装",
+      "path": "reference/fashion/modern",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-bf206b68f1c4",
+      "name": "Mark Cordory",
+      "previousSectionId": "section-c2d8380eb9",
+      "previousTitle": "设计参考 · 服装与时尚 · 废土、军事、科幻",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1aa2da8a9ba3",
+      "name": "Moritz Jendrl",
+      "previousSectionId": "section-c2d8380eb9",
+      "previousTitle": "设计参考 · 服装与时尚 · 废土、军事、科幻",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-03fd01c04883",
+      "name": "Survival Game Fashion Snap",
+      "previousSectionId": "section-c2d8380eb9",
+      "previousTitle": "设计参考 · 服装与时尚 · 废土、军事、科幻",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b031b7c4504c",
+      "name": "Lolita Wardrobe",
+      "previousSectionId": "section-2fdb2638ef",
+      "previousTitle": "设计参考 · 服装与时尚 · 其他风格",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-6eab9925caf6",
+      "name": "Fantasmagoria",
+      "previousSectionId": "section-2fdb2638ef",
+      "previousTitle": "设计参考 · 服装与时尚 · 其他风格",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-cb87182a0b47",
+      "name": "Atomic Jane Clothing",
+      "previousSectionId": "section-2fdb2638ef",
+      "previousTitle": "设计参考 · 服装与时尚 · 其他风格",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ec9023584483",
+      "name": "Myoppa",
+      "previousSectionId": "section-2fdb2638ef",
+      "previousTitle": "设计参考 · 服装与时尚 · 其他风格",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f797e6c17691",
+      "name": "Yumeyakata",
+      "previousSectionId": "section-2fdb2638ef",
+      "previousTitle": "设计参考 · 服装与时尚 · 其他风格",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-932902626cde",
+      "name": "Kimonomachi",
+      "previousSectionId": "section-2fdb2638ef",
+      "previousTitle": "设计参考 · 服装与时尚 · 其他风格",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-49d95c18e9f8",
+      "name": "Armstreet",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-27c478e7516e",
+      "name": "Vertugadins",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "描述明确不限西方古代，暂按多题材服装参考"
+    },
+    {
+      "resourceId": "res-c7675ccf7c83",
+      "name": "Recycled Movie Costumes",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-style",
+      "sectionTitle": "风格与题材",
+      "path": "reference/fashion/style",
+      "reason": "电影服装参考，按影视题材归类"
+    },
+    {
+      "resourceId": "res-87e754063973",
+      "name": "Kostym",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-715393f09ccc",
+      "name": "Elizabethan Costume",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-a1da8023cf1e",
+      "name": "Larsdatter",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-79f7ac7b595f",
+      "name": "Photo Detective",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f460963fbf89",
+      "name": "Fashion Era",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1b50ec31dfbb",
+      "name": "维基百科-西方服饰史",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d51a2e70753e",
+      "name": "Colonial Williamsburg",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-9ce348dc0699",
+      "name": "京都服装学院",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-c7a3c8b06568",
+      "name": "历史时尚",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0b66f5271259",
+      "name": "欧洲区域时尚",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ead781650e6d",
+      "name": "Stonefinder",
+      "previousSectionId": "section-e6b013c2cd",
+      "previousTitle": "设计参考 · 服装与时尚 · 西方古代",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "珠宝配饰参考，无历史年代依据"
+    },
+    {
+      "resourceId": "res-4113ec1000d8",
+      "name": "汉服荟商城",
+      "previousSectionId": "section-e8557d9366",
+      "previousTitle": "设计参考 · 服装与时尚 · 中国古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d243102ce959",
+      "name": "中国汉服网",
+      "previousSectionId": "section-e8557d9366",
+      "previousTitle": "设计参考 · 服装与时尚 · 中国古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-2a37fce77ad9",
+      "name": "汉服资料馆",
+      "previousSectionId": "section-e8557d9366",
+      "previousTitle": "设计参考 · 服装与时尚 · 中国古代",
+      "sectionId": "art-reference-fashion-history",
+      "sectionTitle": "历史服装",
+      "path": "reference/fashion/history",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-82d0a79b3f2f",
+      "name": "10分钟带你了解西方服装史",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b8761268a54b",
+      "name": "雅衿汉服社 汉服形制科普",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-e7d6b67f4a2c",
+      "name": "古墓仙女汉服入门穿搭手册汇总大全",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-5f0f40e1a52d",
+      "name": "说给汉服 微博主页",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-67e89602a928",
+      "name": "知乎问题\"汉服种类有哪些\"",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-a474da8a7640",
+      "name": "汉服裁剪图 知乎文章",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-7ee3b2d7a1da",
+      "name": "汉服制版|男子汉服的分类及裁剪图整理",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-6f7da3e25738",
+      "name": "唐背子小科普",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f6712a9ddb32",
+      "name": "科普 | 被遗忘的传统——交窬裁剪的裙子",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ce6dbf2a8d9b",
+      "name": "设计 | 常见的汉服款式赏析",
+      "previousSectionId": "section-e6eabb4318",
+      "previousTitle": "设计参考 · 服装与时尚 · 设计相关文章",
+      "sectionId": "art-reference-fashion-info",
+      "sectionTitle": "设计资料",
+      "path": "reference/fashion/info",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-65ab42fdd087",
+      "name": "Sig Sauer",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-e6f113d5afab",
+      "name": "ISSC",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-2a5f7d3627d0",
+      "name": "FN America",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-746ee1817749",
+      "name": "Colt",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d721510b784c",
+      "name": "Vortex Optics",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-e9e7580285f5",
+      "name": "SureFire",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-04b9f502b7ab",
+      "name": "Trijicon",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f2af732624c1",
+      "name": "Taran Tactical Innovations",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b9e68d5f6c1c",
+      "name": "Uberti",
+      "previousSectionId": "section-6690c59253",
+      "previousTitle": "设计参考 · 武器 · 官方网站",
+      "sectionId": "art-reference-weapons-official",
+      "sectionTitle": "品牌与官方",
+      "path": "reference/weapons/official",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f135808dde68",
+      "name": "Gun 枪列表",
+      "previousSectionId": "section-e35b758ddb",
+      "previousTitle": "设计参考 · 武器 · 维基百科列表",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f4a013f097d8",
+      "name": "List of Battle Rifles",
+      "previousSectionId": "section-e35b758ddb",
+      "previousTitle": "设计参考 · 武器 · 维基百科列表",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ded5d0b9adbe",
+      "name": "List of Assault Rifles",
+      "previousSectionId": "section-e35b758ddb",
+      "previousTitle": "设计参考 · 武器 · 维基百科列表",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-f957875f92c4",
+      "name": "List of Sniper Rifles",
+      "previousSectionId": "section-e35b758ddb",
+      "previousTitle": "设计参考 · 武器 · 维基百科列表",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b7daea6f06a3",
+      "name": "List of Pistols",
+      "previousSectionId": "section-e35b758ddb",
+      "previousTitle": "设计参考 · 武器 · 维基百科列表",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-bb6a125db9fb",
+      "name": "Table of Handgun and Rifle Cartridges",
+      "previousSectionId": "section-92e6cfba0c",
+      "previousTitle": "设计参考 · 武器 · 弹药相关",
+      "sectionId": "art-reference-weapons-ammo",
+      "sectionTitle": "弹药",
+      "path": "reference/weapons/ammo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-4ef1ad0a8dd9",
+      "name": "List of Handgun Cartridges",
+      "previousSectionId": "section-92e6cfba0c",
+      "previousTitle": "设计参考 · 武器 · 弹药相关",
+      "sectionId": "art-reference-weapons-ammo",
+      "sectionTitle": "弹药",
+      "path": "reference/weapons/ammo",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-57cb1faa91ba",
+      "name": "Category: Firearm Components",
+      "previousSectionId": "section-0d7775c9a7",
+      "previousTitle": "设计参考 · 武器 · 组件与术语",
+      "sectionId": "art-reference-weapons-structure",
+      "sectionTitle": "结构与术语",
+      "path": "reference/weapons/structure",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-573ca95f163d",
+      "name": "List of Telescope Parts and Construction",
+      "previousSectionId": "section-0d7775c9a7",
+      "previousTitle": "设计参考 · 武器 · 组件与术语",
+      "sectionId": "art-reference-weapons-structure",
+      "sectionTitle": "结构与术语",
+      "path": "reference/weapons/structure",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-4fd2f2cdaae2",
+      "name": "Category: Firearm Actions",
+      "previousSectionId": "section-0d7775c9a7",
+      "previousTitle": "设计参考 · 武器 · 组件与术语",
+      "sectionId": "art-reference-weapons-structure",
+      "sectionTitle": "结构与术语",
+      "path": "reference/weapons/structure",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-620ca2bf3949",
+      "name": "Rail Integration System",
+      "previousSectionId": "section-0d7775c9a7",
+      "previousTitle": "设计参考 · 武器 · 组件与术语",
+      "sectionId": "art-reference-weapons-structure",
+      "sectionTitle": "结构与术语",
+      "path": "reference/weapons/structure",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-39a2bb0fa0f4",
+      "name": "Glossary of Firearms Terms",
+      "previousSectionId": "section-0d7775c9a7",
+      "previousTitle": "设计参考 · 武器 · 组件与术语",
+      "sectionId": "art-reference-weapons-structure",
+      "sectionTitle": "结构与术语",
+      "path": "reference/weapons/structure",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b1a3289aa752",
+      "name": "枪炮世界",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-09d2dba8da06",
+      "name": "战甲军品赏析",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-5cfc76476aaa",
+      "name": "火器百科",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b9d6ede0d910",
+      "name": "武器列表 - Britannica",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ac7bbceb6bb9",
+      "name": "Popular Mechanics",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-8256b3e5c3e7",
+      "name": "Tactical Weapons",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-c4790a17734a",
+      "name": "Modern Firearms",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-c5c5aa7eaf25",
+      "name": "AR15主页",
+      "previousSectionId": "section-25799853bf",
+      "previousTitle": "设计参考 · 武器 · 资料网站",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1762b13a7dc3",
+      "name": "US Militaria Forum",
+      "previousSectionId": "section-41771fde05",
+      "previousTitle": "设计参考 · 武器 · 论坛与数据库",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-98adcb92e001",
+      "name": "United Nations Office on Drugs and Crime",
+      "previousSectionId": "section-41771fde05",
+      "previousTitle": "设计参考 · 武器 · 论坛与数据库",
+      "sectionId": "art-reference-weapons-structure",
+      "sectionTitle": "结构与术语",
+      "path": "reference/weapons/structure",
+      "reason": "URL 明确为 parts-and-components，归结构资料"
+    },
+    {
+      "resourceId": "res-8a62522127b6",
+      "name": "C&Rsenal",
+      "previousSectionId": "section-41771fde05",
+      "previousTitle": "设计参考 · 武器 · 论坛与数据库",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-97cbe37bc82d",
+      "name": "Gun Wiki",
+      "previousSectionId": "section-41771fde05",
+      "previousTitle": "设计参考 · 武器 · 论坛与数据库",
+      "sectionId": "art-reference-weapons-community",
+      "sectionTitle": "社区与资料库",
+      "path": "reference/weapons/community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-24f30e6bf287",
+      "name": "Gunworld",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-37e9e312f716",
+      "name": "Academy 枪支分页",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ac0c83865452",
+      "name": "Gun Broker",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-674631b6016a",
+      "name": "Hoff Gun",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1a2c53afbdba",
+      "name": "House of Guns",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-83571c690a84",
+      "name": "Only Airsoft",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-7e9b51a1f805",
+      "name": "Rock Island Auction",
+      "previousSectionId": "section-f12e99b4dc",
+      "previousTitle": "设计参考 · 武器 · 商城",
+      "sectionId": "art-reference-weapons-market",
+      "sectionTitle": "商城与拍卖参考",
+      "path": "reference/weapons/market",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0da4e59569c4",
+      "name": "观沧海",
+      "previousSectionId": "section-ca72e60ba0",
+      "previousTitle": "视觉设计 · 地图制作",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-64ef3d7e03d5",
+      "name": "AmCharts像素图生成器",
+      "previousSectionId": "section-ca72e60ba0",
+      "previousTitle": "视觉设计 · 地图制作",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-83dbf3146b95",
+      "name": "Adobe Creative Cloud",
+      "previousSectionId": "section-da923bdc94",
+      "previousTitle": "视觉设计 · 软件与工具",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-9fe35e6ae85e",
+      "name": "CSP优动漫",
+      "previousSectionId": "section-da923bdc94",
+      "previousTitle": "视觉设计 · 软件与工具",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-3a81b1e5a03c",
+      "name": "PureRef",
+      "previousSectionId": "section-da923bdc94",
+      "previousTitle": "视觉设计 · 软件与工具",
+      "sectionId": "art-concept-tools",
+      "sectionTitle": "工具",
+      "path": "concept//tools",
+      "reason": "参考图管理用途，从视觉设计工具归入概念设计工具；设备软件引用不变"
+    },
+    {
+      "resourceId": "res-79e7b4b278c2",
+      "name": "字由",
+      "previousSectionId": "section-da923bdc94",
+      "previousTitle": "视觉设计 · 软件与工具",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "字体管理优先归入字体与文字，实体不拆分"
+    },
+    {
+      "resourceId": "res-2a683257703e",
+      "name": "Color Claim",
+      "previousSectionId": "section-2dbbd8e1b3",
+      "previousTitle": "视觉设计 · 单色配色",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1c0d2a644fd8",
+      "name": "中国色",
+      "previousSectionId": "section-2dbbd8e1b3",
+      "previousTitle": "视觉设计 · 单色配色",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d8d0fc3e57b4",
+      "name": "colorleap",
+      "previousSectionId": "section-a9ea81e436",
+      "previousTitle": "视觉设计 · 配色方案",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1a40669e664e",
+      "name": "coolors",
+      "previousSectionId": "section-a9ea81e436",
+      "previousTitle": "视觉设计 · 配色方案",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b2aeb96d5fed",
+      "name": "color hunt",
+      "previousSectionId": "section-a9ea81e436",
+      "previousTitle": "视觉设计 · 配色方案",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-e0d01eb76f90",
+      "name": "icolorpalette",
+      "previousSectionId": "section-a9ea81e436",
+      "previousTitle": "视觉设计 · 配色方案",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-6388941b003d",
+      "name": "uigradients",
+      "previousSectionId": "section-593dcf59c6",
+      "previousTitle": "视觉设计 · 渐变色卡",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-8e7240816e12",
+      "name": "web gradients",
+      "previousSectionId": "section-593dcf59c6",
+      "previousTitle": "视觉设计 · 渐变色卡",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-155b3664b795",
+      "name": "color supplyy",
+      "previousSectionId": "section-4928a23539",
+      "previousTitle": "视觉设计 · 色轮工具",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b88617d2ae76",
+      "name": "adobe color",
+      "previousSectionId": "section-4928a23539",
+      "previousTitle": "视觉设计 · 色轮工具",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0a4f4e0368f6",
+      "name": "colourcode",
+      "previousSectionId": "section-4928a23539",
+      "previousTitle": "视觉设计 · 色轮工具",
+      "sectionId": "art-visual-color",
+      "sectionTitle": "配色",
+      "path": "visual//color",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-5c2cba66c115",
+      "name": "Artchips艺术碎片",
+      "previousSectionId": "section-65e3376561",
+      "previousTitle": "视觉设计 · 特殊视觉工具",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d448463af2da",
+      "name": "Duotone by ShapeFactory",
+      "previousSectionId": "section-65e3376561",
+      "previousTitle": "视觉设计 · 特殊视觉工具",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-a06c0089142a",
+      "name": "我图网",
+      "previousSectionId": "section-4565e68661",
+      "previousTitle": "视觉设计 · 平面设计素材",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-b879287bf3b7",
+      "name": "千图网",
+      "previousSectionId": "section-4565e68661",
+      "previousTitle": "视觉设计 · 平面设计素材",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-931a52adccb3",
+      "name": "千库网",
+      "previousSectionId": "section-4565e68661",
+      "previousTitle": "视觉设计 · 平面设计素材",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-76efe492afd9",
+      "name": "包图网",
+      "previousSectionId": "section-4565e68661",
+      "previousTitle": "视觉设计 · 平面设计素材",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-e10a2d4fafe2",
+      "name": "图品汇",
+      "previousSectionId": "section-4565e68661",
+      "previousTitle": "视觉设计 · 平面设计素材",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-cf41e9dd33e5",
+      "name": "Iconfont",
+      "previousSectionId": "section-4d5e15574d",
+      "previousTitle": "视觉设计 · 图标与导航",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "矢量图标素材，不按名称中的 font 归为字库"
+    },
+    {
+      "resourceId": "res-a0e91409604d",
+      "name": "搜图导航",
+      "previousSectionId": "section-4d5e15574d",
+      "previousTitle": "视觉设计 · 图标与导航",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-775cfce438f1",
+      "name": "500px",
+      "previousSectionId": "section-c3ae22aed9",
+      "previousTitle": "视觉设计 · 摄影社区",
+      "sectionId": "art-visual-community",
+      "sectionTitle": "社区与趋势",
+      "path": "visual//community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-157a9b6350b8",
+      "name": "方正字库",
+      "previousSectionId": "section-577fbd85de",
+      "previousTitle": "视觉设计 · 中文字库官网",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-a4d546d8288c",
+      "name": "腾祥字库",
+      "previousSectionId": "section-577fbd85de",
+      "previousTitle": "视觉设计 · 中文字库官网",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-0cae4975a329",
+      "name": "文悦字库",
+      "previousSectionId": "section-577fbd85de",
+      "previousTitle": "视觉设计 · 中文字库官网",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-641b04a8fdc6",
+      "name": "本墨字库",
+      "previousSectionId": "section-577fbd85de",
+      "previousTitle": "视觉设计 · 中文字库官网",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-4a2be2d434fd",
+      "name": "汉仪字库",
+      "previousSectionId": "section-577fbd85de",
+      "previousTitle": "视觉设计 · 中文字库官网",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-dc3bcae11745",
+      "name": "图翼",
+      "previousSectionId": "section-84e0d36309",
+      "previousTitle": "视觉设计 · 字体工具",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d05394c26b11",
+      "name": "字体传奇网",
+      "previousSectionId": "section-84e0d36309",
+      "previousTitle": "视觉设计 · 字体工具",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1f407fe6565f",
+      "name": "中文字体-站长素材",
+      "previousSectionId": "section-84e0d36309",
+      "previousTitle": "视觉设计 · 字体工具",
+      "sectionId": "art-visual-type",
+      "sectionTitle": "字体与文字",
+      "path": "visual//type",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-1ae22675a24d",
+      "name": "美叶",
+      "previousSectionId": "section-c88c27ec60",
+      "previousTitle": "视觉设计 · 设计案例与学习",
+      "sectionId": "art-visual-inspiration",
+      "sectionTitle": "灵感与案例",
+      "path": "visual//inspiration",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-637c9b7a090c",
+      "name": "reeoo",
+      "previousSectionId": "section-c88c27ec60",
+      "previousTitle": "视觉设计 · 设计案例与学习",
+      "sectionId": "art-visual-inspiration",
+      "sectionTitle": "灵感与案例",
+      "path": "visual//inspiration",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-24c80b844d87",
+      "name": "秀设计",
+      "previousSectionId": "section-c3fb61967a",
+      "previousTitle": "视觉设计 · 设计社区与趋势",
+      "sectionId": "art-visual-community",
+      "sectionTitle": "社区与趋势",
+      "path": "visual//community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-d32b37129899",
+      "name": "UI中国",
+      "previousSectionId": "section-c3fb61967a",
+      "previousTitle": "视觉设计 · 设计社区与趋势",
+      "sectionId": "art-visual-community",
+      "sectionTitle": "社区与趋势",
+      "path": "visual//community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-7c475263bb6b",
+      "name": "图虫创意",
+      "previousSectionId": "section-c3fb61967a",
+      "previousTitle": "视觉设计 · 设计社区与趋势",
+      "sectionId": "art-visual-assets",
+      "sectionTitle": "图形与素材",
+      "path": "visual//assets",
+      "reason": "创意图片素材入口，不归为社区"
+    },
+    {
+      "resourceId": "res-7344a6a6a831",
+      "name": "设计癖",
+      "previousSectionId": "section-c3fb61967a",
+      "previousTitle": "视觉设计 · 设计社区与趋势",
+      "sectionId": "art-visual-inspiration",
+      "sectionTitle": "灵感与案例",
+      "path": "visual//inspiration",
+      "reason": "以设计灵感和创意分享为主"
+    },
+    {
+      "resourceId": "res-1a109a64242b",
+      "name": "家纺趋势",
+      "previousSectionId": "section-c3fb61967a",
+      "previousTitle": "视觉设计 · 设计社区与趋势",
+      "sectionId": "art-visual-community",
+      "sectionTitle": "社区与趋势",
+      "path": "visual//community",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-68fedf649248",
+      "name": "Figma",
+      "previousSectionId": "section-5f49e99046",
+      "previousTitle": "视觉设计 · 设计与原型",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-02a7cca093b2",
+      "name": "Sketch",
+      "previousSectionId": "section-5f49e99046",
+      "previousTitle": "视觉设计 · 设计与原型",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-9dbc2f574fa5",
+      "name": "Adobe XD",
+      "previousSectionId": "section-5f49e99046",
+      "previousTitle": "视觉设计 · 设计与原型",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-5d8706949079",
+      "name": "Balsamiq",
+      "previousSectionId": "section-5f49e99046",
+      "previousTitle": "视觉设计 · 设计与原型",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-ee76fbba7792",
+      "name": "Canva",
+      "previousSectionId": "section-5f49e99046",
+      "previousTitle": "视觉设计 · 设计与原型",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    },
+    {
+      "resourceId": "res-814cc8aa38db",
+      "name": "ProtoPie",
+      "previousSectionId": "section-5f49e99046",
+      "previousTitle": "视觉设计 · 设计与原型",
+      "sectionId": "art-visual-tools",
+      "sectionTitle": "工具",
+      "path": "visual//tools",
+      "reason": "结合名称、说明、来源与标签，归并同用途分组"
+    }
+  ]
+}

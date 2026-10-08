@@ -1,0 +1,1002 @@
+{
+  "phase": 3,
+  "authorization": "用户第三阶段逐项确认；仅修正指定的9个实体，历史迁移快照不变",
+  "entityCountBefore": 489,
+  "entityCountAfter": 489,
+  "changes": [
+    {
+      "resourceId": "res-b60e9fdc1539",
+      "name": "Blender",
+      "before": {
+        "url": "https://blendjetts.website/",
+        "links": [
+          {
+            "label": "Blender",
+            "url": "https://blendjetts.website/"
+          }
+        ],
+        "reviewNotes": [
+          "原 URL 为 blendjetts.website，无法据此确认 Blender 官方入口；原样保留，待用户核实"
+        ]
+      },
+      "after": {
+        "url": "https://www.blender.org/",
+        "links": [
+          {
+            "label": "Blender",
+            "url": "https://www.blender.org/"
+          }
+        ],
+        "reviewNotes": []
+      }
+    },
+    {
+      "resourceId": "res-83dbf3146b95",
+      "name": "Adobe Creative Cloud",
+      "before": {
+        "url": "https://weibo.com/u/1112829033",
+        "links": [
+          {
+            "label": "Adobe Creative Cloud",
+            "url": "https://weibo.com/u/1112829033"
+          }
+        ],
+        "reviewNotes": [
+          "原 URL 指向微博主页，并非可确认的官方下载入口；保留原链接待核实"
+        ]
+      },
+      "after": {
+        "url": null,
+        "links": [],
+        "reviewNotes": []
+      }
+    },
+    {
+      "resourceId": "res-4c481d629823",
+      "name": "腾讯混元3D",
+      "before": {
+        "name": "Deepseek",
+        "description": "腾讯混元3D",
+        "links": [
+          {
+            "label": "Deepseek",
+            "url": "https://3d.hunyuan.tencent.com/"
+          }
+        ],
+        "reviewNotes": [
+          "名称或描述与 URL/原分组不一致；暂存 AI / 3D，保留原文待核实"
+        ]
+      },
+      "after": {
+        "name": "腾讯混元3D",
+        "description": "腾讯混元 AI 3D 生成工具",
+        "links": [
+          {
+            "label": "腾讯混元3D",
+            "url": "https://3d.hunyuan.tencent.com/"
+          }
+        ],
+        "reviewNotes": []
+      }
+    },
+    {
+      "resourceId": "res-be63b33b5fe5",
+      "name": "Tripo 3D",
+      "before": {
+        "description": "字节跳动的AI对话助手",
+        "reviewNotes": [
+          "名称或描述与 URL/原分组不一致；暂存 AI / 3D，保留原文待核实"
+        ]
+      },
+      "after": {
+        "description": "AI 3D 模型生成工具",
+        "reviewNotes": []
+      }
+    },
+    {
+      "resourceId": "res-d7b68315ffd9",
+      "name": "Clash Verge Rev",
+      "before": {
+        "name": "Clash for Windows",
+        "description": "网络代理工具",
+        "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases",
+        "links": [
+          {
+            "label": "Clash for Windows",
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases"
+          }
+        ]
+      },
+      "after": {
+        "name": "Clash Verge Rev",
+        "description": "跨平台网络代理客户端",
+        "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+        "links": [
+          {
+            "label": "Clash Verge Rev",
+            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-b62262cabd66",
+      "name": "雷神加速器",
+      "before": {
+        "url": "https://www.leigod.com/intl/",
+        "links": [
+          {
+            "label": "雷神加速器",
+            "url": "https://www.leigod.com/intl/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.leigod.com/",
+        "links": [
+          {
+            "label": "雷神加速器",
+            "url": "https://www.leigod.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-ccafe101a1b7",
+      "name": "hdrlabs",
+      "before": {
+        "url": "http://www.hdrlabs.com/sibl/archive.html",
+        "links": [
+          {
+            "label": "hdrlabs",
+            "url": "http://www.hdrlabs.com/sibl/archive.html"
+          }
+        ]
+      },
+      "after": {
+        "url": null,
+        "links": []
+      }
+    },
+    {
+      "resourceId": "res-362623d636fc",
+      "name": "世界历史地图",
+      "before": {
+        "url": "http://x768.com/w/twha.zh-hans/",
+        "links": [
+          {
+            "label": "世界历史地图",
+            "url": "http://x768.com/w/twha.zh-hans/"
+          }
+        ]
+      },
+      "after": {
+        "url": null,
+        "links": []
+      }
+    },
+    {
+      "resourceId": "res-cb87182a0b47",
+      "name": "Atomic Jane Clothing",
+      "before": {
+        "url": "https://atomicjaneclothing.com/collections/steampunk",
+        "links": [
+          {
+            "label": "Atomic Jane Clothing",
+            "url": "https://atomicjaneclothing.com/collections/steampunk"
+          }
+        ]
+      },
+      "after": {
+        "url": null,
+        "links": []
+      }
+    },
+    {
+      "resourceId": "res-7b921cd30d30",
+      "name": "Superhive",
+      "reason": "最终外链审计确认官方迁移；用户批准最终外链清理第一批 L1。 Blender Market 更名为 Superhive；原名称保留于 before.name 和 migration original。",
+      "before": {
+        "name": "Blender Market",
+        "description": "Blender专用资源商店",
+        "url": "https://blendermarket.com/",
+        "links": [
+          {
+            "label": "Blender Market",
+            "url": "https://blendermarket.com/"
+          }
+        ]
+      },
+      "after": {
+        "name": "Superhive",
+        "description": "原 Blender Market，更名后的 3D 创作者资源市场。",
+        "url": "https://superhivemarket.com/",
+        "links": [
+          {
+            "label": "Superhive",
+            "url": "https://superhivemarket.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-474cbb3dda56",
+      "name": "Kimi AI",
+      "reason": "最终外链审计确认官方迁移；用户批准最终外链清理第一批 L1。",
+      "before": {
+        "url": "https://kimi.moonshot.cn/?ref=qinggongju.com",
+        "links": [
+          {
+            "label": "Kimi AI",
+            "url": "https://kimi.moonshot.cn/?ref=qinggongju.com"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.kimi.com/",
+        "links": [
+          {
+            "label": "Kimi AI",
+            "url": "https://www.kimi.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-0fb5b5874dd8",
+      "name": "Vite",
+      "reason": "最终外链审计确认官方迁移；用户批准最终外链清理第一批 L1。",
+      "before": {
+        "url": "https://vitejs.dev/",
+        "links": [
+          {
+            "label": "Vite",
+            "url": "https://vitejs.dev/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://vite.dev/",
+        "links": [
+          {
+            "label": "Vite",
+            "url": "https://vite.dev/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-0cae4975a329",
+      "name": "文悦字库",
+      "reason": "最终外链审计确认官方迁移；用户批准最终外链清理第一批 L1。",
+      "before": {
+        "url": "https://wytype.com/",
+        "links": [
+          {
+            "label": "文悦字库",
+            "url": "https://wytype.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://wenyue.cn/",
+        "links": [
+          {
+            "label": "文悦字库",
+            "url": "https://wenyue.cn/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-7c475263bb6b",
+      "name": "图虫创意",
+      "reason": "最终外链审计确认官方迁移；用户批准最终外链清理第一批 L1。",
+      "before": {
+        "url": "https://stock.dfic.cn/?source=extbaidudkey7&utm_source=extbaidudkey7",
+        "links": [
+          {
+            "label": "图虫创意",
+            "url": "https://stock.dfic.cn/?source=extbaidudkey7&utm_source=extbaidudkey7"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://stock.tuchong.com/",
+        "links": [
+          {
+            "label": "图虫创意",
+            "url": "https://stock.tuchong.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-976eeac66264",
+      "name": "Zoom",
+      "reason": "最终外链审计确认官方迁移；用户批准最终外链清理第一批 L1。",
+      "before": {
+        "url": "https://zoom.us/",
+        "links": [
+          {
+            "label": "Zoom",
+            "url": "https://zoom.us/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.zoom.com/",
+        "links": [
+          {
+            "label": "Zoom",
+            "url": "https://www.zoom.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-2a683257703e",
+      "name": "Color Claim",
+      "reason": "最终外链审计确认旧入口跳转至 mymind 配色页面，核心配色收藏用途仍存在；根据用户第二批 L2 决定更新 URL 和稳定描述。",
+      "before": {
+        "url": "https://vanschneider.com/colors",
+        "description": "120个精选颜色，无预设方案",
+        "links": [
+          {
+            "label": "Color Claim",
+            "url": "https://vanschneider.com/colors"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://access.mymind.com/colors",
+        "description": "精选配色组合与颜色参考。",
+        "links": [
+          {
+            "label": "Color Claim",
+            "url": "https://access.mymind.com/colors"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-1de799c618db",
+      "name": "EA app",
+      "reason": "Origin 已由 EA app 取代，旧入口已迁移至 EA 官方 PC 下载体系；根据最终外链审计及用户确认更新。",
+      "before": {
+        "name": "Origin/EA App",
+        "url": "https://www.origin.com/",
+        "description": "EA游戏平台",
+        "links": [
+          {
+            "label": "Origin/EA App",
+            "url": "https://www.origin.com/"
+          }
+        ]
+      },
+      "after": {
+        "name": "EA app",
+        "url": "https://www.ea.com/games/library/pc-download",
+        "description": "EA 的 PC 游戏平台与游戏下载客户端。",
+        "links": [
+          {
+            "label": "EA app",
+            "url": "https://www.ea.com/games/library/pc-download"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-637c9b7a090c",
+      "name": "reeoo",
+      "reason": "最终外链审计确认 reeoo 已迁移至 App 设计灵感入口，核心收藏用途仍成立；根据用户第三批 L2 决定更新 URL，并最小调整描述。",
+      "before": {
+        "url": "https://iphone.reeoo.com/",
+        "description": "网页设计优秀案例，配色参考",
+        "links": [
+          {
+            "label": "reeoo",
+            "url": "https://iphone.reeoo.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://reeoo.com/app/",
+        "description": "网页与 App 界面设计灵感参考。",
+        "links": [
+          {
+            "label": "reeoo",
+            "url": "https://reeoo.com/app/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-4f1bcebf4af3",
+      "name": "Microsoft 365",
+      "reason": "最终外链审计确认 Microsoft 365 portal 官方迁移且服务继续存在；根据用户第三批 L2 决定更新入口，当前描述保持不变。",
+      "before": {
+        "url": "https://www.microsoft365.com/",
+        "links": [
+          {
+            "label": "Microsoft 365",
+            "url": "https://www.microsoft365.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://m365.cloud.microsoft/",
+        "links": [
+          {
+            "label": "Microsoft 365",
+            "url": "https://m365.cloud.microsoft/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-1ae22675a24d",
+      "name": "美叶",
+      "reason": "根据用户核实及最终外链审计，使用美叶官方首页并准确描述综合设计灵感定位。",
+      "before": {
+        "url": "https://www.meiye.art/canvas/1/402",
+        "description": "插画、网页、图标设计案例参考",
+        "links": [
+          {
+            "label": "美叶",
+            "url": "https://www.meiye.art/canvas/1/402"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://meiye.art/",
+        "description": "综合设计灵感平台，涵盖 UI、网页、插画、品牌与平面设计参考。",
+        "links": [
+          {
+            "label": "美叶",
+            "url": "https://meiye.art/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-5ee7019b67b3",
+      "name": "Quixel Bridge",
+      "reason": "根据用户核实与 Epic 官方 Bridge 文档，入口改为 Bridge 文档，并明确 Deprecated 和 Fab 迁移背景；保留原软件实体。",
+      "before": {
+        "url": "https://quixel.com/",
+        "description": "素材管理工具",
+        "links": [
+          {
+            "label": "Quixel Bridge",
+            "url": "https://quixel.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://dev.epicgames.com/documentation/unreal-engine/quixel-bridge-plugin-for-unreal-engine",
+        "description": "Unreal Engine 内的 Megascans 资源导入工具；已弃用，相关资产与功能正迁移至 Fab。",
+        "links": [
+          {
+            "label": "Quixel Bridge",
+            "url": "https://dev.epicgames.com/documentation/unreal-engine/quixel-bridge-plugin-for-unreal-engine"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-4fd2f2cdaae2",
+      "name": "Category: Firearm Actions",
+      "reason": "修正 firearm action 的错误翻译；action 在此指枪械工作机构，而非“运动”。",
+      "before": {
+        "description": "枪支运动列表"
+      },
+      "after": {
+        "description": "枪械工作机构类型参考"
+      }
+    },
+    {
+      "resourceId": "res-a4d546d8288c",
+      "name": "腾祥字库",
+      "reason": "根据用户核实的腾祥官方主体与业务，纠正腾讯系事实错误，并采用指令给出的 HTTPS 官方入口。",
+      "before": {
+        "url": "http://www.tensentype.com/",
+        "description": "腾讯系字体库",
+        "links": [
+          {
+            "label": "腾祥字库",
+            "url": "http://www.tensentype.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.tensentype.com/",
+        "description": "中文字体设计、字库产品与正版授权。",
+        "links": [
+          {
+            "label": "腾祥字库",
+            "url": "https://www.tensentype.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-0f267a098943",
+      "name": "万兴优转在线端（Media.io）",
+      "reason": "当前 URL 为 Media.io 中文官方入口，对应万兴优转在线端；按 URL 对象纠正名称和描述，不改成桌面 UniConverter。",
+      "before": {
+        "name": "万兴优转",
+        "description": "音视频格式转换与编辑工具",
+        "links": [
+          {
+            "label": "万兴优转",
+            "url": "https://www.media.io/zh/"
+          }
+        ]
+      },
+      "after": {
+        "name": "万兴优转在线端（Media.io）",
+        "description": "在线视频、音频与图片的转换、压缩和编辑工具。",
+        "links": [
+          {
+            "label": "万兴优转在线端（Media.io）",
+            "url": "https://www.media.io/zh/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-3a9f5c96c220",
+      "name": "Blender 参考手册",
+      "reason": "用户要求新版手册；使用 Blender 中文 latest 入口，去除实体名称与描述的固定 3.1 版本。",
+      "before": {
+        "name": "Blender 3.1 参考手册",
+        "url": "https://docs.blender.org/manual/zh-hans/3.1/",
+        "description": "Blender官方中文手册，版本3.1",
+        "links": [
+          {
+            "label": "Blender 3.1 参考手册",
+            "url": "https://docs.blender.org/manual/zh-hans/3.1/"
+          }
+        ]
+      },
+      "after": {
+        "name": "Blender 参考手册",
+        "url": "https://docs.blender.org/manual/zh-hans/latest/",
+        "description": "Blender 官方中文参考手册。",
+        "links": [
+          {
+            "label": "Blender 参考手册",
+            "url": "https://docs.blender.org/manual/zh-hans/latest/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-f2f3d51ddf39",
+      "name": "Unreal Engine 5 文档",
+      "reason": "用户要求新版手册；经本轮官方文档核对使用非版本化 UE5 root，不绑定 5.1 或具体 API 文章。",
+      "before": {
+        "name": "UE5 Document",
+        "url": "https://docs.unrealengine.com/5.1/en-US/",
+        "description": "Unreal Engine 5官方文档",
+        "links": [
+          {
+            "label": "UE5 Document",
+            "url": "https://docs.unrealengine.com/5.1/en-US/"
+          }
+        ]
+      },
+      "after": {
+        "name": "Unreal Engine 5 文档",
+        "url": "https://dev.epicgames.com/documentation/unreal-engine",
+        "description": "Unreal Engine 5 官方文档与使用参考。",
+        "links": [
+          {
+            "label": "Unreal Engine 5 文档",
+            "url": "https://dev.epicgames.com/documentation/unreal-engine"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-f0d2b52d1ba5",
+      "name": "Live2D Cubism 手册",
+      "reason": "当前中文官方手册 URL 已为非版本化 current manual；保留 URL，去除描述的 v5.0 并统一手册名称。",
+      "before": {
+        "name": "Live2D Cubism官方手册",
+        "description": "Live2D Cubism v5.0官方手册",
+        "links": [
+          {
+            "label": "Live2D Cubism官方手册",
+            "url": "https://docs.live2d.com/zh-CHS/cubism-editor-manual/top/"
+          }
+        ]
+      },
+      "after": {
+        "name": "Live2D Cubism 手册",
+        "description": "Live2D Cubism Editor 官方使用手册。",
+        "links": [
+          {
+            "label": "Live2D Cubism 手册",
+            "url": "https://docs.live2d.com/zh-CHS/cubism-editor-manual/top/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-d2e7f9db431e",
+      "name": "龋齿一号",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.gfxcamp.com/",
+        "links": [
+          {
+            "label": "龋齿一号",
+            "url": "http://www.gfxcamp.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.gfxcamp.com/",
+        "links": [
+          {
+            "label": "龋齿一号",
+            "url": "https://www.gfxcamp.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-58ed25568c4c",
+      "name": "airpano",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.airpano.com/",
+        "links": [
+          {
+            "label": "airpano",
+            "url": "http://www.airpano.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.airpano.com/",
+        "links": [
+          {
+            "label": "airpano",
+            "url": "https://www.airpano.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-e437ff3fc9fd",
+      "name": "silk",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://weavesilk.com/",
+        "links": [
+          {
+            "label": "silk",
+            "url": "http://weavesilk.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://weavesilk.com/",
+        "links": [
+          {
+            "label": "silk",
+            "url": "https://weavesilk.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-87e754063973",
+      "name": "Kostym",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.kostym.cz/Anglicky/obsah.htm",
+        "links": [
+          {
+            "label": "Kostym",
+            "url": "http://www.kostym.cz/Anglicky/obsah.htm"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.kostym.cz/Anglicky/obsah.htm",
+        "links": [
+          {
+            "label": "Kostym",
+            "url": "https://www.kostym.cz/Anglicky/obsah.htm"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-f319d4efdf9b",
+      "name": "超能搜",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://chaonengsou.com/",
+        "links": [
+          {
+            "label": "超能搜",
+            "url": "http://chaonengsou.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://chaonengsou.com/",
+        "links": [
+          {
+            "label": "超能搜",
+            "url": "https://chaonengsou.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-29b208b30ff4",
+      "name": "中国古代史地图",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://home.olemiss.edu/~gg/hstrymap/lishidit.htm",
+        "links": [
+          {
+            "label": "中国古代史地图",
+            "url": "http://home.olemiss.edu/~gg/hstrymap/lishidit.htm"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://home.olemiss.edu/~gg/hstrymap/lishidit.htm",
+        "links": [
+          {
+            "label": "中国古代史地图",
+            "url": "https://home.olemiss.edu/~gg/hstrymap/lishidit.htm"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-5ef708a662da",
+      "name": "中国蓝光网",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.languangdy.com/",
+        "links": [
+          {
+            "label": "中国蓝光网",
+            "url": "http://www.languangdy.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.languangdy.com/",
+        "links": [
+          {
+            "label": "中国蓝光网",
+            "url": "https://www.languangdy.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-1c0d2a644fd8",
+      "name": "中国色",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://zhongguose.com/#danshuhong",
+        "links": [
+          {
+            "label": "中国色",
+            "url": "http://zhongguose.com/#danshuhong"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://zhongguose.com/#danshuhong",
+        "links": [
+          {
+            "label": "中国色",
+            "url": "https://zhongguose.com/#danshuhong"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-931a52adccb3",
+      "name": "千库网",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://588ku.com/",
+        "links": [
+          {
+            "label": "千库网",
+            "url": "http://588ku.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://588ku.com/",
+        "links": [
+          {
+            "label": "千库网",
+            "url": "https://588ku.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-157a9b6350b8",
+      "name": "方正字库",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.foundertype.com/",
+        "links": [
+          {
+            "label": "方正字库",
+            "url": "http://www.foundertype.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.foundertype.com/",
+        "links": [
+          {
+            "label": "方正字库",
+            "url": "https://www.foundertype.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-dc3bcae11745",
+      "name": "图翼",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.tuyiyi.com/t-7913-1.html",
+        "links": [
+          {
+            "label": "图翼",
+            "url": "http://www.tuyiyi.com/t-7913-1.html"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.tuyiyi.com/t-7913-1.html",
+        "links": [
+          {
+            "label": "图翼",
+            "url": "https://www.tuyiyi.com/t-7913-1.html"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-1f407fe6565f",
+      "name": "中文字体-站长素材",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://font.chinaz.com/zhongwenziti.html",
+        "links": [
+          {
+            "label": "中文字体-站长素材",
+            "url": "http://font.chinaz.com/zhongwenziti.html"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://font.chinaz.com/zhongwenziti.html",
+        "links": [
+          {
+            "label": "中文字体-站长素材",
+            "url": "https://font.chinaz.com/zhongwenziti.html"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-4a2be2d434fd",
+      "name": "汉仪字库",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.hanyi.com.cn/productList.php",
+        "links": [
+          {
+            "label": "汉仪字库",
+            "url": "http://www.hanyi.com.cn/productList.php"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.hanyi.com.cn/productList.php",
+        "links": [
+          {
+            "label": "汉仪字库",
+            "url": "https://www.hanyi.com.cn/productList.php"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-1a109a64242b",
+      "name": "家纺趋势",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.91jiafang.com/",
+        "links": [
+          {
+            "label": "家纺趋势",
+            "url": "http://www.91jiafang.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.91jiafang.com/",
+        "links": [
+          {
+            "label": "家纺趋势",
+            "url": "https://www.91jiafang.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-7344a6a6a831",
+      "name": "设计癖",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "url": "http://www.shejipi.com/",
+        "links": [
+          {
+            "label": "设计癖",
+            "url": "http://www.shejipi.com/"
+          }
+        ]
+      },
+      "after": {
+        "url": "https://www.shejipi.com/",
+        "links": [
+          {
+            "label": "设计癖",
+            "url": "https://www.shejipi.com/"
+          }
+        ]
+      }
+    },
+    {
+      "resourceId": "res-79e7b4b278c2",
+      "name": "字由",
+      "reason": "最终外链审计已确认 HTTPS 入口可正常访问且资源身份不变，升级当前入口协议。",
+      "before": {
+        "links": [
+          {
+            "label": "字由",
+            "url": "https://www.hellofont.cn/download"
+          },
+          {
+            "label": "字由",
+            "url": "http://www.hellofont.cn/"
+          }
+        ]
+      },
+      "after": {
+        "links": [
+          {
+            "label": "字由",
+            "url": "https://www.hellofont.cn/download"
+          },
+          {
+            "label": "字由",
+            "url": "https://www.hellofont.cn/"
+          }
+        ]
+      }
+    }
+  ]
+}
