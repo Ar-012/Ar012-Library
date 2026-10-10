@@ -26,7 +26,8 @@ for (const [id, record] of retired) {
   assert.equal(new Set(record.entity.sources).size, record.entity.sources.length, 'Duplicate retired source');
   assert.deepEqual([...record.entity.sources].sort(), migration.rows.filter(row => row.status === 'retired' && row.retiredResourceId === id).map(row => row.sourceKey).sort(), `Lost retired sources: ${id}`);
   for (const placement of record.placements) {
-    assert(views[placement.view], `Unknown retired view: ${id}`);
+    // A removed view remains valid in historical retirement/source snapshots.
+    assert(views[placement.view] || migration.rows.some(row => row.status === 'retired' && row.retiredResourceId === id && row.destinations.some(target => target.view === placement.view)), `Unknown retired view: ${id}`);
     assert(typeof placement.sectionId === 'string' && typeof placement.section === 'string', `Invalid retired placement: ${id}`);
   }
 }
@@ -34,14 +35,14 @@ assert.equal(resources.size, catalog.length, 'Duplicate entity IDs');
 assert.equal(catalog.length, migration.resourceCount);
 assert.deepEqual(Array.from(nav, area => area.label), ['创作与工作', '学习与研究', '日常与生活', '设备与环境']);
 const regrouping = JSON.parse(fs.readFileSync(path.join(root, 'docs/art-regrouping.json')));
-assert.equal(catalog.length, 470);
-assert.equal(Object.keys(views).length, 20);
+assert.equal(catalog.length, 464);
+assert.equal(Object.keys(views).length, 19);
 assert.equal(Object.keys(legacy).length, 14);
 const artIds = views.art.sections.flatMap(section => section.resourceIds);
-assert.equal(artIds.length, 165);
+assert.equal(artIds.length, 162);
 assert.equal(regrouping.resourceCount, artIds.length);
 assert.deepEqual([...artIds].sort(), regrouping.rows.map(row => row.resourceId).sort());
-assert.equal(new Set(artIds).size, 165);
+assert.equal(new Set(artIds).size, 162);
 assert.deepEqual(Array.from(views.art.domains, domain => domain.title), ['概念设计', '视觉设计', '设计参考']);
 const grouped = views.art.domains.flatMap(domain => domain.groups.flatMap(group => group.sectionIds));
 assert.equal(new Set(grouped).size, grouped.length);

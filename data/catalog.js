@@ -58,93 +58,6 @@ window.AR_CATALOG = [
     ]
   },
   {
-    "id": "res-782ef7ee4731",
-    "name": "KIT OPS 2 Manual",
-    "description": "Kitops参考手册，建筑模块化工具",
-    "url": "https://docs.google.com/document/d/1rUzomyTi7ec2sFqeCgyVYgkbdnmVanlDCWYcvAzxOXE/edit",
-    "icon": "fas fa-book-open",
-    "type": "manual",
-    "topics": [
-      "3D",
-      "插件与扩展"
-    ],
-    "contexts": [
-      "create",
-      "setup"
-    ],
-    "tags": [
-      "软件、插件与手册",
-      "3D插件与手册"
-    ],
-    "links": [
-      {
-        "label": "KIT OPS 2 Manual",
-        "url": "https://docs.google.com/document/d/1rUzomyTi7ec2sFqeCgyVYgkbdnmVanlDCWYcvAzxOXE/edit"
-      }
-    ],
-    "sources": [
-      "3d-art:0:2"
-    ]
-  },
-  {
-    "id": "res-0cca09db33fd",
-    "name": "boxcutter手册",
-    "description": "Blender布尔建模工具手册",
-    "url": "https://boxcutter-manual.readthedocs.io/en/latest/",
-    "icon": "fas fa-cube",
-    "type": "manual",
-    "topics": [
-      "3D",
-      "插件与扩展"
-    ],
-    "contexts": [
-      "create",
-      "setup"
-    ],
-    "tags": [
-      "软件、插件与手册",
-      "3D插件与手册"
-    ],
-    "links": [
-      {
-        "label": "boxcutter手册",
-        "url": "https://boxcutter-manual.readthedocs.io/en/latest/"
-      }
-    ],
-    "sources": [
-      "3d-art:0:3"
-    ]
-  },
-  {
-    "id": "res-76887030b7a3",
-    "name": "MESHmachine参考手册",
-    "description": "硬表面建模插件文档",
-    "url": "https://machin3.io/MESHmachine/docs/",
-    "icon": "fas fa-cog",
-    "type": "manual",
-    "topics": [
-      "3D",
-      "插件与扩展"
-    ],
-    "contexts": [
-      "create",
-      "setup"
-    ],
-    "tags": [
-      "软件、插件与手册",
-      "3D插件与手册"
-    ],
-    "links": [
-      {
-        "label": "MESHmachine参考手册",
-        "url": "https://machin3.io/MESHmachine/docs/"
-      }
-    ],
-    "sources": [
-      "3d-art:0:4"
-    ]
-  },
-  {
     "id": "res-5193234cd6bc",
     "name": "gaea Guide",
     "description": "Gaea地形生成软件官方手册",
@@ -285,7 +198,7 @@ window.AR_CATALOG = [
     "name": "Superhive",
     "description": "原 Blender Market，更名后的 3D 创作者资源市场。",
     "url": "https://superhivemarket.com/",
-    "iconImage": "assets/icons/blender-market.png",
+    "iconImage": "assets/icons/superhive.png",
     "alt": "Blender Market",
     "type": "website",
     "topics": [
@@ -313,7 +226,7 @@ window.AR_CATALOG = [
     "name": "BlenderBros的Gumroad",
     "description": "BlenderBros团队资源商店",
     "url": "https://theblenderbros.gumroad.com/",
-    "icon": "fas fa-brothers",
+    "icon": "fas fa-users",
     "type": "website",
     "topics": [
       "3D"
@@ -388,6 +301,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-5154a7315483",
+    "iconImage": "assets/icons/kitbash-3d.png",
     "name": "KitBash 3d",
     "description": "高质量3D模型套件库",
     "url": "https://kitbash3d.com/collections",
@@ -546,6 +460,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-05a5769075d9",
+    "iconImage": "assets/icons/ambientcg.png",
     "name": "ambientCG",
     "description": "免费3D相关素材，PBR材质",
     "url": "https://ambientcg.com/",
@@ -572,6 +487,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-8089d1901b4f",
+    "iconImage": "assets/icons/poly-haven.ico",
     "name": "Poly Haven",
     "description": "HDRIS、Textures、Models免费资源",
     "url": "https://polyhaven.com/",
@@ -1047,7 +963,7 @@ window.AR_CATALOG = [
     "name": "书生CG资源网",
     "description": "C4D资源分享网站",
     "url": "https://c4dsky.com/",
-    "icon": "fas fa-sky",
+    "icon": "fas fa-cloud",
     "type": "website",
     "topics": [
       "3D"
@@ -1257,6 +1173,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-28b57dad1491",
+    "iconImage": "assets/icons/doubao.png",
     "name": "豆包",
     "description": "字节跳动的AI对话助手",
     "url": "https://www.doubao.com/chat/",
@@ -1283,6 +1200,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-110680f9c634",
+    "iconImage": "assets/icons/jimeng.ico",
     "name": "即梦",
     "description": "AI视觉创作平台，支持图片生成与编辑、视频生成等功能",
     "url": "https://jimeng.jianying.com/ai-tool/home",
@@ -1336,6 +1254,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-7ea330ae999c",
+    "iconImage": "assets/icons/deepseek.svg",
     "name": "Deepseek",
     "description": "国产AI对话模型，免费使用",
     "url": "https://chat.deepseek.com/",
@@ -1365,7 +1284,7 @@ window.AR_CATALOG = [
     "name": "Chat GPT",
     "description": "OpenAI的AI对话模型",
     "url": "https://chatgpt.com/",
-    "icon": "fab fa-openai",
+    "icon": "fas fa-comment",
     "type": "website",
     "topics": [
       "AI"
@@ -1388,6 +1307,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-380e7aa25639",
+    "iconImage": "assets/icons/google-gemini.svg",
     "name": "Google Gemini",
     "description": "Google的AI对话模型",
     "url": "https://gemini.google.com/app",
@@ -1440,6 +1360,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-dcbda8c01446",
+    "iconImage": "assets/icons/runway.ico",
     "name": "Runway",
     "description": "AI视频创作与生成平台",
     "url": "https://app.runwayml.com/login",
@@ -2580,32 +2501,6 @@ window.AR_CATALOG = [
     ]
   },
   {
-    "id": "res-25c223ccb970",
-    "name": "阮佳个人信息网站",
-    "description": "知名概念艺术家的个人作品集",
-    "url": "https://www.ruanjia.com/",
-    "icon": "fas fa-crown",
-    "type": "website",
-    "topics": [
-      "美术与设计"
-    ],
-    "contexts": [
-      "create"
-    ],
-    "tags": [
-      "概念设计 · CG艺术家"
-    ],
-    "links": [
-      {
-        "label": "阮佳个人信息网站",
-        "url": "https://www.ruanjia.com/"
-      }
-    ],
-    "sources": [
-      "concept-art:8:4"
-    ]
-  },
-  {
     "id": "res-41947f4aba53",
     "name": "ArtStation",
     "description": "全球顶尖概念艺术家社区",
@@ -2694,7 +2589,7 @@ window.AR_CATALOG = [
     "name": "zbrush central",
     "description": "Zbrush数字雕刻社区",
     "url": "https://www.zbrushcentral.com/",
-    "icon": "fas fa-sculpture",
+    "icon": "fas fa-cubes",
     "type": "community",
     "topics": [
       "3D"
@@ -2794,38 +2689,6 @@ window.AR_CATALOG = [
     ],
     "sources": [
       "concept-art:9:6"
-    ]
-  },
-  {
-    "id": "res-27a435bd6587",
-    "name": "MFD设计师导航",
-    "description": "包含摄影、配色、字体、笔刷等网站导航",
-    "url": "https://www.mfchange.cn/index.html",
-    "icon": "fas fa-compass",
-    "type": "website",
-    "topics": [
-      "美术与设计"
-    ],
-    "contexts": [
-      "create"
-    ],
-    "tags": [
-      "概念设计 · 其他工具",
-      "视觉设计 · 图标与导航"
-    ],
-    "links": [
-      {
-        "label": "MFD设计师导航",
-        "url": "https://www.mfchange.cn/index.html"
-      },
-      {
-        "label": "刺猬星球",
-        "url": "https://mfchange.cn/index.html"
-      }
-    ],
-    "sources": [
-      "concept-art:10:0",
-      "visual-communication:7:2"
     ]
   },
   {
@@ -3842,7 +3705,7 @@ window.AR_CATALOG = [
     "name": "古墓仙女汉服入门穿搭手册汇总大全",
     "description": "搜狐文章，汉服穿搭指南",
     "url": "https://www.sohu.com/a/546200817_121119316",
-    "icon": "fab fa-sourcetree",
+    "icon": "fas fa-shirt",
     "type": "manual",
     "topics": [
       "美术与设计"
@@ -3998,7 +3861,7 @@ window.AR_CATALOG = [
     "name": "科普 | 被遗忘的传统——交窬裁剪的裙子",
     "description": "搜狐文章，传统裁剪技法介绍",
     "url": "https://www.sohu.com/a/301082591_612229",
-    "icon": "fab fa-sourcetree",
+    "icon": "fas fa-scissors",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -4920,32 +4783,6 @@ window.AR_CATALOG = [
     ]
   },
   {
-    "id": "res-baf622d2b50c",
-    "name": "It's Adoorable",
-    "description": "互动小游戏",
-    "url": "https://ncase.me/door/",
-    "icon": "fas fa-gamepad",
-    "type": "website",
-    "topics": [
-      "游戏"
-    ],
-    "contexts": [
-      "life"
-    ],
-    "tags": [
-      "互动小游戏"
-    ],
-    "links": [
-      {
-        "label": "It's Adoorable",
-        "url": "https://ncase.me/door/"
-      }
-    ],
-    "sources": [
-      "daily-essentials:5:5"
-    ]
-  },
-  {
     "id": "res-7f6f481d8db6",
     "name": "MDN Web Docs",
     "description": "HTML、CSS、JavaScript与Web API权威文档",
@@ -5077,6 +4914,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-0fb5b5874dd8",
+    "iconImage": "assets/icons/vite.svg",
     "name": "Vite",
     "description": "轻量快速的前端构建工具，适合现代Web项目",
     "url": "https://vite.dev/",
@@ -5285,6 +5123,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-a6ad87b96b6f",
+    "iconImage": "assets/icons/cloudflare.png",
     "name": "Cloudflare",
     "description": "全球网络与边缘云平台，常用于CDN、DNS、安全防护和Workers部署",
     "url": "https://www.cloudflare.com/",
@@ -5311,6 +5150,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-41531850c10d",
+    "iconImage": "assets/icons/supabase.png",
     "name": "Supabase",
     "description": "开源Firebase替代方案，提供Postgres数据库、认证、存储和实时接口",
     "url": "https://supabase.com/",
@@ -5737,7 +5577,7 @@ window.AR_CATALOG = [
     "name": "爱给网_音效配乐",
     "description": "中文音效和配乐素材网站",
     "url": "https://www.aigei.com/?msclkid=957ac64ddf3a18901fedaea0088c1876",
-    "icon": "fas fa-soundcloud",
+    "icon": "fas fa-music",
     "type": "asset",
     "topics": [
       "游戏制作",
@@ -6678,6 +6518,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-5c6453057fed",
+    "iconImage": "assets/icons/howlongtobeat.png",
     "name": "HowLongToBeat",
     "description": "查看游戏通关时间",
     "url": "https://howlongtobeat.com/",
@@ -6730,6 +6571,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-08761e40b186",
+    "iconImage": "assets/icons/metacritic.svg",
     "name": "Metacritic",
     "description": "游戏、电影评分网站",
     "url": "https://www.metacritic.com/",
@@ -6759,7 +6601,7 @@ window.AR_CATALOG = [
     "name": "PCGamingWiki",
     "description": "PC游戏故障排除和优化",
     "url": "https://www.pcgamingwiki.com/wiki/Home",
-    "icon": "fab fa-wikipedia-w",
+    "icon": "fas fa-screwdriver-wrench",
     "type": "website",
     "topics": [
       "游戏",
@@ -7048,7 +6890,7 @@ window.AR_CATALOG = [
     "name": "List of Battle Rifles",
     "description": "战斗步枪列表",
     "url": "https://en.wikipedia.org/wiki/List_of_battle_rifles",
-    "icon": "fas fa-rifle",
+    "icon": "fas fa-crosshairs",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -7074,7 +6916,7 @@ window.AR_CATALOG = [
     "name": "List of Assault Rifles",
     "description": "突击步枪列表",
     "url": "https://en.wikipedia.org/wiki/List_of_assault_rifles",
-    "icon": "fas fa-rifle",
+    "icon": "fas fa-crosshairs",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -7516,7 +7358,7 @@ window.AR_CATALOG = [
     "name": "AR15主页",
     "description": "AR15步枪专门网站",
     "url": "https://www.ar15.com/",
-    "icon": "fas fa-rifle",
+    "icon": "fas fa-crosshairs",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -7620,7 +7462,7 @@ window.AR_CATALOG = [
     "name": "Gun Wiki",
     "description": "Fandom维基百科枪支分页",
     "url": "https://guns.fandom.com/wiki/Main_Page",
-    "icon": "fas fa-wikipedia-w",
+    "icon": "fas fa-crosshairs",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -7825,6 +7667,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-f1f736c6c199",
+    "iconImage": "assets/icons/google-maps.webp",
     "name": "谷歌地图",
     "description": "现代地图参考",
     "url": "https://www.google.com/maps/",
@@ -8266,7 +8109,7 @@ window.AR_CATALOG = [
     "name": "Vikings",
     "description": "维京人历史",
     "url": "https://en.wikipedia.org/wiki/Vikings",
-    "icon": "fas fa-helmet-battle",
+    "icon": "fas fa-shield-alt",
     "type": "website",
     "topics": [
       "历史"
@@ -8292,7 +8135,7 @@ window.AR_CATALOG = [
     "name": "History of France",
     "description": "法国历史",
     "url": "https://en.wikipedia.org/wiki/History_of_France",
-    "icon": "fas fa-tower-eiffel",
+    "icon": "fas fa-landmark",
     "type": "website",
     "topics": [
       "历史"
@@ -8474,7 +8317,7 @@ window.AR_CATALOG = [
     "name": "Ancient Egypt",
     "description": "古埃及历史",
     "url": "https://en.wikipedia.org/wiki/Ancient_Egypt",
-    "icon": "fas fa-pyramid",
+    "icon": "fas fa-monument",
     "type": "website",
     "topics": [
       "历史"
@@ -9028,6 +8871,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-ef0272e776f4",
+    "iconImage": "assets/icons/koodo-reader.ico",
     "name": "Koodo Reader",
     "description": "轻量好用的电子书阅读器",
     "url": "https://www.koodoreader.com/zh",
@@ -9082,6 +8926,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-af8ef348cd3d",
+    "iconImage": "assets/icons/musescore.ico",
     "relatedResources": [
       "res-5c80faa79378"
     ],
@@ -9116,6 +8961,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-5cc0e67257c0",
+    "iconImage": "assets/icons/obs-studio.png",
     "name": "OBS Studio",
     "description": "视频录制和直播软件",
     "url": "https://obsproject.com/",
@@ -9383,12 +9229,9 @@ window.AR_CATALOG = [
       "res-3a9f5c96c220",
       "res-90bbea3931de",
       "res-7b921cd30d30",
-      "res-0cca09db33fd",
       "res-d08195ed9949",
       "res-1151a8221b4f",
       "res-8d8eacb7c555",
-      "res-782ef7ee4731",
-      "res-76887030b7a3",
       "res-a05767c5d3d9"
     ],
     "name": "Blender",
@@ -9740,7 +9583,7 @@ window.AR_CATALOG = [
     "name": "4K影视",
     "description": "4K高清影视资源",
     "url": "https://www.4kvm.tv/",
-    "icon": "fas fa-hd",
+    "icon": "fas fa-film",
     "type": "website",
     "topics": [
       "影视"
@@ -10166,7 +10009,7 @@ window.AR_CATALOG = [
     "name": "adobe color",
     "description": "Adobe官方色轮工具",
     "url": "https://color.adobe.com/zh/create/color-wheel",
-    "icon": "fab fa-adobe",
+    "icon": "fas fa-palette",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -10322,7 +10165,7 @@ window.AR_CATALOG = [
     "name": "千图网",
     "description": "设计素材和模板库",
     "url": "https://www.58pic.com/",
-    "icon": "fas fa-picture-o",
+    "icon": "fas fa-image",
     "type": "asset",
     "topics": [
       "美术与设计"
@@ -10400,7 +10243,7 @@ window.AR_CATALOG = [
     "name": "图品汇",
     "description": "图片素材和设计资源",
     "url": "https://www.88tph.com/",
-    "icon": "fas fa-photo",
+    "icon": "fas fa-image",
     "type": "asset",
     "topics": [
       "美术与设计"
@@ -10423,6 +10266,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-cf41e9dd33e5",
+    "iconImage": "assets/icons/iconfont.svg",
     "name": "Iconfont",
     "description": "阿里巴巴矢量图标库",
     "url": "https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2",
@@ -10582,7 +10426,7 @@ window.AR_CATALOG = [
     "name": "本墨字库",
     "description": "本墨字体资源",
     "url": "http://www.benmo.biz/",
-    "icon": "fas fa-ink-pen",
+    "icon": "fas fa-pen-fancy",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -10891,6 +10735,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-b04d19f21678",
+    "iconImage": "assets/icons/notion.ico",
     "name": "Notion",
     "description": "一体化工作空间，文档、数据库、项目管理",
     "url": "https://www.notion.com/",
@@ -10995,6 +10840,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-045262fdb9df",
+    "iconImage": "assets/icons/google-docs.svg",
     "name": "Google Docs",
     "description": "谷歌在线文档工具，团队协作编辑",
     "url": "https://docs.google.com/",
@@ -11047,6 +10893,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-d37be745462e",
+    "iconImage": "assets/icons/diagrams-net.png",
     "name": "diagrams.net",
     "description": "免费在线图表工具，流程图、UML 图制作",
     "url": "https://www.draw.io/",
@@ -11073,6 +10920,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-0769dc5c4e2e",
+    "iconImage": "assets/icons/whimsical.png",
     "name": "Whimsical",
     "description": "可视化工作空间，流程图、线框图制作",
     "url": "https://whimsical.com/",
@@ -11099,6 +10947,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-85794320b9fe",
+    "iconImage": "assets/icons/excalidraw.png",
     "name": "Excalidraw",
     "description": "手绘风格的图表绘制工具",
     "url": "https://excalidraw.com/",
@@ -11151,6 +11000,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-eb640f905ca9",
+    "iconImage": "assets/icons/miro.png",
     "name": "Miro",
     "description": "在线白板协作平台，头脑风暴工具",
     "url": "https://miro.com/",
@@ -11307,6 +11157,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-920e46e0b7d8",
+    "iconImage": "assets/icons/cloudconvert.png",
     "name": "CloudConvert",
     "description": "云端文件转换服务，支持多种格式",
     "url": "https://cloudconvert.com/",
@@ -11385,6 +11236,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-02a7cca093b2",
+    "iconImage": "assets/icons/sketch.png",
     "name": "Sketch",
     "description": "Mac平台界面设计工具，UI/UX设计",
     "url": "https://www.sketch.com/",
@@ -11414,7 +11266,7 @@ window.AR_CATALOG = [
     "name": "Adobe XD",
     "description": "Adobe用户体验设计工具，原型制作",
     "url": "https://www.adobe.com/products/xd.html",
-    "icon": "fab fa-adobe",
+    "icon": "fas fa-vector-square",
     "type": "website",
     "topics": [
       "美术与设计"
@@ -11697,6 +11549,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-f056c4fec3a2",
+    "iconImage": "assets/icons/microsoft-teams.svg",
     "name": "Microsoft Teams",
     "description": "微软团队协作平台，会议与聊天",
     "url": "https://www.microsoft.com/microsoft-teams/",
@@ -11723,6 +11576,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-45d5192022e4",
+    "iconImage": "assets/icons/dingtalk.png",
     "name": "钉钉",
     "description": "阿里巴巴企业沟通协作平台",
     "url": "https://www.dingtalk.com/",
@@ -11749,6 +11603,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-0625bbe4ab49",
+    "iconImage": "assets/icons/wecom.png",
     "name": "企业微信",
     "description": "腾讯企业沟通协作平台",
     "url": "https://work.weixin.qq.com/",
@@ -11801,6 +11656,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-976eeac66264",
+    "iconImage": "assets/icons/zoom.ico",
     "name": "Zoom",
     "description": "视频会议与在线协作工具",
     "url": "https://www.zoom.com/",
@@ -11879,6 +11735,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-b8dc840fe342",
+    "iconImage": "assets/icons/replit.png",
     "name": "Replit",
     "description": "在线代码编辑器与协作编程平台",
     "url": "https://replit.com/",
@@ -11931,6 +11788,7 @@ window.AR_CATALOG = [
   },
   {
     "id": "res-6d5a929c971e",
+    "iconImage": "assets/icons/stackblitz.svg",
     "name": "StackBlitz",
     "description": "Web IDE，在线代码编辑与协作",
     "url": "https://stackblitz.com/",
@@ -12354,6 +12212,7 @@ window.AR_CATALOG = [
     "url": "https://www.ableton.com/",
     "icon": "fas fa-table-cells",
     "id": "res-b939645bed96",
+    "iconImage": "assets/icons/ableton-live.ico",
     "type": "software",
     "topics": [
       "音频与视频",
@@ -12383,6 +12242,7 @@ window.AR_CATALOG = [
     "url": "https://www.reaper.fm/",
     "icon": "fas fa-wave-square",
     "id": "res-75ae98f287b2",
+    "iconImage": "assets/icons/reaper.ico",
     "type": "software",
     "topics": [
       "音频与视频",
@@ -12412,6 +12272,7 @@ window.AR_CATALOG = [
     "url": "https://www.audacityteam.org/",
     "icon": "fas fa-scissors",
     "id": "res-d130cc2e9c59",
+    "iconImage": "assets/icons/audacity.svg",
     "type": "software",
     "topics": [
       "音频与视频",

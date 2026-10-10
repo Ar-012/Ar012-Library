@@ -483,6 +483,12 @@ body {
 .library-shell .rail-link:focus-visible .navigation-label { display: block; }
 .library-shell .sidebar { position: fixed; inset: 0 auto 0 68px; width: 220px; height: 100vh; height: 100dvh; padding: 16px 0 0; display: flex; flex-direction: column; overflow: visible; z-index: 100; }
 .navigation-body { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 4px 14px 24px; }
+.navigation-body { scrollbar-width: thin; scrollbar-color: #B7BDB6 transparent; }
+.navigation-body::-webkit-scrollbar { width: 6px; }
+.navigation-body::-webkit-scrollbar-track { background: transparent; }
+.navigation-body::-webkit-scrollbar-thumb { background: #B7BDB6; border-radius: 3px; }
+.navigation-body:hover { scrollbar-color: #A2AAA0 transparent; }
+.navigation-body::-webkit-scrollbar-thumb:hover { background: #A2AAA0; }
 .navigation-heading { font-size: .8rem; font-weight: 600; margin: 12px 8px; }
 .navigation-page { border-top: 1px solid; margin-top: 20px; padding-top: 8px; }
 .navigation-section { display: flex; justify-content: space-between; gap: 10px; padding: 9px 8px; text-decoration: none; font-size: .85rem; }

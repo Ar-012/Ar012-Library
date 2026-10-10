@@ -3,18 +3,46 @@
     let activeSections = [];
     let disclosureId = 0;
 
+    function fontIcon(className) {
+        const icon = document.createElement("i");
+        icon.className = className;
+        icon.setAttribute("aria-hidden", "true");
+        return icon;
+    }
+
+    function iconFallback(slot) {
+        slot.replaceChildren(fontIcon("fas fa-link"));
+        slot.dataset.fallback = "true";
+    }
+
+    function validateIcons() {
+        document.querySelectorAll(".resource-icon-slot > i").forEach(icon => {
+            const content = getComputedStyle(icon, "::before").content;
+            if (["none", "normal", "", '\"\"', "''"].includes(content) && !icon.parentElement.dataset.fallback) {
+                iconFallback(icon.parentElement);
+            }
+        });
+    }
+
+    function queueIconValidation() {
+        requestAnimationFrame(validateIcons);
+    }
+
     function makeIcon(resource) {
+        const slot = document.createElement("span");
+        slot.className = "resource-icon-slot";
+        slot.setAttribute("aria-hidden", "true");
         if (resource.iconImage) {
             const image = document.createElement("img");
             image.className = "icon";
-            image.src = resource.iconImage;
             image.alt = resource.alt || resource.name || "";
-            return image;
+            image.addEventListener("error", () => iconFallback(slot), { once: true });
+            image.src = resource.iconImage;
+            slot.appendChild(image);
+        } else {
+            slot.appendChild(fontIcon(resource.icon || "fas fa-link"));
         }
-
-        const icon = document.createElement("i");
-        icon.className = resource.icon || "fas fa-link";
-        return icon;
+        return slot;
     }
 
     function createResource(resource) {
@@ -203,6 +231,7 @@
                 ...section, headingTag: group.title ? "h4" : "h3"
             })));
         });
+        queueIconValidation();
         // Normalize old section bookmarks to a surviving section without adding a history entry.
         if (targetId !== hash) history.replaceState(null, "", `#${targetId}`);
         const targetGroup = domain.groups.find(group => group.id === targetId || group.sectionIds.includes(targetId));
@@ -257,6 +286,7 @@
                 return;
             }
             renderSectionColumns(root, activeSections);
+            queueIconValidation();
             if (window.location.hash) {
                 const target = document.getElementById(window.location.hash.slice(1));
                 if (target) target.scrollIntoView();
@@ -284,6 +314,8 @@
         if (activeRoot && window.AR_RESOURCE_DOMAINS) renderDomain(true);
     });
 
+    window.addEventListener("load", queueIconValidation);
+    if (document.fonts) document.fonts.ready.then(queueIconValidation);
     document.addEventListener("DOMContentLoaded", renderResources);
     window.addEventListener("hashchange", () => {
         if (activeRoot && window.AR_RESOURCE_DOMAINS) renderDomain(true);

@@ -3,7 +3,7 @@
     "Ar012-Library": 474,
     "ar-music-library": 24
   },
-  "resourceCount": 470,
+  "resourceCount": 464,
   "rows": [
     {
       "sourceKey": "3d-art:0:0",
@@ -47,10 +47,6 @@
         {
           "view": "3d",
           "section": "软件、插件与手册"
-        },
-        {
-          "view": "extensions",
-          "section": "3D插件与手册"
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/3D/软件、插件与手册；设备与环境/插件与扩展/3D插件与手册",
@@ -81,7 +77,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/3D/软件、插件与手册；设备与环境/插件与扩展/3D插件与手册",
-      "resourceId": "res-782ef7ee4731"
+      "resourceId": null,
+      "retiredResourceId": "res-782ef7ee4731",
+      "status": "retired"
     },
     {
       "sourceKey": "3d-art:0:3",
@@ -108,7 +106,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/3D/软件、插件与手册；设备与环境/插件与扩展/3D插件与手册",
-      "resourceId": "res-0cca09db33fd"
+      "resourceId": null,
+      "retiredResourceId": "res-0cca09db33fd",
+      "status": "retired"
     },
     {
       "sourceKey": "3d-art:0:4",
@@ -135,7 +135,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/3D/软件、插件与手册；设备与环境/插件与扩展/3D插件与手册",
-      "resourceId": "res-76887030b7a3"
+      "resourceId": null,
+      "retiredResourceId": "res-76887030b7a3",
+      "status": "retired"
     },
     {
       "sourceKey": "3d-art:0:5",
@@ -784,10 +786,6 @@
         {
           "view": "3d",
           "section": "素材"
-        },
-        {
-          "view": "extensions",
-          "section": "3D插件与手册"
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/3D/素材；设备与环境/插件与扩展/3D插件与手册",
@@ -950,7 +948,7 @@
       "destinations": [
         {
           "view": "3d",
-          "section": "软件、插件与手册"
+          "section": "模型与素材"
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/3D/软件、插件与手册",
@@ -2371,7 +2369,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/美术与设计/概念设计 · CG艺术家",
-      "resourceId": "res-25c223ccb970"
+      "resourceId": null,
+      "retiredResourceId": "res-25c223ccb970",
+      "status": "retired"
     },
     {
       "sourceKey": "concept-art:9:0",
@@ -2558,7 +2558,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/美术与设计/概念设计 · 其他工具",
-      "resourceId": "res-27a435bd6587"
+      "resourceId": null,
+      "retiredResourceId": "res-27a435bd6587",
+      "status": "retired"
     },
     {
       "sourceKey": "concept-art:10:1",
@@ -4568,7 +4570,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 日常与生活/游戏/互动小游戏",
-      "resourceId": "res-baf622d2b50c"
+      "resourceId": null,
+      "retiredResourceId": "res-baf622d2b50c",
+      "status": "retired"
     },
     {
       "sourceKey": "development:0:0",
@@ -8484,10 +8488,6 @@
         {
           "view": "software",
           "section": "2D美术软件"
-        },
-        {
-          "view": "art",
-          "section": "视觉设计 · 软件与工具"
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 设备与环境/软件/2D美术软件；创作与工作/美术与设计/视觉设计 · 软件与工具",
@@ -8855,10 +8855,6 @@
         {
           "view": "software",
           "section": "Mac专用软件"
-        },
-        {
-          "view": "film",
-          "section": "播放工具"
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 设备与环境/软件/Mac专用软件；日常与生活/影视/播放工具",
@@ -9758,7 +9754,9 @@
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/美术与设计/视觉设计 · 图标与导航",
-      "resourceId": "res-27a435bd6587"
+      "resourceId": null,
+      "retiredResourceId": "res-27a435bd6587",
+      "status": "retired"
     },
     {
       "sourceKey": "visual-communication:8:0",
@@ -11648,10 +11646,6 @@
         {
           "view": "av",
           "section": "音乐制作"
-        },
-        {
-          "view": "extensions",
-          "section": "音频插件与音色"
         }
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/音频与视频/音乐制作；设备与环境/插件与扩展/音频插件与音色",
@@ -12642,6 +12636,284 @@
           "view": "film",
           "sectionId": "section-576e244e9a",
           "section": "聚合搜索"
+        }
+      ]
+    },
+    {
+      "resourceId": "res-25c223ccb970",
+      "reason": "用户要求从美术与设计移除阮佳个人主页；没有其他有效 placement。",
+      "entity": {
+        "id": "res-25c223ccb970",
+        "name": "阮佳个人信息网站",
+        "description": "知名概念艺术家的个人作品集",
+        "url": "https://www.ruanjia.com/",
+        "icon": "fas fa-crown",
+        "type": "website",
+        "topics": [
+          "美术与设计"
+        ],
+        "contexts": [
+          "create"
+        ],
+        "tags": [
+          "概念设计 · CG艺术家"
+        ],
+        "links": [
+          {
+            "label": "阮佳个人信息网站",
+            "url": "https://www.ruanjia.com/"
+          }
+        ],
+        "sources": [
+          "concept-art:8:4"
+        ]
+      },
+      "placements": [
+        {
+          "view": "art",
+          "sectionId": "art-concept-artists",
+          "section": "艺术家与社区",
+          "previousTitles": [
+            "概念设计 · CG艺术家",
+            "概念设计 · 设计社区"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "res-27a435bd6587",
+      "reason": "用户要求从美术与设计移除 MFD设计师导航；没有其他有效 placement。",
+      "entity": {
+        "id": "res-27a435bd6587",
+        "name": "MFD设计师导航",
+        "description": "包含摄影、配色、字体、笔刷等网站导航",
+        "url": "https://www.mfchange.cn/index.html",
+        "icon": "fas fa-compass",
+        "type": "website",
+        "topics": [
+          "美术与设计"
+        ],
+        "contexts": [
+          "create"
+        ],
+        "tags": [
+          "概念设计 · 其他工具",
+          "视觉设计 · 图标与导航"
+        ],
+        "links": [
+          {
+            "label": "MFD设计师导航",
+            "url": "https://www.mfchange.cn/index.html"
+          },
+          {
+            "label": "刺猬星球",
+            "url": "https://mfchange.cn/index.html"
+          }
+        ],
+        "sources": [
+          "concept-art:10:0",
+          "visual-communication:7:2"
+        ]
+      },
+      "placements": [
+        {
+          "view": "art",
+          "sectionId": "art-concept-tools",
+          "section": "工具",
+          "previousTitles": [
+            "概念设计 · 其他工具",
+            "视觉设计 · 软件与工具"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "res-782ef7ee4731",
+      "reason": "用户要求从 3D 删除 KIT OPS 手册并清空插件与扩展；全部 placement 已移除。",
+      "entity": {
+        "id": "res-782ef7ee4731",
+        "name": "KIT OPS 2 Manual",
+        "description": "Kitops参考手册，建筑模块化工具",
+        "url": "https://docs.google.com/document/d/1rUzomyTi7ec2sFqeCgyVYgkbdnmVanlDCWYcvAzxOXE/edit",
+        "icon": "fas fa-book-open",
+        "type": "manual",
+        "topics": [
+          "3D",
+          "插件与扩展"
+        ],
+        "contexts": [
+          "create",
+          "setup"
+        ],
+        "tags": [
+          "软件、插件与手册",
+          "3D插件与手册"
+        ],
+        "links": [
+          {
+            "label": "KIT OPS 2 Manual",
+            "url": "https://docs.google.com/document/d/1rUzomyTi7ec2sFqeCgyVYgkbdnmVanlDCWYcvAzxOXE/edit"
+          }
+        ],
+        "sources": [
+          "3d-art:0:2"
+        ]
+      },
+      "placements": [
+        {
+          "view": "3d",
+          "sectionId": "3d-manuals-plugins",
+          "section": "手册与插件",
+          "previousTitles": [
+            "软件、插件与手册"
+          ]
+        },
+        {
+          "view": "extensions",
+          "sectionId": "section-a14bf349ed",
+          "section": "3D扩展与资源",
+          "previousTitles": [
+            "3D插件与手册"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "res-0cca09db33fd",
+      "reason": "用户要求从 3D 删除 boxcutter 手册并清空插件与扩展；全部 placement 已移除。",
+      "entity": {
+        "id": "res-0cca09db33fd",
+        "name": "boxcutter手册",
+        "description": "Blender布尔建模工具手册",
+        "url": "https://boxcutter-manual.readthedocs.io/en/latest/",
+        "icon": "fas fa-cube",
+        "type": "manual",
+        "topics": [
+          "3D",
+          "插件与扩展"
+        ],
+        "contexts": [
+          "create",
+          "setup"
+        ],
+        "tags": [
+          "软件、插件与手册",
+          "3D插件与手册"
+        ],
+        "links": [
+          {
+            "label": "boxcutter手册",
+            "url": "https://boxcutter-manual.readthedocs.io/en/latest/"
+          }
+        ],
+        "sources": [
+          "3d-art:0:3"
+        ]
+      },
+      "placements": [
+        {
+          "view": "3d",
+          "sectionId": "3d-manuals-plugins",
+          "section": "手册与插件",
+          "previousTitles": [
+            "软件、插件与手册"
+          ]
+        },
+        {
+          "view": "extensions",
+          "sectionId": "section-a14bf349ed",
+          "section": "3D扩展与资源",
+          "previousTitles": [
+            "3D插件与手册"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "res-76887030b7a3",
+      "reason": "用户要求从 3D 删除 MESHmachine 手册并清空插件与扩展；全部 placement 已移除。",
+      "entity": {
+        "id": "res-76887030b7a3",
+        "name": "MESHmachine参考手册",
+        "description": "硬表面建模插件文档",
+        "url": "https://machin3.io/MESHmachine/docs/",
+        "icon": "fas fa-cog",
+        "type": "manual",
+        "topics": [
+          "3D",
+          "插件与扩展"
+        ],
+        "contexts": [
+          "create",
+          "setup"
+        ],
+        "tags": [
+          "软件、插件与手册",
+          "3D插件与手册"
+        ],
+        "links": [
+          {
+            "label": "MESHmachine参考手册",
+            "url": "https://machin3.io/MESHmachine/docs/"
+          }
+        ],
+        "sources": [
+          "3d-art:0:4"
+        ]
+      },
+      "placements": [
+        {
+          "view": "3d",
+          "sectionId": "3d-manuals-plugins",
+          "section": "手册与插件",
+          "previousTitles": [
+            "软件、插件与手册"
+          ]
+        },
+        {
+          "view": "extensions",
+          "sectionId": "section-a14bf349ed",
+          "section": "3D扩展与资源",
+          "previousTitles": [
+            "3D插件与手册"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceId": "res-baf622d2b50c",
+      "reason": "用户要求删除互动小游戏 / It's Adoorable；该 section 只有此实体且没有其他 placement。",
+      "entity": {
+        "id": "res-baf622d2b50c",
+        "name": "It's Adoorable",
+        "description": "互动小游戏",
+        "url": "https://ncase.me/door/",
+        "icon": "fas fa-gamepad",
+        "type": "website",
+        "topics": [
+          "游戏"
+        ],
+        "contexts": [
+          "life"
+        ],
+        "tags": [
+          "互动小游戏"
+        ],
+        "links": [
+          {
+            "label": "It's Adoorable",
+            "url": "https://ncase.me/door/"
+          }
+        ],
+        "sources": [
+          "daily-essentials:5:5"
+        ]
+      },
+      "placements": [
+        {
+          "view": "games",
+          "sectionId": "section-83dc30996e",
+          "section": "互动小游戏"
         }
       ]
     }

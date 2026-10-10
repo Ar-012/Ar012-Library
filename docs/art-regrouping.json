@@ -1,6 +1,6 @@
 {
   "phase": 2,
-  "resourceCount": 165,
+  "resourceCount": 162,
   "rows": [
     {
       "resourceId": "res-cd850a13d51b",
@@ -253,16 +253,6 @@
       "reason": "结合名称、说明、来源与标签，归并同用途分组"
     },
     {
-      "resourceId": "res-25c223ccb970",
-      "name": "阮佳个人信息网站",
-      "previousSectionId": "section-e7ab0bcba9",
-      "previousTitle": "概念设计 · CG艺术家",
-      "sectionId": "art-concept-artists",
-      "sectionTitle": "艺术家与社区",
-      "path": "concept//artists",
-      "reason": "结合名称、说明、来源与标签，归并同用途分组"
-    },
-    {
       "resourceId": "res-41947f4aba53",
       "name": "ArtStation",
       "previousSectionId": "section-06d330801e",
@@ -300,16 +290,6 @@
       "sectionId": "art-concept-artists",
       "sectionTitle": "艺术家与社区",
       "path": "concept//artists",
-      "reason": "结合名称、说明、来源与标签，归并同用途分组"
-    },
-    {
-      "resourceId": "res-27a435bd6587",
-      "name": "MFD设计师导航",
-      "previousSectionId": "section-2c0593f1e6",
-      "previousTitle": "概念设计 · 其他工具",
-      "sectionId": "art-concept-tools",
-      "sectionTitle": "工具",
-      "path": "concept//tools",
       "reason": "结合名称、说明、来源与标签，归并同用途分组"
     },
     {
@@ -1211,16 +1191,6 @@
       "sectionTitle": "工具",
       "path": "visual//tools",
       "reason": "结合名称、说明、来源与标签，归并同用途分组"
-    },
-    {
-      "resourceId": "res-3a81b1e5a03c",
-      "name": "PureRef",
-      "previousSectionId": "section-da923bdc94",
-      "previousTitle": "视觉设计 · 软件与工具",
-      "sectionId": "art-concept-tools",
-      "sectionTitle": "工具",
-      "path": "concept//tools",
-      "reason": "参考图管理用途，从视觉设计工具归入概念设计工具；设备软件引用不变"
     },
     {
       "resourceId": "res-79e7b4b278c2",

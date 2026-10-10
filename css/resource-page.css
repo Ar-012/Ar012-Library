@@ -56,12 +56,33 @@
 .section-title i { font-size: 16px; margin-right: 6px; }
 .link-group {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 14px;
     align-items: start;
 }
-.resource-link { display: flex; align-items: flex-start; gap: 10px; padding: 14px; text-decoration: none; transition: background-color .15s ease, border-color .15s ease; }
-.resource-link i { min-width: 16px; font-size: 14px; margin-top: 3px; flex-shrink: 0; }
+@media (max-width: 1199px) {
+    .link-group { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 991px) {
+    .link-group { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 575px) {
+    .link-group { grid-template-columns: minmax(0, 1fr); }
+}
+.resource-link { display: flex; align-items: flex-start; gap: 6px; padding: 14px; text-decoration: none; transition: background-color .15s ease, border-color .15s ease; }
+/* One stable slot for local images, font glyphs and fallback. */
+.resource-icon-slot {
+    --resource-image-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    margin-top: 1px;
+}
+.resource-icon-slot > i { font-size: 14px; line-height: 1; margin: 0; }
+.resource-icon-slot > .icon { width: var(--resource-image-size); height: var(--resource-image-size); max-width: 18px; max-height: 18px; margin: 0; }
 
 /* 资源链接内容区域 */
 .resource-content {

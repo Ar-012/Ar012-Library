@@ -3,9 +3,6 @@ window.AR_LEGACY = {
   "3d-art": [
     "res-3a9f5c96c220",
     "res-90bbea3931de",
-    "res-782ef7ee4731",
-    "res-0cca09db33fd",
-    "res-76887030b7a3",
     "res-5193234cd6bc",
     "res-59a8c3235c8e",
     "res-f2f3d51ddf39",
@@ -102,7 +99,6 @@ window.AR_LEGACY = {
     "res-0dfbc334bf39",
     "res-235c2d82268a",
     "res-7527bb42a283",
-    "res-25c223ccb970",
     "res-41947f4aba53",
     "res-090b4ba32518",
     "res-f0ab0082d108",
@@ -110,7 +106,6 @@ window.AR_LEGACY = {
     "res-45aed3cae03f",
     "res-033f6c8c428e",
     "res-c72b7f01237d",
-    "res-27a435bd6587",
     "res-cd65f492a506",
     "res-58ed25568c4c",
     "res-e437ff3fc9fd",
@@ -196,8 +191,7 @@ window.AR_LEGACY = {
     "res-542f49f089be",
     "res-5c09ca7fe676",
     "res-f1f736c6c199",
-    "res-d629f3ee517c",
-    "res-baf622d2b50c"
+    "res-d629f3ee517c"
   ],
   "development": [
     "res-7f6f481d8db6",
@@ -423,7 +417,6 @@ window.AR_LEGACY = {
     "res-e10a2d4fafe2",
     "res-cf41e9dd33e5",
     "res-a0e91409604d",
-    "res-27a435bd6587",
     "res-775cfce438f1",
     "res-157a9b6350b8",
     "res-a4d546d8288c",

@@ -113,11 +113,6 @@ window.AR_NAVIGATION = [
         "icon": "fas fa-bookmark"
       },
       {
-        "label": "插件与扩展",
-        "href": "library.html?view=extensions",
-        "icon": "fas fa-bookmark"
-      },
-      {
         "label": "系统与设备",
         "href": "library.html?view=system",
         "icon": "fas fa-bookmark"
@@ -204,7 +199,6 @@ window.AR_VIEWS = {
           "res-52344ad21034",
           "res-0dfbc334bf39",
           "res-7527bb42a283",
-          "res-25c223ccb970",
           "res-41947f4aba53",
           "res-090b4ba32518",
           "res-f0ab0082d108",
@@ -219,9 +213,7 @@ window.AR_VIEWS = {
         "id": "art-concept-tools",
         "title": "工具",
         "resourceIds": [
-          "res-27a435bd6587",
-          "res-e437ff3fc9fd",
-          "res-3a81b1e5a03c"
+          "res-e437ff3fc9fd"
         ],
         "previousTitles": [
           "概念设计 · 其他工具",
@@ -637,7 +629,6 @@ window.AR_VIEWS = {
           "res-b60e9fdc1539",
           "res-684127ed910a",
           "res-19b4b0a8487e",
-          "res-4a16a898a2ea",
           "res-5ee7019b67b3"
         ]
       },
@@ -650,9 +641,6 @@ window.AR_VIEWS = {
         "resourceIds": [
           "res-3a9f5c96c220",
           "res-90bbea3931de",
-          "res-782ef7ee4731",
-          "res-0cca09db33fd",
-          "res-76887030b7a3",
           "res-5193234cd6bc",
           "res-59a8c3235c8e",
           "res-d9f8c92e89a4"
@@ -683,7 +671,8 @@ window.AR_VIEWS = {
           "res-d45d28a023c7",
           "res-0b621b7aa006",
           "res-21fe07c8d7cc",
-          "res-a05767c5d3d9"
+          "res-a05767c5d3d9",
+          "res-4a16a898a2ea"
         ]
       },
       {
@@ -1312,13 +1301,6 @@ window.AR_VIEWS = {
     "title": "游戏",
     "sections": [
       {
-        "id": "section-83dc30996e",
-        "title": "互动小游戏",
-        "resourceIds": [
-          "res-baf622d2b50c"
-        ]
-      },
-      {
         "id": "section-5d31a6621a",
         "title": "资讯与攻略",
         "resourceIds": [
@@ -1414,13 +1396,6 @@ window.AR_VIEWS = {
     "area": "life",
     "title": "影视",
     "sections": [
-      {
-        "id": "section-f7d76532e4",
-        "title": "播放工具",
-        "resourceIds": [
-          "res-1c23a7b77657"
-        ]
-      },
       {
         "id": "section-ac085ab313",
         "title": "影视在线",
@@ -1674,36 +1649,6 @@ window.AR_VIEWS = {
         ],
         "previousTitles": [
           "游戏平台"
-        ]
-      }
-    ]
-  },
-  "extensions": {
-    "area": "setup",
-    "title": "插件与扩展",
-    "sections": [
-      {
-        "id": "section-a14bf349ed",
-        "title": "3D扩展与资源",
-        "resourceIds": [
-          "res-90bbea3931de",
-          "res-782ef7ee4731",
-          "res-0cca09db33fd",
-          "res-76887030b7a3",
-          "res-8d8eacb7c555"
-        ],
-        "previousTitles": [
-          "3D插件与手册"
-        ]
-      },
-      {
-        "id": "section-3ce54de4b7",
-        "title": "音频插件与音源",
-        "resourceIds": [
-          "res-efe4c2b50a33"
-        ],
-        "previousTitles": [
-          "音频插件与音色"
         ]
       }
     ]
