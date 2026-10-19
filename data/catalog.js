@@ -12350,5 +12350,32 @@ window.AR_CATALOG = [
     "sources": [
       "music:5:9"
     ]
+  },
+  {
+    "id": "res-7211d34aa1d6",
+    "name": "Z-Anatomy",
+    "description": "交互式 3D 人体解剖参考，可查看骨骼、肌肉等人体结构。",
+    "url": "https://www.z-anatomy.com/",
+    "icon": "fas fa-bone",
+    "iconImage": "assets/icons/z-anatomy.ico",
+    "type": "website",
+    "topics": [
+      "美术"
+    ],
+    "contexts": [
+      "learn"
+    ],
+    "tags": [
+      "人体与建筑学习"
+    ],
+    "links": [
+      {
+        "label": "Z-Anatomy",
+        "url": "https://www.z-anatomy.com/"
+      }
+    ],
+    "sources": [
+      "manual-additions:0:0"
+    ]
   }
 ];

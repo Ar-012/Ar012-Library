@@ -35,7 +35,7 @@ assert.equal(resources.size, catalog.length, 'Duplicate entity IDs');
 assert.equal(catalog.length, migration.resourceCount);
 assert.deepEqual(Array.from(nav, area => area.label), ['创作与工作', '学习与研究', '日常与生活', '设备与环境']);
 const regrouping = JSON.parse(fs.readFileSync(path.join(root, 'docs/art-regrouping.json')));
-assert.equal(catalog.length, 464);
+assert.equal(catalog.length, 465);
 assert.equal(Object.keys(views).length, 19);
 assert.equal(Object.keys(legacy).length, 14);
 const artIds = views.art.sections.flatMap(section => section.resourceIds);
@@ -143,7 +143,7 @@ for (const resource of catalog) {
   if (resource.url) assert(resource.links.some(link => link.url === resource.url));
   else assert.equal(resource.links.length, 0, `URL-less record must not expose alternate links: ${resource.id}`);
 }
-assert.equal(new Set(migration.rows.map(row => row.sourceKey)).size, 498);
+assert.equal(new Set(migration.rows.map(row => row.sourceKey)).size, 499);
 for (const [project, count] of Object.entries(migration.sourceCounts)) {
   assert.equal(migration.rows.filter(row => row.project === project).length, count);
 }
@@ -196,4 +196,4 @@ for (const filename of fs.readdirSync(root).filter(file => file.endsWith('.html'
     internalLinks++;
   }
 }
-console.log(JSON.stringify({ result: 'PASS', sources: 498, entities: catalog.length, mergedSources: migration.deduplicated.length, views: Object.keys(views).length, legacyPages: Object.keys(legacy).length, activeURLs: urls.size, confirmedCorrections: corrections.changes.length, urlLessRecords: catalog.filter(resource => !resource.url).length, internalLinks }, null, 2));
+console.log(JSON.stringify({ result: 'PASS', sources: 499, entities: catalog.length, mergedSources: migration.deduplicated.length, views: Object.keys(views).length, legacyPages: Object.keys(legacy).length, activeURLs: urls.size, confirmedCorrections: corrections.changes.length, urlLessRecords: catalog.filter(resource => !resource.url).length, internalLinks }, null, 2));

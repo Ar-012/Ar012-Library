@@ -1,0 +1,50 @@
+{
+  "checkedDate": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "status": "stopped_explicit_official_scraping_prohibition",
+  "sourceCategory": "https://www.photobash.org/nature",
+  "termsUrl": "https://www.photobash.org/knowledge-base",
+  "termsSection": "Terms & Conditions / 2. Use of the Site / (c)",
+  "counts": {
+    "sampleRecords": 0,
+    "sampleTitles": 0,
+    "sampleProjectUrls": 0,
+    "sampleCoverUrls": 0,
+    "coverDownloadAttempts": 0,
+    "coverDownloads": 0
+  },
+  "httpTests": [
+    {
+      "url": "https://www.photobash.org/robots.txt",
+      "method": "Python urllib.request.urlopen",
+      "result": "URLError: [Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.photobash.org/nature",
+      "method": "Python urllib.request.urlopen",
+      "result": "URLError: [Errno 8] nodename nor servname provided, or not known"
+    }
+  ],
+  "webToolObservations": {
+    "home": "readable extracted text",
+    "nature": "readable extracted text",
+    "knowledge-base": "readable extracted text; explicit scraping prohibition found",
+    "3d-kits": "readable extracted text; not enumerated",
+    "robots.txt": "not accessible via web tool",
+    "FX": "internal error; target URL not confirmed"
+  },
+  "notVerified": [
+    "raw HTML card association",
+    "official product IDs",
+    "cover URL association",
+    "CDN resizing",
+    "image downloads",
+    "image dimensions and formats",
+    "pagination",
+    "full category coverage",
+    "cross-category duplicates",
+    "hotlink or temporary URL behavior"
+  ],
+  "publicPreviewPermission": "not established",
+  "nextStep": "Obtain explicit official authorization and an approved data/image source before collection testing."
+}

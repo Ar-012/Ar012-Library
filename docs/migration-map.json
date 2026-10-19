@@ -1,9 +1,9 @@
 {
   "sourceCounts": {
-    "Ar012-Library": 474,
+    "Ar012-Library": 475,
     "ar-music-library": 24
   },
-  "resourceCount": 464,
+  "resourceCount": 465,
   "rows": [
     {
       "sourceKey": "3d-art:0:0",
@@ -11672,6 +11672,28 @@
       ],
       "reason": "根据名称、说明、原链接与原分组核对；按实际用途归入 创作与工作/音频与视频/音乐制作",
       "resourceId": "res-20dbab3b0c2f"
+    },
+    {
+      "sourceKey": "manual-additions:0:0",
+      "project": "Ar012-Library",
+      "page": "manual-additions",
+      "group": "人体与建筑学习",
+      "gi": 0,
+      "ri": 0,
+      "original": {
+        "name": "Z-Anatomy",
+        "description": "交互式 3D 人体解剖参考，可查看骨骼、肌肉等人体结构。",
+        "url": "https://www.z-anatomy.com/",
+        "icon": "fas fa-bone"
+      },
+      "destinations": [
+        {
+          "view": "art-study",
+          "section": "人体与建筑学习"
+        }
+      ],
+      "reason": "用户于 2026-10-11 直接新增，用于人体结构与艺用解剖学习参考；记录为新增来源，不属于旧页面迁移快照。",
+      "resourceId": "res-7211d34aa1d6"
     }
   ],
   "deduplicated": [

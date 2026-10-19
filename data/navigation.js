@@ -1103,7 +1103,8 @@ window.AR_VIEWS = {
         "resourceIds": [
           "res-02896af45aba",
           "res-394b5d8e9d91",
-          "res-4055a01a0592"
+          "res-4055a01a0592",
+          "res-7211d34aa1d6"
         ]
       },
       {
